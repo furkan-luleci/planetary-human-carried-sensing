@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-print="white">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planetary Sensing Viewer</title>
+<style>/*__STYLE__*/</style>
+</head>
+<body>
+<div class="sheet">
+
+  <aside class="index">
+    <div class="dwg">
+      <div class="dwg-no">PS&#8209;01</div>
+      <h1>Sensing a structure through the people on&nbsp;it</h1>
+      <div class="gbar" role="img" aria-label="Gravity drawn to scale: Moon 1.62, Mars 3.71, Earth 9.81 metres per second squared"><svg width="100%" height="48" aria-hidden="true"><line x1="0.5" y1="26" x2="99.6%" y2="26" style="stroke:var(--ink);stroke-width:1.2"/><line x1="0.5" y1="22" x2="0.5" y2="30" style="stroke:var(--ink);stroke-width:1"/><line x1="99.6%" y1="22" x2="99.6%" y2="30" style="stroke:var(--ink);stroke-width:1"/><line x1="16.2%" y1="16" x2="16.2%" y2="31" style="stroke:var(--moon);stroke-width:2.4"/><line x1="37.1%" y1="16" x2="37.1%" y2="31" style="stroke:var(--mars);stroke-width:2.4"/><line x1="98.1%" y1="16" x2="98.1%" y2="31" style="stroke:var(--earth);stroke-width:2.4"/><g style="font-family:B612,sans-serif;font-size:11px;fill:var(--ink)"><text x="16.2%" y="12" text-anchor="middle">1.62</text><text x="37.1%" y="12" text-anchor="middle">3.71</text><text x="98.1%" y="12" text-anchor="end">9.81</text><text x="16.2%" y="44" text-anchor="middle">Moon</text><text x="37.1%" y="44" text-anchor="middle">Mars</text><text x="98.1%" y="44" text-anchor="end">Earth</text><text x="62%" y="44" text-anchor="middle" style="fill:var(--ink2)">g, m/s²</text></g></svg></div>
+      <p class="dwg-sub">Simulated occupants with a watch and a phone on a habitat floor and a reference bridge. Stored results, viewed offline.</p>
+    </div>
+    <nav class="sheets" role="tablist" aria-label="Sheets">
+      <div class="sheets-h">Sheet index</div>
+      <button class="tab on" data-tab="watch" data-no="S-1" role="tab"><b>S-1</b><span>Watch a trial</span></button>
+      <button class="tab" data-tab="gravity" data-no="S-2" role="tab"><b>S-2</b><span>What gravity changes</span></button>
+      <button class="tab" data-tab="detect" data-no="S-3" role="tab"><b>S-3</b><span>Can the structure be detected?</span></button>
+      <button class="tab" data-tab="model" data-no="S-4" role="tab"><b>S-4</b><span>Model and checks</span></button>
+    </nav>
+    <div class="symbols" aria-label="Symbols used on every sheet">
+      <div class="sheets-h">Symbols</div>
+      <svg viewBox="0 0 200 104" role="img" aria-label="Earth: solid line with a circled cross; Mars: dashed line with a circle and arrow; Moon: dash-dot line with a crescent; watch and phone colours"><path d="M4 10h40" style="fill:none;stroke:var(--earth);stroke-width:2"/><path d="M4 30h40" style="fill:none;stroke:var(--mars);stroke-width:2;stroke-dasharray:9 2.6"/><path d="M4 50h40" style="fill:none;stroke:var(--moon);stroke-width:2;stroke-dasharray:1.8 2.6 7 2.6"/><circle cx="24" cy="10" r="4.5" style="fill:var(--sheet);stroke:var(--earth);stroke-width:1.4"/><path d="M24 5.5v9M19.5 10h9" style="fill:none;stroke:var(--earth);stroke-width:1.4"/><circle cx="22.6" cy="31.4" r="3.6" style="fill:var(--sheet);stroke:var(--mars);stroke-width:1.4"/><path d="M25.2 28.8l3.4-3.4M25.6 25.4h3v3" style="fill:none;stroke:var(--mars);stroke-width:1.4"/><circle cx="24" cy="50" r="5.2" style="fill:var(--sheet);stroke:none"/><path d="M26.2 45.6A4.8 4.8 0 1 0 26.2 54.4A3.9 3.9 0 1 1 26.2 45.6Z" style="fill:var(--moon)"/><rect x="18" y="66" width="12" height="12" style="fill:var(--wrist)"/><rect x="18" y="86" width="12" height="12" style="fill:var(--thigh)"/><g style="font-family:B612,sans-serif;font-size:12px;fill:var(--ink)"><text x="54" y="14">Earth</text><text x="54" y="34">Mars</text><text x="54" y="54">Moon</text><text x="54" y="76">watch (wrist)</text><text x="54" y="96">phone (pocket)</text></g></svg>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ============================================================ S-1 WATCH -->
+    <section id="tab-watch">
+      <div class="controls" id="controls"></div>
+      <div class="stage-card">
+        <div class="stage-wrap">
+          <canvas id="stage"></canvas>
+          <canvas id="stage3d" hidden></canvas>
+          <div class="ov-title" id="ovTitle" hidden></div>
+          <div class="ov-note" id="ovNote" hidden></div>
+          <div class="ov-label" id="ovLabel" hidden></div>
+          <div class="ov-hint" id="ovHint" hidden>drag: turn · wheel: zoom</div>
+          <div class="stage-msg" id="stageMsg" hidden></div>
+        </div>
+        <div class="transport">
+          <button id="play" class="btn primary" aria-label="Play or pause">❚❚ Pause</button>
+          <input id="seek" type="range" min="0" max="1000" value="0" aria-label="Time">
+          <span id="clock" class="mono">0.00 s</span>
+          <label class="mini">Rate
+            <select id="rate"><option value="0.1">0.1×</option><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option></select>
+          </label>
+          <label class="mini" title="The structure moves by a few millimetres at most. It is drawn larger so that you can see it.">Motion drawn
+            <select id="exag"><option value="1">true size</option><option value="100">×100</option><option value="300">×300</option><option value="1000">×1000</option><option value="3000" selected>×3000</option><option value="10000">×10000</option></select>
+          </label>
+          <label class="mini">View
+            <select id="view"><option value="side">side, follow</option><option value="three">three-quarter, follow</option><option value="full">whole structure</option></select>
+          </label>
+          <label class="mini" title="3-D needs WebGL (all current browsers). Flat is a simple side drawing.">Drawing
+            <select id="draw"><option value="3d">3-D</option><option value="2d">flat</option></select>
+          </label>
+        </div>
+      </div>
+      <p class="hint"><b>Space</b> play or pause &nbsp;/&nbsp; <b>click a time plot</b> jump to that moment &nbsp;/&nbsp; <b>click a legend entry</b> hide or show a line &nbsp;/&nbsp; <b>hover</b> read values</p>
+      <div class="tiles" id="tiles"></div>
+      <div class="grid2">
+        <div id="timeCards"></div>
+        <div>
+          <div id="specCard"></div>
+          <div class="card explain" id="explain"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================== S-2 GRAVITY -->
+    <section id="tab-gravity" hidden></section>
+    <!-- =========================================================== S-3 DETECT -->
+    <section id="tab-detect" hidden></section>
+    <!-- ============================================================ S-4 MODEL -->
+    <section id="tab-model" hidden></section>
+  </main>
+
+  <footer class="titleblock">
+    <div class="tb tb-proj"><small>Project</small><b>Occupant-carried sensing of habitat floors</b><span>Coupled human–structure simulation, Earth, Mars and Moon gravity</span></div>
+    <div class="tb tb-no"><small>Sheet</small><b id="tbNo">S-1</b></div>
+    <div class="tb tb-title"><small>Sheet title</small><b id="tbTitle">Watch a trial</b></div>
+    <div class="tb tb-of"><small>Of</small><b>4</b></div>
+    <div class="tb tb-trials"><small>Trials</small><b id="tbTrials">–</b></div>
+    <div class="tb tb-body"><small>Person</small><b id="tbBody">–</b></div>
+    <div class="tb tb-print"><small>Print</small><span class="printsel" role="radiogroup" aria-label="Print colours"><button role="radio" data-print="white">White</button><button role="radio" data-print="blue">Blue</button></span></div>
+    <div class="tb tb-rec"><small>Record</small><span id="footMeta"></span></div>
+    <div class="tb tb-note"><small>Notes</small><span>Shows stored results only and does not run the simulation. Lettering: B612 and B612 Mono (SIL Open Font License&nbsp;1.1).</span></div>
+  </footer>
+</div>
+<div id="tip" class="tip" hidden></div>
+<script id="bundle" type="application/json">/*__BUNDLE__*/</script>
+<script>/* three.js r149, MIT licence (viewer/vendor/THREE_LICENSE.txt) */
+/*__THREE__*/
+</script>
+<script>
+/*__SCRIPT__*/
+</script>
+</body>
+</html>

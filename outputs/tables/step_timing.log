@@ -1,0 +1,21 @@
+19 walking cases
+walk_same_E1     Earth reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OOMMUMU -> OOOMUMM | phone: OOMMUMM -> OMMMMMU |
+walk_same_E1     Mars  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: UMMMMUM -> UUMMUMM | phone: MMMUMUM -> MUUMMMU |
+walk_same_E1     Moon  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OOUMMUM -> OOOMUMM | phone: OMMUUMM -> OUUMMMM |
+walk_similar_E1  Earth reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OOUUUMM -> OMOMUMU | phone: OMUMMMM -> OMMMUMU |
+walk_similar_E1  Mars  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OOMUOMM -> OOMUMMM | phone: OMMMMMM -> OMMUMMM |
+walk_similar_E1  Moon  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OMOMUMM -> OMMMUUU | phone: OMMMMMM -> OMMMMMM |
+walk_same_E2     Earth reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OMMMMMM -> OMMMUMM | phone: OMMMUMM -> OMMMUMU |
+walk_same_E2     Mars  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OMOMUMM -> OMMMMMM | phone: OUMMUMM -> OUMUUUU |
+walk_same_E2     Moon  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OOUOUMU -> OOUMMUU | phone: MMUMMMO -> MMUMMUM |
+walk_similar_E2  Earth reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OUMUMMO -> OUMMMMM | phone: OMMMUUM -> UUMMMUM |
+walk_similar_E2  Mars  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: MUMMMMM -> MUMUMUM | phone: MUMMMMM -> UMMMMMM |
+walk_similar_E2  Moon  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: MUMUUUU -> MUUMMUU | phone: UUUUUUU -> UUUUUUU |
+walk3d_E1        Earth reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OOOOUMM -> OOOMMMM | phone: OOMMMUU -> OMMUUUU |
+walk3d_E1        Mars  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OMUUUOM -> OOUMMUU | phone: OUMMMMM -> OUUMUMU |
+walk3d_E1        Moon  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OMUMUMM -> OMMMMMM | phone: OUMMMUM -> OUMUMUU |
+walk3d_E2        Earth reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OOUMMMM -> OOUMMUM | phone: OOUMMMO -> OUMUMUU |
+walk3d_E2        Mars  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: MUUUMMU -> MUUUUMU | phone: MUUUUUU -> MMUMMUU |
+walk3d_E2        Moon  reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OUUUUUU -> OUMMMMM | phone: MUUUMUU -> OUUUUUU |
+baseline_walk        Earth reg {'max_abs_oi_difference': 0.0, 'class_mismatches': 0} | watch: OMMOOMM -> OMMMOMM | phone: OUMUUUM -> OUMMMUM |
+wall 230 s

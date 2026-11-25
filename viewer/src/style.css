@@ -1,0 +1,240 @@
+/* Drawing-sheet identity: the page is one sheet of an engineering drawing set.
+   Whiteprint (navy ink on cool white) by default, blueprint (pale ink on Prussian blue) on request.
+   Lettering: B612 and B612 Mono, the cockpit-display typefaces (SIL OFL 1.1). */
+:root,:root[data-print="white"]{
+  --desk:#cdd6de; --sheet:#fbfcfd; --sheet2:#eef2f6; --ink:#14284b; --ink2:#3d5272; --muted:#5f708a;
+  --rule:#a8b7c9; --hair:#dde4ec; --grid:rgba(20,40,75,.045); --grid2:rgba(20,40,75,.09);
+  --red:#cf3a2c; --amber:#946800; --green:#1f7a52; --band:rgba(201,141,0,.16);
+  --earth:#1f63c6; --mars:#c4511c; --moon:#646b74; --wrist:#0d7f70; --thigh:#97368f;
+  --sans:"B612","DejaVu Sans",Arial,sans-serif; --mono:"B612 Mono","DejaVu Sans Mono","Courier New",monospace;
+  color-scheme:light;
+}
+:root[data-print="blue"]{
+  --desk:#071a33; --sheet:#123766; --sheet2:#174279; --ink:#eaf2ff; --ink2:#bcd0ec; --muted:#8fa9cf;
+  --rule:#5b80b3; --hair:#2a5590; --grid:rgba(234,242,255,.06); --grid2:rgba(234,242,255,.11);
+  --red:#ff8f78; --amber:#ffd35a; --green:#8df0bd; --band:rgba(255,211,90,.18);
+  --earth:#8fd3ff; --mars:#ffb27a; --moon:#c9d3df; --wrist:#7ff0d8; --thigh:#ffa8f0;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none !important}
+html{font-size:15px}
+body{margin:0;background:var(--desk);color:var(--ink);font-family:var(--sans);line-height:1.52;-webkit-font-smoothing:antialiased}
+::selection{background:var(--red);color:#fff}
+a{color:var(--earth)}
+p{margin:.45em 0}
+.mono{font-variant-numeric:tabular-nums}
+button,select,input{font-family:inherit}
+:focus-visible{outline:2px dashed var(--red);outline-offset:2px}
+
+/* ---------------------------------------------------------------- the sheet */
+.sheet{position:relative;width:calc(100% - 64px);max-width:1500px;margin:32px auto;
+  background-color:var(--sheet);
+  border:2.5px solid var(--ink);outline:1px solid var(--ink);outline-offset:6px;
+  display:grid;grid-template-columns:262px minmax(0,1fr);grid-template-areas:"index main" "tb tb"}
+
+
+/* ------------------------------------------------------- the sheet index (left) */
+.index{grid-area:index;padding:24px 18px 24px;position:sticky;top:0;align-self:start;
+  max-height:100vh;overflow-y:auto;background:var(--sheet)}
+.dwg-no{display:inline-block;font-family:var(--mono);font-weight:700;font-size:.78rem;border:1.5px solid var(--ink);padding:1px 8px}
+.index h1{font-size:1.28rem;line-height:1.22;margin:12px 0 10px;font-weight:700}
+.gbar{margin:2px 0 6px}
+.gbar svg{display:block;overflow:visible}
+.dwg-sub{font-size:.84rem;color:var(--ink2);margin:6px 0 0}
+.sheets-h{font-weight:700;font-size:.86rem;border-bottom:2px solid var(--ink);padding-bottom:3px;margin:24px 0 0}
+.sheets{display:flex;flex-direction:column}
+.tab{position:relative;display:grid;grid-template-columns:46px minmax(0,1fr);width:100%;align-items:stretch;
+  border:0;border-bottom:1px solid var(--rule);background:none;padding:0;text-align:left;cursor:pointer;color:var(--ink);font-size:.9rem}
+.tab b{display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:700;font-size:.8rem;border-right:1px solid var(--rule)}
+.tab span{padding:8px 10px;line-height:1.3}
+.tab:hover span{text-decoration:underline;text-underline-offset:3px}
+.tab.on b{background:var(--ink);color:var(--sheet)}
+.tab.on span{font-weight:700}
+.tab.on::after{content:"";position:absolute;right:-19.5px;top:50%;margin-top:-7px;border:7px solid transparent;border-left-color:var(--ink);border-right:0}
+.symbols svg{display:block;width:100%;max-width:226px;margin-top:10px}
+
+/* ------------------------------------------------------------------ main area */
+main{grid-area:main;padding:26px 28px 34px;min-width:0;min-height:70vh;border-left:1.5px solid var(--ink)}
+main section{counter-reset:det card note gnote}
+h2{counter-increment:det;display:flex;align-items:center;gap:12px;font-size:1.06rem;margin:34px 0 8px;font-weight:700;line-height:1.25}
+h2::before{flex:none;width:36px;height:36px;border:1.5px solid var(--ink);border-radius:50%;display:flex;align-items:center;justify-content:center;
+  white-space:pre;text-align:center;font-family:var(--mono);font-size:.62rem;line-height:1.55;font-weight:700;
+  background:linear-gradient(var(--ink),var(--ink)) center/100% 1.2px no-repeat}
+#tab-watch h2::before{content:counter(det) "\A S-1"}
+#tab-gravity h2::before{content:counter(det) "\A S-2"}
+#tab-detect h2::before{content:counter(det) "\A S-3"}
+#tab-model h2::before{content:counter(det) "\A S-4"}
+h2>span{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
+section>h2:first-child{margin-top:4px}
+h3{font-size:.95rem;margin:0 0 4px;font-weight:700}
+.lead{font-size:.95rem;color:var(--ink2);max-width:1000px;margin:4px 0 16px}
+
+/* ------------------------------------------- trial selection (a schedule of options) */
+.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border:1.5px solid var(--ink);background:var(--sheet);margin:0 0 4px}
+.controls::before{content:"Trial selection";grid-column:1/-1;font-weight:700;font-size:.86rem;padding:4px 10px;
+  border-bottom:1.5px solid var(--ink);background:var(--sheet2)}
+.ctl{display:grid;grid-template-columns:132px minmax(0,1fr);border-bottom:1px solid var(--rule);min-width:0}
+.ctl:nth-of-type(odd){border-right:1px solid var(--rule)}
+.ctl:last-child:nth-of-type(odd){grid-column:1/-1;border-right:0}
+.ctl>span{padding:7px 10px;font-size:.84rem;font-weight:700;color:var(--ink2);border-right:1px solid var(--rule);display:flex;align-items:center;line-height:1.25}
+.seg{display:flex;flex-wrap:wrap;gap:3px 16px;padding:6px 10px;align-items:center;align-content:center;min-width:0}
+.seg button{appearance:none;border:0;background:none;font:inherit;font-size:.88rem;color:var(--ink);padding:2px 0;cursor:pointer;
+  display:inline-flex;align-items:center;gap:7px;text-align:left;line-height:1.25}
+.seg button::before{content:"";width:12px;height:12px;border:1.4px solid var(--ink);border-radius:50%;flex:none}
+.seg button.on::before{background:radial-gradient(circle,var(--ink) 0 3px,transparent 3.5px)}
+.seg button.on{font-weight:700}
+.seg button:hover{text-decoration:underline;text-underline-offset:3px}
+.seg button small{color:var(--ink2);font-size:.8em;font-weight:400}
+.seg button[disabled]{opacity:.5;cursor:not-allowed;text-decoration:none}
+.seg.struct button{white-space:normal}
+.pl{width:15px;height:15px;display:inline-block;flex:none;vertical-align:-2px}
+.sw{width:11px;height:11px;display:inline-block;flex:none}
+
+/* --------------------------------------------------------------- the viewport */
+.stage-card{position:relative;border:1.5px solid var(--ink);background:var(--sheet);margin-top:24px}
+.stage-card::before{content:"Viewport";position:absolute;left:12px;top:-11px;z-index:3;background:var(--sheet);border:1px solid var(--ink);
+  padding:0 7px;font-size:.8rem;font-weight:700;line-height:18px}
+.stage-wrap{position:relative;overflow:hidden}
+#stage{display:block;width:100%;height:430px}
+#stage3d{display:block;width:100%;height:470px}
+.stage-msg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--sheet);color:var(--ink2);font-size:1rem;text-align:center;padding:30px}
+.transport{display:flex;align-items:center;gap:12px;padding:8px 12px;border-top:1.5px solid var(--ink);flex-wrap:wrap;background:var(--sheet)}
+.transport input[type=range]{flex:1;min-width:130px;accent-color:var(--red)}
+.btn{appearance:none;border:1.4px solid var(--ink);background:var(--sheet);color:var(--ink);font:inherit;font-size:.86rem;padding:4px 12px;cursor:pointer}
+.btn:hover{background:var(--sheet2)}
+.btn.primary{font-weight:700;min-width:104px}
+.btn.small{border:0;background:none;padding:0 1px;font-size:.8rem;color:var(--ink2);text-decoration:underline;text-underline-offset:2px}
+.btn.small:hover{color:var(--red);background:none}
+.mini{font-size:.8rem;color:var(--ink2);display:flex;align-items:center;gap:6px}
+select{font:inherit;font-size:.84rem;padding:2px 6px;border:1.4px solid var(--ink);border-radius:0;background:var(--sheet);color:var(--ink)}
+.hint{font-family:var(--mono);font-size:.76rem;color:var(--ink2);margin:9px 2px 0}
+.hint b{font-family:var(--sans);font-weight:700;color:var(--ink)}
+.ov-title{position:absolute;left:14px;top:10px;font-weight:700;font-size:14px;color:#14284b;text-shadow:0 0 5px rgba(255,255,255,.85);pointer-events:none}
+.ov-title small{display:block;font-weight:400;font-size:12px;color:#3d5272}
+.ov-title.dark{color:#f3f6fa;text-shadow:0 0 5px rgba(0,0,0,.85)}.ov-title.dark small{color:#d7e0ea}
+.ov-note{position:absolute;left:14px;bottom:10px;font-size:11.5px;color:#fff;text-shadow:0 0 4px rgba(0,0,0,.85);pointer-events:none}
+.ov-note.ink{color:#14284b;text-shadow:0 0 4px rgba(255,255,255,.95),0 0 2px rgba(255,255,255,.95)}
+.ov-label{position:absolute;font-family:var(--mono);font-size:11px;background:#fbfcfd;border:1.5px solid #14284b;padding:1px 7px;pointer-events:none;white-space:nowrap;color:#14284b}
+.ov-hint{position:absolute;right:10px;top:10px;font-family:var(--mono);font-size:11px;color:#fff;background:rgba(20,40,75,.72);padding:2px 8px;pointer-events:none}
+
+/* ------------------------------------------------- trial data (a schedule, not tiles) */
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px;margin:20px 0}
+.tiles table.t{margin-top:0}
+.tiles td.v{font-weight:700;font-size:.9rem}
+.tiles td.u,.tiles td.r{text-align:left;font-size:.84rem;color:var(--ink2)}
+.tiles td.u{white-space:nowrap}
+
+/* ------------------------------------------------- details (chart and table panels) */
+.grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.two{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:18px;align-items:start}
+.card{counter-increment:card;display:flex;flex-direction:column;background:var(--sheet);border:0;padding:6px 0 8px;margin:0 0 26px;min-width:0}
+.card .opts{order:1;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
+.card .opts:empty{display:none}
+.card canvas{order:2;display:block;width:100%;margin-top:6px}
+.card .head{order:3;display:flex;justify-content:space-between;align-items:flex-start;gap:10px;border-top:2px solid var(--ink);margin-top:8px;padding-top:6px}
+.card .note{order:4;color:var(--ink2);font-size:.82rem;margin-top:8px;padding-top:6px;border-top:1px dashed var(--rule)}
+.card .ttl{font-weight:700;font-size:.92rem;line-height:1.35}
+.card .head .ttl::before{content:counter(card);display:inline-flex;align-items:center;justify-content:center;min-width:21px;height:21px;margin-right:8px;
+  border:1.4px solid var(--ink);border-radius:50%;font-family:var(--mono);font-size:.7rem;vertical-align:1px}
+.card .desc{color:var(--ink2);font-size:.82rem;margin-top:3px}
+.card .tools{display:flex;gap:8px;flex:none;padding-top:2px}
+.card .opts .seg{padding:2px 0}
+.card .opts .seg button{font-size:.82rem}
+.card .opts label{font-size:.82rem;color:var(--ink2);display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.card .opts select{max-width:100%}
+.opts input[type=checkbox]{accent-color:var(--ink);margin:0 4px 0 0}
+.card>.ttl{order:0;margin-bottom:6px}
+.explain h3{margin-bottom:6px}
+.explain ul{margin:6px 0 0;padding-left:0;list-style:none}
+.explain li{margin:5px 0;padding-left:20px;position:relative;font-size:.9rem}
+.explain li::before{content:"";position:absolute;left:3px;top:.55em;width:7px;height:7px;border:1.4px solid var(--ink);transform:rotate(45deg)}
+
+/* --------------------------------------------- notes: keynotes and revision marks */
+.key{counter-increment:note;position:relative;padding:4px 12px 4px 52px;margin:14px 0 18px;max-width:1080px;font-size:.95rem}
+.key::before{content:"N" counter(note);position:absolute;left:4px;top:9px;width:36px;height:26px;background:var(--ink);color:var(--sheet);
+  font-family:var(--mono);font-size:.74rem;font-weight:700;display:flex;align-items:center;justify-content:center;
+  clip-path:polygon(22% 0,78% 0,100% 50%,78% 100%,22% 100%,0 50%)}
+.key b{font-weight:700}
+.caveat{counter-increment:gnote;position:relative;padding:4px 12px 4px 52px;margin:12px 0;max-width:1080px;font-size:.9rem}
+.caveat::before{content:counter(gnote);position:absolute;left:8px;top:3px;width:28px;height:24px;color:var(--red);font-family:var(--mono);font-weight:700;font-size:.78rem;
+  display:flex;align-items:flex-end;justify-content:center;padding-bottom:2px;
+  background:linear-gradient(to top right,transparent calc(50% - 1px),var(--red) calc(50% - .5px),var(--red) calc(50% + .9px),transparent calc(50% + 1.4px)) left/50% 100% no-repeat,
+             linear-gradient(to top left,transparent calc(50% - 1px),var(--red) calc(50% - .5px),var(--red) calc(50% + .9px),transparent calc(50% + 1.4px)) right/50% 100% no-repeat,
+             linear-gradient(var(--red),var(--red)) bottom/100% 1.5px no-repeat}
+
+/* ----------------------------------------------------------- schedules (tables) */
+table.t{border-collapse:collapse;width:100%;font-size:.86rem;margin-top:8px;border:1.5px solid var(--ink)}
+table.t th,table.t td{border:1px solid var(--rule);padding:4px 8px;text-align:right;font-variant-numeric:tabular-nums}
+table.t th{background:var(--sheet2);font-size:.8rem;font-weight:700;vertical-align:bottom;color:var(--ink);line-height:1.3}
+table.t td{font-size:.82rem}
+table.t th:first-child,table.t td:first-child,table.t td.l,table.t th.l{text-align:left;font-family:var(--sans);font-size:.84rem}
+table.t th:first-child{font-size:.8rem}
+table.t tr.sep td{border-bottom:1.5px solid var(--ink)}
+.tscroll{order:2;overflow-x:auto;max-width:100%}
+.tscroll table.t td:first-child{min-width:10em}
+.pass{color:var(--green);font-weight:700}.pass::before{content:"\2713\00a0"}
+.fail{color:var(--red);font-weight:700}.fail::before{content:"\2717\00a0"}
+.pill{display:inline-block;padding:0 5px;font-family:var(--mono);font-size:.7rem;border:1px solid var(--ink2);color:var(--ink2)}
+.pill.deck{border-color:var(--red);color:var(--red);margin-left:4px;white-space:nowrap}
+
+/* ---------------------------------------------------------------- figures */
+.schem{width:100%;max-width:760px;display:block;margin:6px auto;color:var(--ink)}
+.habitat{width:100%;max-width:1000px;height:auto;display:block;margin:8px auto 0;background:#fff;padding:6px;border:1px solid var(--rule)}
+.tip{position:fixed;pointer-events:none;background:var(--sheet);color:var(--ink);font-size:.76rem;padding:6px 9px;z-index:50;
+  max-width:330px;line-height:1.45;border:1.5px solid var(--ink)}
+.tip b{font-weight:700}.tip i{display:inline-block;width:9px;height:9px;margin-right:6px}
+
+/* ---------------------------------------------------------- the title block */
+.titleblock{grid-area:tb;display:grid;border-top:2.5px solid var(--ink);background:var(--sheet);
+  grid-template-columns:minmax(0,2.3fr) minmax(0,.55fr) minmax(0,1.7fr) minmax(0,.45fr) minmax(0,.55fr) minmax(0,.55fr) minmax(0,1fr);
+  grid-template-areas:"proj no title of trials body print" "proj rec rec rec note note note"}
+.tb{border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);padding:4px 9px 6px;min-width:0;font-size:.84rem}
+.tb small{display:block;font-size:.75rem;font-weight:700;text-transform:uppercase;color:var(--ink2);line-height:1.4}
+.tb b{font-size:.94rem}
+.tb-proj{grid-area:proj}.tb-proj b{display:block;font-size:1rem;line-height:1.3}.tb-proj span{display:block;font-size:.8rem;color:var(--ink2);margin-top:3px}
+.tb-no{grid-area:no}.tb-no b{font-family:var(--mono);font-size:1.25rem}
+.tb-title{grid-area:title}.tb-of{grid-area:of}.tb-trials{grid-area:trials}.tb-body{grid-area:body}.tb-print{grid-area:print;border-right:0}
+.tb-rec{grid-area:rec;font-size:.78rem}.tb-note{grid-area:note;border-right:0;font-size:.78rem;color:var(--ink2)}
+.tb-rec,.tb-note{border-bottom:0}.tb-proj{border-bottom:0}
+.printsel{display:inline-flex;gap:12px;margin-top:2px}
+.printsel button{appearance:none;border:0;background:none;color:var(--ink);font-size:.86rem;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.printsel button::before{content:"";width:12px;height:12px;border:1.4px solid var(--ink);border-radius:50%;flex:none}
+.printsel button.on{font-weight:700}
+.printsel button.on::before{background:radial-gradient(circle,var(--ink) 0 3px,transparent 3.5px)}
+
+/* -------------------------------------------------------------- narrow screens */
+@media (max-width:1100px){.sheet{width:calc(100% - 28px);margin:24px auto}.r1,.r2{display:none}}
+@media (max-width:980px){
+  .sheet{width:100%;margin:0;border-width:0;outline:0;padding-top:0;grid-template-columns:minmax(0,1fr);grid-template-areas:"dwg" "nav" "main" "tb"}
+  .zones,.symbols{display:none}
+  .index{display:contents}
+  .dwg{grid-area:dwg;padding:18px 16px 4px}
+  .sheets{grid-area:nav;position:sticky;top:0;z-index:30;flex-direction:row;overflow-x:auto;background:var(--sheet);
+    border-top:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink)}
+  .sheets-h{display:none}
+  .tab{min-width:172px;border-bottom:0;border-right:1px solid var(--rule)}
+  .tab.on::after{right:auto;left:50%;top:auto;bottom:-15px;margin:0 0 0 -7px;border:7px solid transparent;border-top-color:var(--ink);border-bottom:0}
+  main{padding:20px 16px 28px;border-left:0}
+  .grid2,.grid3,.two{grid-template-columns:minmax(0,1fr)}
+  .controls{grid-template-columns:minmax(0,1fr)}
+  .ctl,.ctl:nth-of-type(odd){border-right:0}
+}
+@media (max-width:640px){
+  .ctl{grid-template-columns:minmax(0,1fr)}
+  .ctl>span{border-right:0;border-bottom:1px dotted var(--rule);padding:4px 10px}
+  .sheets{display:grid;grid-template-columns:1fr 1fr;overflow:visible}
+  .tab{min-width:0;border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink)}
+  .tab:nth-of-type(2n){border-right:0}
+  .tab:nth-last-of-type(-n+2){border-bottom:0}
+  .tab.on::after{display:none}
+  .tiles{grid-template-columns:minmax(0,1fr)}
+  table.t{display:block;overflow-x:auto;max-width:100%}
+  .titleblock{grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+    grid-template-areas:"proj proj" "no title" "of trials" "body print" "rec rec" "note note"}
+  .tb,.tb-print{border-right:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+  .tb-rec{border-bottom:1px solid var(--ink)}
+  .ov-hint{display:none !important}
+  #stage{height:360px}#stage3d{height:380px}
+}

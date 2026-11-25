@@ -1,0 +1,37 @@
+decision by planet: {'Earth': True, 'Mars': True, 'Moon': True}
+| Descriptor | side view | 3-D | 3-D target |
+|---|---|---|---|
+| speed | 0.928 | 0.952 | 1 ± 0.04 |
+| step_frequency | 1.77 | 1.82 | 1.67 ± 0.08 |
+| step_length | 0.524 | 0.523 |  |
+| duty_factor | 0.62 | 0.617 | 0.64 ± 0.02 |
+| double_support_fraction | 0.239 | 0.234 |  |
+| dlf1 | 0.147 | 0.116 | 0.27 ± 0.06 |
+| grf_foot_peak_over_W | 1.13 | 1.25 | ≤ 1.12 ± 0.08 |
+| grf_peak_over_W | 1.87 | 1.83 | ≤ 1.45 ± 0.15 |
+| com_vertical_excursion | 0.0307 | 0.0253 |  |
+| swing_scuffs_per_step | 1 | 0 | 0 ± 0.25 |
+| step_width | – | 0.113 | 0.1 ± 0.03 |
+| grf_lateral_peak_over_W | – | 0.178 | ≤ 0.15 ± 0.05 |
+| dlf_lat | – | 0.0662 | 0.04 ± 0.02 |
+| com_lateral_excursion | – | 0.0435 |  |
+| heading_max | – | 0.0751 | ≤ 0.15 ± 0.1 |
+| lateral_drift | – | 0.00567 | ≤ 0.15 ± 0.1 |
+
+- shakers on, wrist: visibility side view B1 -0.0, B2 -0.6, T1 0.1, B3 0.1, L1 3.0, T2 -0.6, B4 -0.6; 3-D B1 -0.1, B2 -0.3, T1 0.8, B3 0.6, L1 -0.3, T2 1.6, B4 0.1. Recovered side view 3 (+4 false; chance 2), 3-D 2 (+3 false; chance 2); rule met: True
+- shakers on, thigh pocket: visibility side view B1 -0.0, B2 -0.3, T1 -0.1, B3 0.1, L1 -0.0, T2 -0.8, B4 -0.4; 3-D B1 -0.2, B2 -0.3, T1 -0.2, B3 -0.3, L1 -0.1, T2 0.4, B4 0.1. Recovered side view 3 (+6 false; chance 3), 3-D 1 (+2 false; chance 1); rule met: True
+- footsteps only, wrist: visibility side view B1 -0.0, B2 -0.8, T1 0.1, B3 0.1, L1 3.7, T2 -0.9, B4 -1.1; 3-D B1 -0.0, B2 -0.2, T1 0.2, B3 0.3, L1 -0.2, T2 1.5, B4 0.1. Recovered side view 4 (+4 false; chance 2), 3-D 2 (+3 false; chance 2); rule met: True
+- footsteps only, thigh pocket: visibility side view B1 -0.0, B2 -0.3, T1 -0.1, B3 0.1, L1 -0.1, T2 -1.2, B4 -0.6; 3-D B1 -0.2, B2 -0.2, T1 -0.4, B3 -0.4, L1 0.1, T2 0.4, B4 -0.0. Recovered side view 2 (+6 false; chance 3), 3-D 1 (+2 false; chance 1); rule met: True
+
+- gait background, wrist: 3-D minus side view (dB) B1 -1.9, B2 +1.2, T1 -13.5, B3 -9.9, L1 +12.1, T2 -0.9, B4 +7.0
+- gait background, thigh pocket: 3-D minus side view (dB) B1 -2.3, B2 -3.3, T1 -1.6, B3 -0.3, L1 +4.1, T2 -4.0, B4 +0.7
+
+- rigid-ground wrist axes (x, y, z; dB re 1 (m/s²)²/Hz), side_view: B1 11.9/–/3.4; B2 -11.9/–/-0.5; T1 -22.2/–/-7.2; B3 -22.9/–/-9.4; L1 -36.9/–/-25.2; T2 -33.6/–/-20.8; B4 -36.3/–/-24.4
+- rigid-ground wrist axes (x, y, z; dB re 1 (m/s²)²/Hz), three_d: B1 10.0/-6.2/0.9; B2 -14.0/-31.9/0.9; T1 -23.3/-28.5/-25.7; B3 -29.5/-34.5/-19.8; L1 -23.7/-32.4/-13.2; T2 -28.6/-32.5/-22.9; B4 -26.8/-32.2/-17.9
+- rigid-ground thigh pocket axes (x, y, z; dB re 1 (m/s²)²/Hz), side_view: B1 3.3/–/9.9; B2 -4.9/–/2.9; T1 -14.0/–/-4.6; B3 -15.5/–/-6.9; L1 -13.1/–/-13.0; T2 -12.4/–/-13.1; B4 -17.1/–/-17.6
+- rigid-ground thigh pocket axes (x, y, z; dB re 1 (m/s²)²/Hz), three_d: B1 0.4/-12.2/7.8; B2 -6.5/-10.3/-1.2; T1 -11.2/-22.1/-7.4; B3 -18.2/-18.7/-7.3; L1 -10.9/-12.3/-9.4; T2 -24.2/-17.8/-16.6; B4 -20.8/-17.0/-18.2
+
+side_view {"E1": {"n": 20, "falls": 0, "energy_drift_max": 2.718243703769698e-05, "speed": [0.9236129508707369, 0.0029259459335141042], "step_frequency": [1.7680151956159729, 0.001179200191770955], "deck_rms_under": [0.5333133071660996, 0.015771988233806516], "com_y_range_on_deck": [0.0, 0.0]}, "E2": {"n": 20, "falls": 0, "energy_drift_max": 2.9518907682942376e-05, "speed": [0.9218203675817487, 2.987737662808191e-05], "step_frequency": [1.7672879428691275, 3.8845807883913005e-05], "deck_rms_under": [0.10785139426589012, 0.0002501183544047115], "com_y_range_on_deck": [0.0, 0.0]}, "rigid": {"n": 20, "falls": 0, "energy_drift_max": 2.8063070609025465e-05, "speed": [0.9283540436401216, 3.0877376178513894e-15], "step_frequency": [1.7701464796211888, 2.220446049250313e-16], "com_y_range_on_deck": [0.0, 0.0]}}
+three_d {"E1": {"n": 20, "falls": 0, "energy_drift_max": 3.505705681808285e-05, "speed": [0.9507669338521592, 0.010125297868771147], "step_frequency": [1.817946525844139, 0.0024320114805817103], "step_width": [0.11330957507163275, 0.0010132886540762695], "grf_lateral_peak_over_W": [0.1882154410596277, 7.936451561031285e-05], "com_lateral_excursion": [0.058750000549368166, 0.0019983337000716653], "deck_rms_under": [0.5355254888534546, 0.014615462378073037], "com_y_range_on_deck": [0.5358903408050537, 0.5989406108856201]}, "E2": {"n": 20, "falls": 0, "energy_drift_max": 3.8192555599927424e-05, "speed": [0.9513604384839567, 8.332299266778761e-05], "step_frequency": [1.8176860869303102, 4.8932581659242166e-05], "step_width": [0.11354316680170973, 2.6424813478178366e-05], "grf_lateral_peak_over_W": [0.18823357951591357, 1.8700166595374443e-07], "com_lateral_excursion": [0.057379788736462836, 9.066858216508e-05], "deck_rms_under": [0.09618174396455288, 0.00022355442286272627], "com_y_range_on_deck": [0.5419912934303284, 0.5889107584953308]}, "rigid": {"n": 20, "falls": 0, "energy_drift_max": 3.879154263590424e-05, "speed": [0.957624100049108, 0.00015326394142729067], "step_frequency": [1.81957466389948, 3.226165062652631e-05], "step_width": [0.11391070939328748, 2.1909823760566646e-05], "grf_lateral_peak_over_W": [0.18823353292298595, 1.9252206415786713e-14], "com_lateral_excursion": [0.05724784700342693, 4.4057545983183965e-05], "com_y_range_on_deck": [0.5420308113098145, 0.5882852673530579]}}
+
+DECISION: walking conclusion HOLDS for the 3-D walker

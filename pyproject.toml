@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "planetary-sensing"
+version = "0.1.0"
+description = "Gravity-adaptive articulated human / flexible structure / virtual IMU model (computational research prototype)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0", "scipy>=1.13", "pin>=3.0", "pyyaml", "h5py"]
+
+[project.optional-dependencies]
+dev = ["pytest", "matplotlib", "mujoco", "openseespy", "pandas"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

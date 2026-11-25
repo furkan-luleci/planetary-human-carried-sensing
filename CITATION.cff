@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite it as below."
+title: "Habitat floor sensing with occupants' phones and watches"
+authors:
+  - family-names: Lüleci
+    given-names: Furkan
+    affiliation: Louisiana State University
+  - family-names: Babazade
+    given-names: Jovdat
+    affiliation: Louisiana State University
+license: MIT
+repository-code: "https://github.com/furkan-luleci/planetary-human-carried-sensing"
+url: "https://furkan-luleci.github.io/planetary-human-carried-sensing/"

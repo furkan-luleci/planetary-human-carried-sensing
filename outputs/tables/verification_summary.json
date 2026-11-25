@@ -1,0 +1,359 @@
+{
+ "tolerances": {
+  "static_weight_rel": 1e-09,
+  "equilibrium_accel": 1e-08,
+  "standing_mean_force_rel": 0.0001,
+  "mass_invariance_rel": 1e-13,
+  "free_fall_accel_abs": 1e-09,
+  "deck_freq_table3_hz": 0.0001,
+  "deck_matrix_rel": 1e-09,
+  "deck_static_rel": 1e-08,
+  "mesh_bending_rel": 0.0001,
+  "mesh_torsion_rel": 0.005,
+  "modal_truncation_static_rel": 0.02,
+  "action_reaction_rel": 1e-06,
+  "centroidal_rel": 1e-09,
+  "kernel_rel": 1e-10,
+  "cross_solver_rel": 1e-09,
+  "energy_free_flight_rel": 1e-08,
+  "momentum_free_flight_rel": 1e-08,
+  "energy_balance_rel": 0.0001,
+  "energy_creation_rel": 1e-06,
+  "sensor_static_abs": 1e-10,
+  "sensor_rotating_rel": 1e-10,
+  "dt_error_rel": 0.001,
+  "dt_min_order": 2.0,
+  "rigid_limit_rel": 1e-12
+ },
+ "started": "2026-11-18 13:15:01 UTC",
+ "provenance": {
+  "commit_at_run": "9462d91fe510cae239b0a35f3ee7570e27f7cfbb",
+  "worktree_dirty": false,
+  "python": "3.13.18",
+  "numpy": "2.5.5",
+  "scipy": "1.18.1",
+  "pinocchio": "4.1.0",
+  "numba": "0.68.1",
+  "mujoco": "4.0.1",
+  "cpu_count": 4
+ },
+ "deck": {
+  "n_modes": 24,
+  "f_cut": 150.0,
+  "alphaM": 0.3623674488600401,
+  "betaK": 0.0007064653905333605,
+  "freqs_below_50": [
+   1.8022679782227302,
+   7.20906903698409,
+   12.302154632290344,
+   16.220377052873772,
+   22.27348835788797,
+   24.58534023385976,
+   28.836088725428805,
+   36.83061702280115,
+   45.055928858834996,
+   49.019103669820055
+  ],
+  "labels_below_50": [
+   "B1",
+   "B2",
+   "T1",
+   "B3",
+   "L1",
+   "T2",
+   "B4",
+   "T3",
+   "B5",
+   "T4"
+  ]
+ },
+ "static_support": [
+  {
+   "gravity": "Earth",
+   "g": 9.81,
+   "floor": "rigid",
+   "weight_N": 735.7500000000002,
+   "sumFn_minus_W_rel": 2.441389107715301e-14,
+   "max_state_rate_at_eq": 5.023537141823908e-12,
+   "root_residual_max": 1.779199097295119e-11,
+   "penetration_mm": 4.026136953300112,
+   "deck_deflection_mm": 0.0,
+   "cop_minus_com_m": 8.881784197001252e-16,
+   "tau_ff_max_Nm": 17.003640528471117,
+   "ankle_tau_ff_Nm": 17.003640528471117,
+   "max_real_eig": -0.47893408917068203,
+   "rk4_max_stable_dt_ms": 0.4626105210898663,
+   "sway_mode": {
+    "f": 0.18047759424871626,
+    "zeta": 0.8150018031853575,
+    "rx": 0.5504083474367575
+   },
+   "bounce_mode": {
+    "f": 8.599604278337184,
+    "zeta": 0.1286567809560389,
+    "rz": 0.9838709154038198
+   },
+   "specific_force_norm_minus_g": 2.717825964282383e-13
+  },
+  {
+   "gravity": "Earth",
+   "g": 9.81,
+   "floor": "S1 deck",
+   "weight_N": 735.7500000000002,
+   "sumFn_minus_W_rel": 6.0262136203099205e-15,
+   "max_state_rate_at_eq": 6.799893981224159e-12,
+   "root_residual_max": 4.547471456419429e-12,
+   "penetration_mm": 4.026136927245926,
+   "deck_deflection_mm": 0.5849959995127301,
+   "cop_minus_com_m": 3.3306690738754696e-16,
+   "tau_ff_max_Nm": 17.00722729273026,
+   "ankle_tau_ff_Nm": 17.00722729273026,
+   "max_real_eig": -0.22484562833666516,
+   "rk4_max_stable_dt_ms": 0.46260996575249436,
+   "sway_mode": {
+    "f": 0.18047397643606947,
+    "zeta": 0.815010218974556,
+    "rx": 0.5504113296413135
+   },
+   "bounce_mode": {
+    "f": 8.604975705503925,
+    "zeta": 0.1274251905146947,
+    "rz": 0.9838804313552505
+   },
+   "specific_force_norm_minus_g": 1.3322676295501878e-13
+  },
+  {
+   "gravity": "Mars",
+   "g": 3.71,
+   "floor": "rigid",
+   "weight_N": 278.25000000000006,
+   "sumFn_minus_W_rel": 6.537248530263634e-15,
+   "max_state_rate_at_eq": 8.611777957412414e-12,
+   "root_residual_max": 1.6484588050057814e-12,
+   "penetration_mm": 2.1055244203518826,
+   "deck_deflection_mm": 0.0,
+   "cop_minus_com_m": 1.1102230246251565e-16,
+   "tau_ff_max_Nm": 6.456133408302671,
+   "ankle_tau_ff_Nm": 6.456133408302671,
+   "max_real_eig": -0.3411272893246368,
+   "rk4_max_stable_dt_ms": 0.725808594783126,
+   "sway_mode": {
+    "f": 0.15460407461255748,
+    "zeta": 0.5181735893075641,
+    "rx": 0.5197097366226554
+   },
+   "bounce_mode": {
+    "f": 7.121931271468089,
+    "zeta": 0.09483576416670353,
+    "rz": 0.9774308691572672
+   },
+   "specific_force_norm_minus_g": 5.417888360170764e-14
+  },
+  {
+   "gravity": "Mars",
+   "g": 3.71,
+   "floor": "S1 deck",
+   "weight_N": 278.25000000000006,
+   "sumFn_minus_W_rel": 1.0010161811966189e-14,
+   "max_state_rate_at_eq": 7.203665778037632e-12,
+   "root_residual_max": 2.7853277095418584e-12,
+   "penetration_mm": 2.1055244190058064,
+   "deck_deflection_mm": 0.22123707884184246,
+   "cop_minus_com_m": 7.771561172376096e-16,
+   "tau_ff_max_Nm": 6.456552179181632,
+   "ankle_tau_ff_Nm": 6.456552179181632,
+   "max_real_eig": -0.22483737344781618,
+   "rk4_max_stable_dt_ms": 0.725806541850975,
+   "sway_mode": {
+    "f": 0.15460336974701125,
+    "zeta": 0.5181735715630188,
+    "rx": 0.5197110601425109
+   },
+   "bounce_mode": {
+    "f": 7.1358634989913,
+    "zeta": 0.09453841072364164,
+    "rz": 0.9773253681406983
+   },
+   "specific_force_norm_minus_g": 1.4921397450962104e-13
+  },
+  {
+   "gravity": "Moon",
+   "g": 1.62,
+   "floor": "rigid",
+   "weight_N": 121.50000000000003,
+   "sumFn_minus_W_rel": 4.655078334691684e-14,
+   "max_state_rate_at_eq": 5.400124791776761e-13,
+   "root_residual_max": 5.705658152400449e-12,
+   "penetration_mm": 1.2118663403143382,
+   "deck_deflection_mm": 0.0,
+   "cop_minus_com_m": 8.881784197001252e-16,
+   "tau_ff_max_Nm": 2.822168320427413,
+   "ankle_tau_ff_Nm": 2.822168320427413,
+   "max_real_eig": -0.26162432718316986,
+   "rk4_max_stable_dt_ms": 1.0466018776163524,
+   "sway_mode": {
+    "f": 0.11658299551726566,
+    "zeta": 0.4208683640113066,
+    "rx": 0.5067201447995232
+   },
+   "bounce_mode": {
+    "f": 6.077192642827891,
+    "zeta": 0.0760073896261108,
+    "rz": 0.9725746020642397
+   },
+   "specific_force_norm_minus_g": 8.171241461241152e-14
+  },
+  {
+   "gravity": "Moon",
+   "g": 1.62,
+   "floor": "S1 deck",
+   "weight_N": 121.50000000000003,
+   "sumFn_minus_W_rel": 1.731034154608968e-14,
+   "max_state_rate_at_eq": 1.6534214234163519e-12,
+   "root_residual_max": 2.1174172867052096e-12,
+   "penetration_mm": 1.2118663401683833,
+   "deck_deflection_mm": 0.09660487694708328,
+   "cop_minus_com_m": 4.218847493575595e-15,
+   "tau_ff_max_Nm": 2.8222418633101674,
+   "ankle_tau_ff_Nm": 2.8222418633101674,
+   "max_real_eig": -0.22482549178813827,
+   "rk4_max_stable_dt_ms": 1.0465962046694597,
+   "sway_mode": {
+    "f": 0.11658279487339097,
+    "zeta": 0.4208681216409236,
+    "rx": 0.5067207864249444
+   },
+   "bounce_mode": {
+    "f": 6.0935605248246425,
+    "zeta": 0.0759881483142669,
+    "rz": 0.9723778980928435
+   },
+   "specific_force_norm_minus_g": 1.8141044222375058e-13
+  }
+ ],
+ "free_flight": {
+  "runs": {
+   "0.5ms": {
+    "energy_drift_rel": 7.950956836844191e-11,
+    "angular_momentum_drift_rel": 2.2197834074302451e-10
+   },
+   "0.25ms": {
+    "energy_drift_rel": 4.9154691150447676e-12,
+    "angular_momentum_drift_rel": 1.3809609409220084e-11
+   },
+   "0.125ms": {
+    "energy_drift_rel": 1.5699814246658667e-13,
+    "angular_momentum_drift_rel": 8.651662941155761e-13
+   }
+  },
+  "observed_order": [
+   4.0157274741805535,
+   4.9685097138721845
+  ]
+ },
+ "passive_drop": {
+  "Earth": {
+   "balance_drift_J": 4.2421106627443805e-09,
+   "work_throughput_J": 53.55140611032005,
+   "balance_drift_rel": 7.921567276880281e-11,
+   "total_energy_start_J": 755.1069843382003,
+   "total_energy_end_J": 738.3289070282275,
+   "dissipated_J": 16.778077309972787,
+   "max_increase_between_samples_J": 4.547473508864641e-13,
+   "max_increase_rel": 2.710366286226164e-14,
+   "min_normal_force_N": 0.0,
+   "peak_normal_force_over_W": 4.597976584776865,
+   "max_penetration_mm": 13.352616262686002
+  },
+  "Moon": {
+   "balance_drift_J": 4.2084025153599214e-10,
+   "work_throughput_J": 8.099475064010228,
+   "balance_drift_rel": 5.195895390875182e-11,
+   "total_energy_start_J": 124.69656622098728,
+   "total_energy_end_J": 122.91604380012458,
+   "dissipated_J": 1.7805224208626953,
+   "max_increase_between_samples_J": 8.526512829121202e-14,
+   "max_increase_rel": 4.788770267206157e-14,
+   "min_normal_force_N": 0.0,
+   "peak_normal_force_over_W": 8.633870660649364,
+   "max_penetration_mm": 6.311100578918728
+  }
+ },
+ "time_step": {
+  "reference": "0.05 ms",
+  "runs": {
+   "0.4ms": {
+    "rel_rms_error": {
+     "pelvis_L": 1.308703928231183e-05,
+     "wrist_L": 3.5514052451481396e-06
+    },
+    "balance_drift_J": 2.332753865630366e-07,
+    "wall_per_sim_second": 1.5320955987499474
+   },
+   "0.2ms": {
+    "rel_rms_error": {
+     "pelvis_L": 2.920438062738527e-07,
+     "wrist_L": 1.269750897607926e-07
+    },
+    "balance_drift_J": 1.8537321011535823e-08,
+    "wall_per_sim_second": 2.373159926249855
+   },
+   "0.1ms": {
+    "rel_rms_error": {
+     "pelvis_L": 1.4789584426754047e-08,
+     "wrist_L": 7.142243291027516e-09
+    },
+    "balance_drift_J": 1.2847749530919828e-09,
+    "wall_per_sim_second": 4.865427932500097
+   }
+  },
+  "observed_order": [
+   5.485810150891351,
+   4.303531368363901
+  ]
+ },
+ "linear_vs_time_domain": {
+  "description": "Earth, S1 deck, mid-span vertical shaker only, periodic multisine 20 N RMS, 5 periods of 8 s, last period analysed at the excited lines (no leakage)",
+  "comparisons": {
+   "pelvis_L_fz": {
+    "median_rel_err": 0.00029260685372063937,
+    "energy_weighted_rel_err": 0.0003283273371861315,
+    "max_rel_err": 0.005207907366410056
+   },
+   "pelvis_L_fy": {
+    "median_rel_err": 0.00031538466243574644,
+    "energy_weighted_rel_err": 0.0003785922989480726,
+    "max_rel_err": 0.007477496697979914
+   },
+   "pelvis_L_fx": {
+    "median_rel_err": 0.00017026788028960744,
+    "energy_weighted_rel_err": 0.0002772015933117099,
+    "max_rel_err": 0.009423602072436777
+   },
+   "wrist_L_fz": {
+    "median_rel_err": 0.00028750433839548086,
+    "energy_weighted_rel_err": 0.00032944620646019324,
+    "max_rel_err": 0.004891231483106385
+   },
+   "wrist_L_fx": {
+    "median_rel_err": 0.0003120574510296838,
+    "energy_weighted_rel_err": 0.00029107391854097466,
+    "max_rel_err": 0.005216961799118658
+   }
+  },
+  "wall_per_sim_second": 1.7918487561000007,
+  "sumFn_over_W_range": [
+   0.9987336079073416,
+   1.001157331312057
+  ],
+  "n_slip": 0,
+  "balance_drift_J": 1.759644874255173e-09,
+  "work_ext_J": 0.019667504603023203,
+  "deck_dissipation_J": 0.018968638884705454
+ },
+ "timing": {
+  "compiled_rhs_microseconds": 84.95140333335864,
+  "numpy_reference_rhs_microseconds": 199.17651166671627
+ },
+ "finished": "2026-11-18 13:16:38 UTC"
+}

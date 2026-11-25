@@ -1,0 +1,46 @@
+criterion 1: True [('baseline_stand', 'watch', 'observable', 98.7), ('baseline_stand', 'phone', 'observable', 98.7), ('baseline_walk', 'watch', 'observable', 98.6), ('baseline_walk', 'phone', 'observable', 97.2)]
+criterion 2: False 41 contradictions in 276 cells
+    {'case': 'walk_same_E1', 'planet': 'Earth', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.022645824075577737, 'oi': 97.93, 'cls': 'O'}
+    {'case': 'walk_same_E1', 'planet': 'Earth', 'device': 'watch', 'mode': 'B2', 'found': False, 'vis_db': -0.6039628358842967, 'oi': 95.83, 'cls': 'O'}
+    {'case': 'walk_same_E1', 'planet': 'Earth', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.02048770290855281, 'oi': 96.61, 'cls': 'O'}
+    {'case': 'walk_same_E1', 'planet': 'Earth', 'device': 'phone', 'mode': 'B2', 'found': False, 'vis_db': -0.29622546836283786, 'oi': 92.86, 'cls': 'O'}
+    {'case': 'walk_same_E1', 'planet': 'Moon', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.06618005628174874, 'oi': 94.48, 'cls': 'O'}
+    {'case': 'walk_same_E1', 'planet': 'Moon', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.2590519712709657, 'oi': 92.62, 'cls': 'O'}
+    {'case': 'walk_similar_E1', 'planet': 'Earth', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.14321199825218917, 'oi': 98.94, 'cls': 'O'}
+    {'case': 'walk_similar_E1', 'planet': 'Earth', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.20543749384858864, 'oi': 98.45, 'cls': 'O'}
+    {'case': 'walk_similar_E1', 'planet': 'Mars', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': 0.24998874437345095, 'oi': 99.1, 'cls': 'O'}
+    {'case': 'walk_similar_E1', 'planet': 'Mars', 'device': 'watch', 'mode': 'B2', 'found': False, 'vis_db': -0.003180773100774514, 'oi': 96.62, 'cls': 'O'}
+    {'case': 'walk_similar_E1', 'planet': 'Mars', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': 0.5012083311268514, 'oi': 98.19, 'cls': 'O'}
+    {'case': 'walk_similar_E1', 'planet': 'Moon', 'device': 'watch', 'mode': 'T1', 'found': False, 'vis_db': 0.15346691068002782, 'oi': 93.73, 'cls': 'O'}
+    {'case': 'walk_similar_E1', 'planet': 'Moon', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': 1.3108524651614788, 'oi': 97.55, 'cls': 'O'}
+    {'case': 'walk_same_E2', 'planet': 'Earth', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.02904960293113279, 'oi': 99.68, 'cls': 'O'}
+    {'case': 'walk_same_E2', 'planet': 'Earth', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.02972915271706355, 'oi': 98.05, 'cls': 'O'}
+    {'case': 'walk_same_E2', 'planet': 'Mars', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': 0.023951529761721112, 'oi': 99.91, 'cls': 'O'}
+    {'case': 'walk_same_E2', 'planet': 'Mars', 'device': 'watch', 'mode': 'T1', 'found': False, 'vis_db': 0.25519176404122734, 'oi': 96.26, 'cls': 'O'}
+    {'case': 'walk_same_E2', 'planet': 'Mars', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.44929005918990483, 'oi': 96.28, 'cls': 'O'}
+    {'case': 'walk_same_E2', 'planet': 'Moon', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': 0.05464159567423384, 'oi': 99.02, 'cls': 'O'}
+    {'case': 'walk_same_E2', 'planet': 'Moon', 'device': 'watch', 'mode': 'B3', 'found': False, 'vis_db': -0.19371429563943998, 'oi': 93.16, 'cls': 'O'}
+    {'case': 'walk_similar_E2', 'planet': 'Earth', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.17985107544299322, 'oi': 99.51, 'cls': 'O'}
+    {'case': 'walk_similar_E2', 'planet': 'Earth', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.2552877016698117, 'oi': 94.83, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Earth', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.05228371643559014, 'oi': 97.56, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Earth', 'device': 'watch', 'mode': 'B2', 'found': False, 'vis_db': -0.27442011640705083, 'oi': 97.65, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Earth', 'device': 'watch', 'mode': 'T1', 'found': False, 'vis_db': 0.7978023407926084, 'oi': 95.59, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Earth', 'device': 'watch', 'mode': 'B3', 'found': False, 'vis_db': 0.5789631395761736, 'oi': 96.76, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Earth', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.23235690100048337, 'oi': 96.97, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Earth', 'device': 'phone', 'mode': 'B2', 'found': False, 'vis_db': -0.29185276537159366, 'oi': 95.42, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Mars', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.008432517851862484, 'oi': 97.32, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Mars', 'device': 'watch', 'mode': 'T2', 'found': False, 'vis_db': 1.8508296089692404, 'oi': 94.43, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Mars', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': 0.058497677254237226, 'oi': 96.12, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Moon', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.00743672086413842, 'oi': 96.7, 'cls': 'O'}
+    {'case': 'walk3d_E1', 'planet': 'Moon', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.21868903351820676, 'oi': 96.58, 'cls': 'O'}
+    {'case': 'walk3d_E2', 'planet': 'Earth', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.03147327123644103, 'oi': 98.93, 'cls': 'O'}
+    {'case': 'walk3d_E2', 'planet': 'Earth', 'device': 'watch', 'mode': 'B2', 'found': False, 'vis_db': -0.1860568918292825, 'oi': 98.17, 'cls': 'O'}
+    {'case': 'walk3d_E2', 'planet': 'Earth', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.20862582338347535, 'oi': 98.18, 'cls': 'O'}
+    {'case': 'walk3d_E2', 'planet': 'Earth', 'device': 'phone', 'mode': 'B2', 'found': False, 'vis_db': -0.20194971840750767, 'oi': 97.11, 'cls': 'O'}
+    {'case': 'walk3d_E2', 'planet': 'Moon', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.61540560633109, 'oi': 96.49, 'cls': 'O'}
+    {'case': 'baseline_walk', 'planet': 'Earth', 'device': 'watch', 'mode': 'B1', 'found': False, 'vis_db': -0.06372783592310428, 'oi': 98.64, 'cls': 'O'}
+    {'case': 'baseline_walk', 'planet': 'Earth', 'device': 'watch', 'mode': 'B3', 'found': False, 'vis_db': -0.30812250089461046, 'oi': 98.22, 'cls': 'O'}
+    {'case': 'baseline_walk', 'planet': 'Earth', 'device': 'phone', 'mode': 'B1', 'found': False, 'vis_db': -0.08121585519776539, 'oi': 97.16, 'cls': 'O'}
+cross-table: {">= 10 dB, found": {"U": 0, "M": 7, "O": 22}, ">= 10 dB, not found": {"U": 8, "M": 11, "O": 0}, "< 3 dB, not found": {"U": 50, "M": 79, "O": 41}, "< 3 dB, found": {"U": 18, "M": 28, "O": 2}, "3-10 dB, not found": {"U": 3, "M": 1, "O": 4}, "3-10 dB, found": {"U": 1, "M": 1, "O": 0}}
+verdict: thresholds NOT transferable to this body model by the declared criteria; only the threshold-free measures carry conclusions
+post hoc, after harmonic removal: {">= 10 dB": {"U": 33, "M": 87, "O": 69}, "3-10 dB": {"U": 22, "M": 50, "O": 3}, "< 3 dB": {"U": 37, "M": 21, "O": 0}}

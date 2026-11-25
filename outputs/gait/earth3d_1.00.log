@@ -1,0 +1,39 @@
+warm start from outputs/gait/_start3d_lumbar.json: start cost 102.18, best of 12 neighbours 102.18; walking 6/12
+gen   1 best    89.88 gen    89.88 med    443.7 sig 0.028 | v 0.99 f 1.81 df 0.61 dlf1 0.15 pk 1.19/1.80 eff 0.023 | 324 s
+gen   2 best    89.88 gen    99.20 med    150.4 sig 0.027 | v 0.99 f 1.81 df 0.61 dlf1 0.15 pk 1.19/1.80 eff 0.023 | 511 s
+gen   3 best    89.88 gen    97.79 med    187.4 sig 0.027 | v 0.99 f 1.81 df 0.61 dlf1 0.15 pk 1.19/1.80 eff 0.023 | 689 s
+gen   4 best    86.47 gen    86.47 med    147.7 sig 0.027 | v 1.03 f 1.84 df 0.61 dlf1 0.15 pk 1.21/1.90 eff 0.024 | 846 s
+gen   5 best    73.36 gen    73.36 med    155.4 sig 0.027 | v 1.03 f 1.80 df 0.61 dlf1 0.16 pk 1.22/1.92 eff 0.024 | 993 s
+gen   6 best    71.31 gen    71.31 med    173.7 sig 0.026 | v 1.01 f 1.95 df 0.63 dlf1 0.13 pk 1.24/1.75 eff 0.024 | 1135 s
+gen   7 best    69.88 gen    69.88 med   1054.7 sig 0.025 | v 0.98 f 1.93 df 0.63 dlf1 0.12 pk 1.23/1.71 eff 0.023 | 1270 s
+gen   8 best    65.69 gen    65.69 med    600.0 sig 0.025 | v 1.01 f 1.87 df 0.62 dlf1 0.13 pk 1.23/1.83 eff 0.023 | 1430 s
+gen   9 best    65.69 gen    94.06 med    139.2 sig 0.024 | v 1.01 f 1.87 df 0.62 dlf1 0.13 pk 1.23/1.83 eff 0.023 | 1587 s
+gen  10 best    65.69 gen    79.95 med    117.8 sig 0.024 | v 1.01 f 1.87 df 0.62 dlf1 0.13 pk 1.23/1.83 eff 0.023 | 1737 s
+resuming from checkpoint after generation 10 (best 65.69)
+gen  11 best    62.12 gen    62.12 med   1015.3 sig 0.022 | v 1.03 f 1.86 df 0.61 dlf1 0.15 pk 1.21/1.91 eff 0.023 | 87 s
+gen  12 best    62.12 gen    75.20 med   1046.1 sig 0.022 | v 1.03 f 1.86 df 0.61 dlf1 0.15 pk 1.21/1.91 eff 0.023 | 156 s
+gen  13 best    62.12 gen    63.83 med    102.4 sig 0.021 | v 1.03 f 1.86 df 0.61 dlf1 0.15 pk 1.21/1.91 eff 0.023 | 237 s
+gen  14 best    55.86 gen    55.86 med     87.6 sig 0.021 | v 0.91 f 1.83 df 0.62 dlf1 0.09 pk 1.27/1.71 eff 0.022 | 324 s
+gen  15 best    46.36 gen    46.36 med     81.7 sig 0.021 | v 0.93 f 1.82 df 0.62 dlf1 0.11 pk 1.25/1.77 eff 0.022 | 407 s
+gen  16 best    46.36 gen    56.62 med    733.5 sig 0.022 | v 0.93 f 1.82 df 0.62 dlf1 0.11 pk 1.25/1.77 eff 0.022 | 491 s
+gen  17 best    46.36 gen    53.06 med     71.6 sig 0.022 | v 0.93 f 1.82 df 0.62 dlf1 0.11 pk 1.25/1.77 eff 0.022 | 584 s
+gen  18 best    42.80 gen    42.80 med     65.6 sig 0.023 | v 0.95 f 1.82 df 0.62 dlf1 0.11 pk 1.26/1.84 eff 0.022 | 664 s
+gen  19 best    42.80 gen    48.95 med    358.7 sig 0.023 | v 0.95 f 1.82 df 0.62 dlf1 0.11 pk 1.26/1.84 eff 0.022 | 738 s
+gen  20 best    42.71 gen    42.71 med     70.7 sig 0.023 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 814 s
+gen  21 best    42.71 gen    47.43 med    291.4 sig 0.024 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 895 s
+gen  22 best    42.71 gen    57.39 med    205.6 sig 0.024 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 978 s
+gen  23 best    42.71 gen    54.78 med   1049.4 sig 0.023 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1047 s
+gen  24 best    42.71 gen    58.03 med    548.2 sig 0.023 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1129 s
+gen  25 best    42.71 gen    51.55 med     60.9 sig 0.023 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1211 s
+gen  26 best    42.71 gen    46.94 med   1074.5 sig 0.023 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1276 s
+gen  27 best    42.71 gen    48.49 med   1084.0 sig 0.023 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1345 s
+gen  28 best    42.71 gen    44.51 med    538.3 sig 0.023 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1430 s
+gen  29 best    42.71 gen    48.47 med   1043.2 sig 0.022 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1494 s
+gen  30 best    42.71 gen    56.38 med    662.9 sig 0.021 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1562 s
+gen  31 best    42.71 gen    45.59 med     74.8 sig 0.020 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1638 s
+gen  32 best    42.71 gen    44.89 med     67.3 sig 0.020 | v 0.97 f 1.82 df 0.61 dlf1 0.12 pk 1.24/1.87 eff 0.023 | 1725 s
+gen  33 best    40.51 gen    40.51 med    106.4 sig 0.020 | v 0.95 f 1.82 df 0.61 dlf1 0.10 pk 1.28/1.88 eff 0.022 | 1804 s
+gen  34 best    40.51 gen    42.10 med    199.5 sig 0.020 | v 0.95 f 1.82 df 0.61 dlf1 0.10 pk 1.28/1.88 eff 0.022 | 1887 s
+stopped early after generation 34 (stop file)
+final selection: 7 of 16 candidates walk steadily for 30 s
+validation 30 s (chosen rank 3): {"fell": false, "duration": 30.0, "speed": 0.952, "n_steps": 40, "swing_scuffs_per_step": 0.0, "alternating": true, "step_time": 0.55, "step_time_cv": 0.002, "step_frequency": 1.819, "step_length": 0.523, "duty_factor": 0.617, "double_support_fraction": 0.234, "flight_fraction": 0.0, "grf_peak_over_W": 1.834, "grf_min_over_W": 0.58, "grf_mean_over_W": 1.0, "grf_foot_peak_over_W": 1.246, "com_vertical_excursion": 0.025, "peak_torque": 121.735, "effort": 0.023, "effort_abs": 0.023, "positive_work_per_kg_m": 0.611, "energy_drift_rel": 0.0, "gait": "walk", "trunk_lean": 0.122, "trunk_lean_range": 0.061, "dlf1": 0.116, "step_width": 0.113, "lateral_drift": 0.006, "com_lateral_excursion": 0.043, "grf_lateral_peak_over_W": 0.178, "dlf_lat": 0.066, "heading_max": 0.075}

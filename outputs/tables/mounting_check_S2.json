@@ -1,0 +1,4365 @@
+{
+ "status": "SIMULATION - sensitivity check",
+ "rule": {
+  "prom": 4.0,
+  "bg": 4.0,
+  "hw": 0.15,
+  "hmax": 20.0
+ },
+ "modes": [
+  {
+   "label": "B1",
+   "f": 10.4525783587597
+  },
+  {
+   "label": "B2",
+   "f": 16.328911966355548
+  }
+ ],
+ "noise_density_ug": 75.0,
+ "mounts": [
+  {
+   "id": "rigid",
+   "f": null,
+   "zeta": null,
+   "label": "rigid (main analysis)",
+   "gain_at_modes_db": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "id": "f22.8_z0.3",
+   "f": 22.8,
+   "zeta": 0.3,
+   "label": "tight strap, 22.8 Hz, damping 0.3",
+   "gain_at_modes_db": [
+    1.8689517668609203,
+    4.483785406482933
+   ]
+  },
+  {
+   "id": "f22.8_z0.1",
+   "f": 22.8,
+   "zeta": 0.1,
+   "label": "tight strap, 22.8 Hz, damping 0.1",
+   "gain_at_modes_db": [
+    2.027583660457303,
+    5.975892773074817
+   ]
+  },
+  {
+   "id": "f10.7_z0.3",
+   "f": 10.7,
+   "zeta": 0.3,
+   "label": "loose strap, 10.7 Hz, damping 0.3",
+   "gain_at_modes_db": [
+    5.896363289047473,
+    -1.5125451546446578
+   ]
+  },
+  {
+   "id": "f10.7_z0.1",
+   "f": 10.7,
+   "zeta": 0.1,
+   "label": "loose strap, 10.7 Hz, damping 0.1",
+   "gain_at_modes_db": [
+    14.1138320597835,
+    -2.306150479024759
+   ]
+  },
+  {
+   "id": "f5_z0.3",
+   "f": 5.0,
+   "zeta": 0.3,
+   "label": "very loose (assumed), 5 Hz, damping 0.3",
+   "gain_at_modes_db": [
+    -7.01173793860577,
+    -13.03123959735586
+   ]
+  },
+  {
+   "id": "f5_z0.1",
+   "f": 5.0,
+   "zeta": 0.1,
+   "label": "very loose (assumed), 5 Hz, damping 0.1",
+   "gain_at_modes_db": [
+    -9.919909227398975,
+    -18.18106265209331
+   ]
+  }
+ ],
+ "data": {
+  "rigid": {
+   "stand_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       32.964853992604105,
+       31.649991165156045
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.758203567408454
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       33.364694993930925,
+       32.129332380936575
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.758330105003783
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       32.90030297044982,
+       31.512500687516333
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.754657697479825
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       33.43879445867913,
+       31.976461751299624
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.75467841940429
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       32.825803940573344,
+       31.15142844978704
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.74558279380079
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       33.49169780989837,
+       31.436678006274178
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.74550226835284
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    }
+   },
+   "walk_same_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.4393088018288439,
+       -0.4989420555968904
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1809667910939607,
+       -0.01715287879375405
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 9
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.8326068811862752,
+       -0.4545185914552862
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9349267257071797,
+       -0.2770623807302583
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.764538015930159,
+       -0.18609450399188576
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.10423812468181
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9464133606399152,
+       0.3217196051488425
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk_same_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.4989110740974775,
+       -0.5143947068316959
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.192415588234914,
+       -0.04768222153637924
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 9
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.7714249455198736,
+       -0.4734681048648264
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9729064135177617,
+       -0.3153597648117887
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.775295717779762,
+       -0.19679246123429442
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.105130303155157
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.0120284818763068,
+       0.37318866779526944
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk3d_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7584806427677828,
+       2.035122202622917
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.10154213612935252,
+       -0.7456502181482426
+      ],
+      "tp": 0,
+      "fp": 4,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 4,
+      "empty_only": {
+       "tp": 0,
+       "fp": 4,
+       "chance_tp": 0,
+       "chance_fp": 4
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7043808215035074,
+       0.4887487525387312
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.3155945735372803,
+       0.13717571368169745
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.12738422652158357,
+       0.34361034234135956
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.0629016817230686,
+       -0.016066919692855234
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   },
+   "walk3d_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7752203962691162,
+       1.859845020044526
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.12069671604430225,
+       -0.6993076908434033
+      ],
+      "tp": 0,
+      "fp": 4,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 4,
+      "empty_only": {
+       "tp": 0,
+       "fp": 4,
+       "chance_tp": 0,
+       "chance_fp": 4
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7308113545845119,
+       0.5032984319372851
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.3293390891627395,
+       0.13262141126576737
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.06437057259554965,
+       0.3465465969093045
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.055146237627964056,
+       -0.036152982487294656
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   }
+  },
+  "f22.8_z0.3": {
+   "stand_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       34.85006202634763,
+       36.17119749779861
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.759562362947634
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       35.251908191588306,
+       36.65100349933019
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.759554978087902
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       34.79061179447454,
+       36.0467802000409
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.75604392933851
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       35.33123978490663,
+       36.51077543454021
+      ],
+      "tp": 2,
+      "fp": 1,
+      "f1": 0.8,
+      "found": [
+       10.4525783587597,
+       16.755898835915506
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 2,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       34.72081276761915,
+       35.69188640393501
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.74706755790445
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       35.388916975860965,
+       35.97637247394695
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.74671546452186
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    }
+   },
+   "walk_same_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.43240753373434293,
+       -0.4994059765433262
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.183541748735597,
+       0.0014750421416264618
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 9
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.8485898319032383,
+       -0.41375274107360716
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9368097683425934,
+       -0.30054054878976855
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.756371237861174,
+       -0.18617352595490996
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.10422932635891
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9458780974704986,
+       0.3203043528287657
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk_same_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.4915958172654125,
+       -0.5173593572862227
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1953921823652953,
+       -0.02776980011540441
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 9
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.7874735388225207,
+       -0.4341400495039424
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9746716107767148,
+       -0.33643647496713625
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.7688497118446325,
+       -0.19632942300148543
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.105154360840277
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.0095836607160495,
+       0.3709268693123814
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk3d_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7572652638184278,
+       2.0209901430169865
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.11222763543036887,
+       -0.7453539048142493
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.704256109405521,
+       0.48202751030252167
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.2745052287141714,
+       0.1312582431635604
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.1383243591637291,
+       0.33458704344648005
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.06381285099901676,
+       0.009057709686313474
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   },
+   "walk3d_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7743288444839647,
+       1.8482904150513457
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.13047040323681564,
+       -0.6989791529386817
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7310207211982584,
+       0.49646518842881937
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.2887686414925783,
+       0.1268855822362457
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.07250535140871732,
+       0.3377941554137231
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.05635729396678225,
+       -0.01006890746991811
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   }
+  },
+  "f22.8_z0.1": {
+   "stand_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       35.012482365489596,
+       37.719751403323215
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.7615029171671
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       35.4145467862186,
+       38.19920293908
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.76146928239943
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       34.95405673427405,
+       37.6093059262176
+      ],
+      "tp": 2,
+      "fp": 1,
+      "f1": 0.8,
+      "found": [
+       10.4525783587597,
+       16.757898424037805
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 2,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       35.49486805873991,
+       38.072468254450726
+      ],
+      "tp": 2,
+      "fp": 1,
+      "f1": 0.8,
+      "found": [
+       10.4525783587597,
+       16.75774027510968
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 2,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       34.885213540839835,
+       37.2605380037581
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.748839870847043
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       35.55344207510733,
+       37.54353286463146
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.74850537659612
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    }
+   },
+   "walk_same_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.432385531816647,
+       -0.5028930778525355
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1844408469123855,
+       0.02161116353114775
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.8518133420664773,
+       -0.37326838665021145
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9367892374331538,
+       -0.33373659615284723
+      ],
+      "tp": 0,
+      "fp": 4,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 4,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.753828722825235,
+       -0.1869581593009577
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.104335461855456
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9456844767445343,
+       0.3184834645756787
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk_same_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.4914863979111618,
+       -0.5229770525633333
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1961895972383356,
+       -0.008017611638331224
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.7909300935914754,
+       -0.39449354073821113
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9743461912291008,
+       -0.36974031638126004
+      ],
+      "tp": 0,
+      "fp": 4,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 4,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.766658575027606,
+       -0.19658909837296373
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.105263897141732
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.0089715971677637,
+       0.3662176298854567
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk3d_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7562828092803829,
+       2.0208777612580637
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.1145010508905703,
+       -0.7467464643521647
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.703610668315902,
+       0.4695547084625334
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.2658001386740652,
+       0.1220528933331313
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.14064075488645988,
+       0.32116643795304667
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.06408630369503443,
+       0.032215473901262684
+      ],
+      "tp": 0,
+      "fp": 8,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 8,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   },
+   "walk3d_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7733736779665484,
+       1.8477119919779623
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.13270023324914015,
+       -0.6995729556270202
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7305175911941104,
+       0.4842376653709112
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.280199408767242,
+       0.11832131121796371
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.07437467799076629,
+       0.3249791690691218
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.05670384468004768,
+       0.012815106208786311
+      ],
+      "tp": 0,
+      "fp": 8,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 8,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   }
+  },
+  "f10.7_z0.3": {
+   "stand_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       38.82227261307521,
+       30.052347183296696
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.455000280080338
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       39.22873412005643,
+       30.533516531444953
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.453741591698364
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       38.7510945813848,
+       29.8821358380418
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.75108447669638
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       39.29690597421664,
+       30.34889393096741
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.750407517983934
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       38.67044972142483,
+       29.50564948764962
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.49566393904946
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       39.344424494045505,
+       29.7944489687336
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.492659834738173
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    }
+   },
+   "walk_same_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.4264680478685818,
+       -0.4893008238131996
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1698042562399436,
+       -0.0671762950810142
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.8089607036610262,
+       -0.552908489001865
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9446017945627218,
+       -0.2509807111942183
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.7951691523248465,
+       -0.1840964586363213
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.104041781777795
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9455092048044325,
+       0.3242102164476402
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk_same_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.48663893280432235,
+       -0.5023661049919533
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1839316583517796,
+       -0.09692524708990626
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.7436450226656914,
+       -0.5712679104130373
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9878776955242391,
+       -0.28680410280868124
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.803085663253221,
+       -0.19510055855368122
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.10492082488809
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.013761924600592,
+       0.37935725955603544
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk3d_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7737965261150344,
+       2.0355833200383917
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.08471766428884307,
+       -0.7435998128954636
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7159420751410468,
+       0.5118128850545185
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.3738732348770624,
+       0.15723632689703854
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.1090596453764966,
+       0.3641010229849917
+      ],
+      "tp": 0,
+      "fp": 8,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 8,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.059343624497002354,
+       -0.07903924564425469
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   },
+   "walk3d_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7907875220786313,
+       1.861275805797534
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.10229434369138196,
+       -0.6983326091001031
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7406285325416753,
+       0.5255298652271607
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.3862714455076366,
+       0.15184240431857707
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.04755482857971079,
+       0.36521302255531785
+      ],
+      "tp": 0,
+      "fp": 8,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 8,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.05121319318187005,
+       -0.09801669343631893
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   }
+  },
+  "f10.7_z0.1": {
+   "stand_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       47.00359187589336,
+       29.232235858417845
+      ],
+      "tp": 2,
+      "fp": 1,
+      "f1": 0.8,
+      "found": [
+       10.4525783587597,
+       16.44927563578468
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 2,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       47.412972051122956,
+       29.712450467968516
+      ],
+      "tp": 2,
+      "fp": 1,
+      "f1": 0.8,
+      "found": [
+       10.4525783587597,
+       16.448032548235943
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 2,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       46.95044637402981,
+       29.046809151975236
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.74975828036531
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       47.49897406630872,
+       29.512403874733195
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.74885484845356
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       46.88714046926765,
+       28.662866209548117
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.489030462286458
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       47.5633755736882,
+       28.950198400941783
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.48738736230077
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    }
+   },
+   "walk_same_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.3607141985241701,
+       -0.48670869788124266
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1615177025545202,
+       -0.09048633678731731
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.7682290873354964,
+       -0.6015829355261151
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.0672740899804383,
+       -0.24655597092858403
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.789424304008177,
+       -0.1805485499851398
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.10403055039917
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9376001424434927,
+       0.32523669593808346
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk_same_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.41879426149745125,
+       -0.4988966988075663
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1785279129271515,
+       -0.12069770732864984
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.69739739619588,
+       -0.6185028015837397
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.1149683029272066,
+       -0.282142415093703
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.8000841143687145,
+       -0.19146146657152563
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.104883735165405
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9972072142209241,
+       0.3819830438962717
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk3d_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7938421674974165,
+       2.0394338645649053
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.11050484903016616,
+       -0.7433860269789838
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7438715403422613,
+       0.5196371798559188
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.264207423605908,
+       0.16635932637735243
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.08418758344144406,
+       0.37215693169818376
+      ],
+      "tp": 0,
+      "fp": 8,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 8,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.08842097475090518,
+       -0.11027334764818526
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   },
+   "walk3d_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.8127360521913842,
+       1.8674400999964778
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.12328243150187826,
+       -0.6991804214260346
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7697120214333262,
+       0.5330801871448364
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.279706183318586,
+       0.16077460278840627
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.0155209608923796,
+       0.3724281021507668
+      ],
+      "tp": 0,
+      "fp": 8,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 8,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.07998814305747703,
+       -0.12961041565537948
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   }
+  },
+  "f5_z0.3": {
+   "stand_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       25.8956045401725,
+       18.60313309439762
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.754833663940072
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       26.307507157942204,
+       19.08414068312785
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.753638929507623
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       25.8071371762661,
+       18.44716663557278
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.752031399224496
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       26.36015582123848,
+       18.914712093204457
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.750238587768987
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       25.709745906288823,
+       18.08171968134977
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.744481123640654
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       26.3932973178526,
+       18.37304188372862
+      ],
+      "tp": 2,
+      "fp": 0,
+      "f1": 1.0,
+      "found": [
+       10.4525783587597,
+       16.492726456515594
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    }
+   },
+   "walk_same_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.46677860982329267,
+       -0.4930590055911417
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1671593025012483,
+       -0.04672641864963755
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.780942031937375,
+       -0.5120056459671266
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9072246581694349,
+       -0.26301394764305014
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.827627887172759,
+       -0.1928534126652312
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.1041735038362
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9498109767045351,
+       0.32593827186934965
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk_same_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.5293937032948758,
+       -0.5100447327286513
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1796136970141613,
+       -0.07711234010550007
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.716500141178484,
+       -0.5346491053304911
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9485599716133964,
+       -0.29726138475239544
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.829564829711274,
+       -0.2023749670692359
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.105065697360747
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.022894623105304,
+       0.37676740429369926
+      ],
+      "tp": 1,
+      "fp": 9,
+      "f1": 0.16666666666666669,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 9,
+      "empty_only": {
+       "tp": 0,
+       "fp": 10,
+       "chance_tp": 0,
+       "chance_fp": 10
+      }
+     }
+    }
+   },
+   "walk3d_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7717104372165846,
+       2.0396841883447827
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.05356546901831888,
+       -0.7484133247920035
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7036116771302816,
+       0.5048221928753274
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.4781073839648973,
+       0.1447673322839507
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.09998234251373146,
+       0.34857534360466713
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.04999731047539968,
+       -0.05200143065584257
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   },
+   "walk3d_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7871390524076793,
+       1.8582188047405357
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.07447732784744017,
+       -0.6997808758288342
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7279644465570374,
+       0.5187020284169219
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.4899236043791633,
+       0.13976482370581994
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.04259868971958919,
+       0.3496928130123625
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.04190387287004303,
+       -0.07039916306588015
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   }
+  },
+  "f5_z0.1": {
+   "stand_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       22.964884086413598,
+       13.540595000615962
+      ],
+      "tp": 1,
+      "fp": 1,
+      "f1": 0.5,
+      "found": [
+       16.753914385677817
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       23.397622549479834,
+       14.009520717911313
+      ],
+      "tp": 1,
+      "fp": 1,
+      "f1": 0.5,
+      "found": [
+       16.750673833797684
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 1,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       22.868634550394926,
+       13.384306123573271
+      ],
+      "tp": 2,
+      "fp": 1,
+      "f1": 0.8,
+      "found": [
+       10.4525783587597,
+       16.75174924586583
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 2,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       23.442216649053137,
+       13.838012463913095
+      ],
+      "tp": 2,
+      "fp": 1,
+      "f1": 0.8,
+      "found": [
+       10.4525783587597,
+       16.747893279316425
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 2,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       22.76439026072215,
+       13.029257477941025
+      ],
+      "tp": 2,
+      "fp": 1,
+      "f1": 0.8,
+      "found": [
+       10.4525783587597,
+       16.745038122613465
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 2,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       23.467706838142405,
+       13.306759448724497
+      ],
+      "tp": 2,
+      "fp": 1,
+      "f1": 0.8,
+      "found": [
+       10.4525783587597,
+       16.49102165564298
+      ],
+      "chance_tp": 0,
+      "chance_fp": 0,
+      "empty_only": {
+       "tp": 1,
+       "fp": 2,
+       "chance_tp": 0,
+       "chance_fp": 0
+      }
+     }
+    }
+   },
+   "walk_same_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.4801328606320416,
+       -0.49506484401691225
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.1620192642299814,
+       -0.05456002504424323
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.7710882825267227,
+       -0.5367987365830827
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.8906219372202868,
+       -0.2606542942788911
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.853382195127145,
+       -0.186783084205841
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.10431539023767
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9483285646564842,
+       0.3307187619774494
+      ],
+      "tp": 1,
+      "fp": 8,
+      "f1": 0.1818181818181818,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 9
+      }
+     }
+    }
+   },
+   "walk_same_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.5433715909757876,
+       -0.5189494696644898
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -2.174583726916284,
+       -0.08599745880336643
+      ],
+      "tp": 0,
+      "fp": 9,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 8
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       2.705282788552191,
+       -0.5605318522230547
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 1,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 1,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.9330085825649509,
+       -0.29007463515146625
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       4.851360784744888,
+       -0.19295089250995562
+      ],
+      "tp": 1,
+      "fp": 7,
+      "f1": 0.2,
+      "found": [
+       16.105203990136108
+      ],
+      "chance_tp": 1,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 1,
+       "fp": 7,
+       "chance_tp": 1,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.0247402821824874,
+       0.38134657893768953
+      ],
+      "tp": 1,
+      "fp": 8,
+      "f1": 0.1818181818181818,
+      "found": [
+       16.328911966355548
+      ],
+      "chance_tp": 1,
+      "chance_fp": 8,
+      "empty_only": {
+       "tp": 0,
+       "fp": 9,
+       "chance_tp": 0,
+       "chance_fp": 9
+      }
+     }
+    }
+   },
+   "walk3d_E1": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7780425879493982,
+       2.0205926114795174
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.03680507003353039,
+       -0.7547381510373302
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7024964515143883,
+       0.5084525441098502
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.529268347845669,
+       0.14759310840062095
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.07867323097973494,
+       0.3413885460359496
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.04178949472243809,
+       -0.05908753416281686
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   },
+   "walk3d_E2": {
+    "Earth": {
+     "wrist": {
+      "vis_db": [
+       0.7935330298296075,
+       1.849413604199438
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 7,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 7
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.05881943800697954,
+       -0.7073439437199442
+      ],
+      "tp": 0,
+      "fp": 5,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 5,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    },
+    "Mars": {
+     "wrist": {
+      "vis_db": [
+       -1.7258467120783019,
+       0.5220800654293316
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -1.5411148265371284,
+       0.14221273149765895
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 6,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 6
+      }
+     }
+    },
+    "Moon": {
+     "wrist": {
+      "vis_db": [
+       0.02361609181708503,
+       0.34017528882558157
+      ],
+      "tp": 0,
+      "fp": 7,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 7,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     },
+     "thigh": {
+      "vis_db": [
+       -0.03372623258496102,
+       -0.07717697950768324
+      ],
+      "tp": 0,
+      "fp": 6,
+      "f1": 0.0,
+      "found": [],
+      "chance_tp": 0,
+      "chance_fp": 5,
+      "empty_only": {
+       "tp": 0,
+       "fp": 6,
+       "chance_tp": 0,
+       "chance_fp": 5
+      }
+     }
+    }
+   }
+  }
+ },
+ "structure": "S2",
+ "counting": "empty or declared occupied frequency",
+ "occupied": {
+  "Earth": {
+   "B1": 10.8,
+   "B2": 16.77
+  },
+  "Mars": {
+   "B1": 10.78,
+   "B2": 16.725
+  },
+  "Moon": {
+   "B1": 10.745000000000001,
+   "B2": 16.665
+  }
+ },
+ "wall_seconds": 462.29292249679565
+}

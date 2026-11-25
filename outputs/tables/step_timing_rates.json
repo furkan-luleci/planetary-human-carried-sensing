@@ -1,0 +1,411 @@
+{
+ "note": "post hoc; shakers-on walking records (first 10 of each condition, with 10 rigid twins for pooling)",
+ "rates": [
+  200.0,
+  100.0,
+  80.0,
+  62.0
+ ],
+ "results": [
+  {
+   "cond": "earth_1.00",
+   "sensor": "wrist_L",
+   "rate": 200.0,
+   "n_e": 4,
+   "stride_s": 1.1269902892613621,
+   "random_ms_median": 0.5875534747828333,
+   "total_ms_median": 2.2285795593194098,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.00",
+   "sensor": "wrist_L",
+   "rate": 100.0,
+   "n_e": 4,
+   "stride_s": 1.1265234748123816,
+   "random_ms_median": 1.0210351186242952,
+   "total_ms_median": 2.3397322109715306,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.00",
+   "sensor": "wrist_L",
+   "rate": 80.0,
+   "n_e": 4,
+   "stride_s": 1.1265968173232133,
+   "random_ms_median": 0.9241088718475858,
+   "total_ms_median": 1.4235090712885206,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.00",
+   "sensor": "wrist_L",
+   "rate": 62.0,
+   "n_e": 4,
+   "stride_s": 1.1265570823591569,
+   "random_ms_median": 2.3633809698934902,
+   "total_ms_median": 2.560678579992099,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.00",
+   "sensor": "thigh_L",
+   "rate": 200.0,
+   "n_e": 4,
+   "stride_s": 1.127202956004111,
+   "random_ms_median": 0.9385769470276497,
+   "total_ms_median": 3.1733908851455785,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.00",
+   "sensor": "thigh_L",
+   "rate": 100.0,
+   "n_e": 4,
+   "stride_s": 1.12655793055972,
+   "random_ms_median": 1.30390096524274,
+   "total_ms_median": 3.026519448027042,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.00",
+   "sensor": "thigh_L",
+   "rate": 80.0,
+   "n_e": 4,
+   "stride_s": 1.1264674482377406,
+   "random_ms_median": 3.456380495815722,
+   "total_ms_median": 4.219057706930453,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.00",
+   "sensor": "thigh_L",
+   "rate": 62.0,
+   "n_e": 4,
+   "stride_s": 1.1263833487253434,
+   "random_ms_median": 6.495410339882779,
+   "total_ms_median": 7.147310279427298,
+   "n": 10
+  },
+  {
+   "cond": "mars_1.00",
+   "sensor": "wrist_L",
+   "rate": 200.0,
+   "n_e": 4,
+   "stride_s": 1.114756635175056,
+   "random_ms_median": 19.08714946650563,
+   "total_ms_median": 20.716338469373532,
+   "n": 10
+  },
+  {
+   "cond": "mars_1.00",
+   "sensor": "wrist_L",
+   "rate": 100.0,
+   "n_e": 4,
+   "stride_s": 1.1146816288935955,
+   "random_ms_median": 19.32372108928938,
+   "total_ms_median": 20.913329833004205,
+   "n": 10
+  },
+  {
+   "cond": "mars_1.00",
+   "sensor": "wrist_L",
+   "rate": 80.0,
+   "n_e": 4,
+   "stride_s": 1.1145468714377507,
+   "random_ms_median": 19.434702621868905,
+   "total_ms_median": 20.896622868347905,
+   "n": 10
+  },
+  {
+   "cond": "mars_1.00",
+   "sensor": "wrist_L",
+   "rate": 62.0,
+   "n_e": 4,
+   "stride_s": 1.1145548146064832,
+   "random_ms_median": 18.97614274546814,
+   "total_ms_median": 20.69947230409548,
+   "n": 10
+  },
+  {
+   "cond": "mars_1.00",
+   "sensor": "thigh_L",
+   "rate": 200.0,
+   "n_e": 4,
+   "stride_s": 1.114815581099343,
+   "random_ms_median": 3.6955011574129184,
+   "total_ms_median": 5.17570842600256,
+   "n": 10
+  },
+  {
+   "cond": "mars_1.00",
+   "sensor": "thigh_L",
+   "rate": 100.0,
+   "n_e": 4,
+   "stride_s": 1.1150214718400833,
+   "random_ms_median": 4.216051714456228,
+   "total_ms_median": 5.56402104348847,
+   "n": 10
+  },
+  {
+   "cond": "mars_1.00",
+   "sensor": "thigh_L",
+   "rate": 80.0,
+   "n_e": 4,
+   "stride_s": 1.1146876577142573,
+   "random_ms_median": 4.0368604867903475,
+   "total_ms_median": 5.53475829049696,
+   "n": 10
+  },
+  {
+   "cond": "mars_1.00",
+   "sensor": "thigh_L",
+   "rate": 62.0,
+   "n_e": 4,
+   "stride_s": 1.1146717369214536,
+   "random_ms_median": 6.669075879692939,
+   "total_ms_median": 8.76944005001282,
+   "n": 10
+  },
+  {
+   "cond": "moon_1.00",
+   "sensor": "wrist_L",
+   "rate": 200.0,
+   "n_e": 2,
+   "stride_s": 1.112409579598138,
+   "random_ms_median": 2.4387983528637545,
+   "total_ms_median": 2.6060358887930875,
+   "n": 10
+  },
+  {
+   "cond": "moon_1.00",
+   "sensor": "wrist_L",
+   "rate": 100.0,
+   "n_e": 2,
+   "stride_s": 1.123124549334738,
+   "random_ms_median": 2.5230583852960775,
+   "total_ms_median": 2.5768406355295905,
+   "n": 10
+  },
+  {
+   "cond": "moon_1.00",
+   "sensor": "wrist_L",
+   "rate": 80.0,
+   "n_e": 2,
+   "stride_s": 1.1232209796577461,
+   "random_ms_median": 2.7318401830376335,
+   "total_ms_median": 2.82373055610742,
+   "n": 10
+  },
+  {
+   "cond": "moon_1.00",
+   "sensor": "wrist_L",
+   "rate": 62.0,
+   "n_e": 2,
+   "stride_s": 1.1229856594005931,
+   "random_ms_median": 3.6201385333399787,
+   "total_ms_median": 3.73933718496534,
+   "n": 10
+  },
+  {
+   "cond": "moon_1.00",
+   "sensor": "thigh_L",
+   "rate": 200.0,
+   "n_e": 4,
+   "stride_s": 1.108688439919592,
+   "random_ms_median": 1.80842761707737,
+   "total_ms_median": 3.743380914457414,
+   "n": 10
+  },
+  {
+   "cond": "moon_1.00",
+   "sensor": "thigh_L",
+   "rate": 100.0,
+   "n_e": 4,
+   "stride_s": 1.6681690377400864,
+   "random_ms_median": 562.3656546338534,
+   "total_ms_median": 589.0943176256227,
+   "n": 10
+  },
+  {
+   "cond": "moon_1.00",
+   "sensor": "thigh_L",
+   "rate": 80.0,
+   "n_e": 4,
+   "stride_s": 2.224675937569523,
+   "random_ms_median": 3524.852771974658,
+   "total_ms_median": 3533.965238549662,
+   "n": 10
+  },
+  {
+   "cond": "moon_1.00",
+   "sensor": "thigh_L",
+   "rate": 62.0,
+   "n_e": 2,
+   "stride_s": 1.112558700628432,
+   "random_ms_median": 5.414460094735076,
+   "total_ms_median": 5.632382843297165,
+   "n": 10
+  },
+  {
+   "cond": "earth3d_1.00",
+   "sensor": "wrist_L",
+   "rate": 200.0,
+   "n_e": 4,
+   "stride_s": 1.1030722662434373,
+   "random_ms_median": 0.7618109344281376,
+   "total_ms_median": 4.074706352881994,
+   "n": 10
+  },
+  {
+   "cond": "earth3d_1.00",
+   "sensor": "wrist_L",
+   "rate": 100.0,
+   "n_e": 4,
+   "stride_s": 1.1027751668497796,
+   "random_ms_median": 1.0133106682958155,
+   "total_ms_median": 4.23056883350508,
+   "n": 10
+  },
+  {
+   "cond": "earth3d_1.00",
+   "sensor": "wrist_L",
+   "rate": 80.0,
+   "n_e": 4,
+   "stride_s": 1.102635535626697,
+   "random_ms_median": 1.3378760501969857,
+   "total_ms_median": 5.166971659273839,
+   "n": 10
+  },
+  {
+   "cond": "earth3d_1.00",
+   "sensor": "wrist_L",
+   "rate": 62.0,
+   "n_e": 4,
+   "stride_s": 1.1022230304386778,
+   "random_ms_median": 2.1232383808973863,
+   "total_ms_median": 5.328364995088803,
+   "n": 10
+  },
+  {
+   "cond": "earth3d_1.00",
+   "sensor": "thigh_L",
+   "rate": 200.0,
+   "n_e": 4,
+   "stride_s": 1.1035216563081773,
+   "random_ms_median": 1.795912941405724,
+   "total_ms_median": 5.970719382312918,
+   "n": 10
+  },
+  {
+   "cond": "earth3d_1.00",
+   "sensor": "thigh_L",
+   "rate": 100.0,
+   "n_e": 4,
+   "stride_s": 1.1029121383179508,
+   "random_ms_median": 2.6473508319170174,
+   "total_ms_median": 5.671805960429905,
+   "n": 10
+  },
+  {
+   "cond": "earth3d_1.00",
+   "sensor": "thigh_L",
+   "rate": 80.0,
+   "n_e": 4,
+   "stride_s": 1.1026576142589297,
+   "random_ms_median": 2.8519700659904723,
+   "total_ms_median": 6.514826220882666,
+   "n": 10
+  },
+  {
+   "cond": "earth3d_1.00",
+   "sensor": "thigh_L",
+   "rate": 62.0,
+   "n_e": 4,
+   "stride_s": 1.102433790082436,
+   "random_ms_median": 2.2955382573192975,
+   "total_ms_median": 6.416847817786704,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.50",
+   "sensor": "wrist_L",
+   "rate": 200.0,
+   "n_e": 2,
+   "stride_s": 0.9764271471259834,
+   "random_ms_median": 0.381816547162326,
+   "total_ms_median": 0.709677506101696,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.50",
+   "sensor": "wrist_L",
+   "rate": 100.0,
+   "n_e": 2,
+   "stride_s": 0.9513155484195148,
+   "random_ms_median": 0.38989051355720417,
+   "total_ms_median": 0.6855230921772155,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.50",
+   "sensor": "wrist_L",
+   "rate": 80.0,
+   "n_e": 4,
+   "stride_s": 1.9026069525782379,
+   "random_ms_median": 0.9774722035713355,
+   "total_ms_median": 1.2309395916011643,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.50",
+   "sensor": "wrist_L",
+   "rate": 62.0,
+   "n_e": 2,
+   "stride_s": 0.9763924626065141,
+   "random_ms_median": 1.5940051567001223,
+   "total_ms_median": 1.796923632033832,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.50",
+   "sensor": "thigh_L",
+   "rate": 200.0,
+   "n_e": 2,
+   "stride_s": 0.9761148396689414,
+   "random_ms_median": 1.6824617265572017,
+   "total_ms_median": 3.164247522393199,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.50",
+   "sensor": "thigh_L",
+   "rate": 100.0,
+   "n_e": 2,
+   "stride_s": 0.9638882025193789,
+   "random_ms_median": 2.438017935039678,
+   "total_ms_median": 3.5883318627091247,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.50",
+   "sensor": "thigh_L",
+   "rate": 80.0,
+   "n_e": 2,
+   "stride_s": 0.963740058232657,
+   "random_ms_median": 2.9172975648630555,
+   "total_ms_median": 3.668689240694178,
+   "n": 10
+  },
+  {
+   "cond": "earth_1.50",
+   "sensor": "thigh_L",
+   "rate": 62.0,
+   "n_e": 2,
+   "stride_s": 0.9294365721988839,
+   "random_ms_median": 13.074150444477683,
+   "total_ms_median": 14.366611530966903,
+   "n": 10
+  }
+ ]
+}

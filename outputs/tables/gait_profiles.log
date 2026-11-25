@@ -1,0 +1,11 @@
+earth3d_1.00 Earth stances 794 contact time 0.677 s peak 1.24
+earth_1.00 Earth stances 800 contact time 0.688 s peak 1.13
+earth_1.25 Earth stances 694 contact time 0.586 s peak 1.06
+earth_1.50 Earth stances 640 contact time 0.554 s peak 1.27
+mars3d_1.00 Mars stances 1400 contact time 0.356 s peak 0.81
+mars_0.77_similar Mars stances 664 contact time 0.964 s peak 1.50
+mars_1.00 Mars stances 760 contact time 0.620 s peak 1.33
+moon3d_1.00 Moon stances 860 contact time 0.611 s peak 2.05
+moon_0.51_similar Moon stances 688 contact time 1.443 s peak 2.00
+moon_1.00 Moon stances 1492 contact time 0.325 s peak 1.22
+wrote outputs/tables/gait_profiles.json

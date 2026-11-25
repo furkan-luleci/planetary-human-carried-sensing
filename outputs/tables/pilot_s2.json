@@ -1,0 +1,65 @@
+{
+ "note": "pilot only, S2 scope",
+ "results": [
+  {
+   "name": "pilot_walking_earth_1.00_E1",
+   "wall_s": 33.76809989200001,
+   "fell": false,
+   "failure": "",
+   "T_sim": 19.0,
+   "n_window": 1765,
+   "deck_rms_z_under": 1.0011086463928223,
+   "deck_peak_z_under": 3.417476177215576,
+   "gait": {
+    "speed": 0.9286284402877695,
+    "step_frequency": 1.7690169320192064,
+    "duty_factor": 0.6178533072209236
+   }
+  },
+  {
+   "name": "pilot_walking_moon3d_1.00_E1",
+   "wall_s": 70.64864129500006,
+   "fell": false,
+   "failure": "",
+   "T_sim": 19.0,
+   "n_window": 1794,
+   "deck_rms_z_under": 0.7869207859039307,
+   "deck_peak_z_under": 2.9718382358551025,
+   "gait": {
+    "speed": 0.9110804113041946,
+    "step_frequency": 1.8539828666410947,
+    "duty_factor": 0.5646295467621301
+   }
+  },
+  {
+   "name": "pilot_walking_moon_1.00_E2",
+   "wall_s": 29.89195229400002,
+   "fell": false,
+   "failure": "",
+   "T_sim": 18.0,
+   "n_window": 1633,
+   "deck_rms_z_under": 0.532059371471405,
+   "deck_peak_z_under": 1.8574191331863403,
+   "gait": {
+    "speed": 1.0080753607096784,
+    "step_frequency": 1.7895243994769081,
+    "duty_factor": 0.585203028217481
+   }
+  },
+  {
+   "name": "pilot_standing_Earth_E1",
+   "wall_s": 161.69161618599992,
+   "fell": false,
+   "failure": "",
+   "T_sim": 80.25,
+   "n_window": 12000,
+   "deck_rms_z_under": 0.2659352123737335,
+   "deck_peak_z_under": 1.056444525718689,
+   "contact": {
+    "sumFn_over_W_min": 0.9701585756211709,
+    "sumFn_over_W_max": 1.0332738785616848,
+    "frac_time_any_point_open": 0.0
+   }
+  }
+ ]
+}

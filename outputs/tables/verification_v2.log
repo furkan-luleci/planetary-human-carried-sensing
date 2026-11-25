@@ -1,0 +1,26 @@
+89 passed, 1 skipped in 52.97s
+PASS Model of the structure (S1 footbridge) reproduces the earlier study's model (Table 3 frequencies, matrices) | 1 of 1 cases passed
+PASS Standing body is held up by the feet with exactly its weight, on every planet | 12 of 12 cases passed
+PASS Same, with the calibrated springy legs | 6 of 6 cases passed
+PASS Quiet standing stays put and sensors read local gravity | 3 of 3 cases passed
+PASS Weight changes with gravity, mass does not | 1 of 1 cases passed
+PASS Energy and momentum conserved in free flight (no contact) | 2 of 2 cases passed
+PASS Work-energy balance of person + structure + contact (drop test) | 4 of 4 cases passed
+PASS Feet can push but never pull on the floor | 2 of 2 cases passed
+PASS Person and structure receive equal and opposite forces | 5 of 5 cases passed
+PASS Body dynamics and virtual sensors agree with an independent physics engine (MuJoCo) | 5 of 5 cases passed
+PASS Fast compiled code gives the same answer as the reference code | 3 of 3 cases passed
+PASS Calibrated body reproduces its published resonance and damping targets | 5 of 5 cases passed
+PASS Legs compress and soften under lower weight (the mechanism studied) | 1 of 1 cases passed
+PASS Walking on the structure: force balance and work-energy balance hold | 2 of 2 cases passed
+PASS 3-D walking on the structure: force balance in all three directions and work-energy balance hold | 2 of 2 cases passed
+PASS A structure with no flexibility behaves exactly like solid ground | 1 of 1 cases passed
+PASS Results converge as the time step shrinks | 1 of 1 cases passed
+PASS Virtual accelerometer and gyroscope formulas | 5 of 5 cases passed
+PASS Earlier study's index and spectral processing reused unchanged and give identical output | 4 of 4 cases passed
+PASS Shakers, 5 N floor and deck lead-in set up as in the earlier study | 3 of 3 cases passed
+PASS Same inputs give bit-identical results | 2 of 2 cases passed
+PASS A device's own gait clock (synthetic gait): right number of events per stride and stride period, no count lost at quick steps, random timing error under 1 ms | 4 of 4 cases passed
+PASS Each side processed with its own clock gives the earlier study's two-sided result | 1 of 1 cases passed
+PASS Energy book-keeping closes in every simulated trial (660 trials) | largest error 1.7e-04 of the energy exchanged
+PASS No simulated person fell | 0 falls in 660 trials

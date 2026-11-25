@@ -1,0 +1,3 @@
+figures: ['fig_concept.png', 'fig_gait_forces.png', 'fig_recovery.png', 'fig_recovery_sensitivity.png', 'fig_sensor_mounting.png', 'fig_standing_body.png', 'fig_standing_transmissibility.png', 'fig_transmission_by_mode.png', 'fig_visibility.png', 'fig_walker_2d_vs_3d.png']
+tables: ['tab_bridge_vibration.md', 'tab_gait.md', 'tab_gait_3d_frontal.md', 'tab_legacy_oi.md', 'tab_baseline_check.md', 'tab_recovery.md', 'tab_sensor_mounting.md', 'tab_standing_resonance.md', 'tab_transmission.md', 'tab_verification.md', 'tab_visibility.md', 'tab_walker_2d_vs_3d.md']
+skipped: []

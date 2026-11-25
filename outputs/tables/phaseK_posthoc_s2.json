@@ -1,0 +1,23 @@
+{
+ "note": "post hoc, after the declared criteria were evaluated; does not change any verdict",
+ "data": {
+  "Earth": {
+   "device_peak_hz": 10.8125,
+   "device_peak_over_median_db": 5.181758480887545,
+   "floor_psd_interior_peak": true,
+   "floor_psd_peak_linear_shakers_hz": 10.891586649827609
+  },
+  "Mars": {
+   "device_peak_hz": 10.8125,
+   "device_peak_over_median_db": 6.956851389022094,
+   "floor_psd_interior_peak": true,
+   "floor_psd_peak_linear_shakers_hz": 10.834097468854429
+  },
+  "Moon": {
+   "device_peak_hz": 10.8125,
+   "device_peak_over_median_db": 8.915129800673151,
+   "floor_psd_interior_peak": true,
+   "floor_psd_peak_linear_shakers_hz": 10.771381998701871
+  }
+ }
+}

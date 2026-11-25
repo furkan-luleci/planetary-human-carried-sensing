@@ -1,0 +1,6655 @@
+{
+ "declared": "docs/phase_reports/PHASE_J_step_timing.md (commit f784e2d)",
+ "criterion1": {
+  "cells": 266,
+  "same_class": 173,
+  "share_same": 0.650375939849624,
+  "observable_exact": 50,
+  "observable_kept": 35,
+  "share_kept": 0.7,
+  "holds": false,
+  "transitions": {
+   "O->O": 35,
+   "M->O": 3,
+   "M->M": 92,
+   "U->U": 46,
+   "U->M": 33,
+   "O->M": 11,
+   "M->U": 40,
+   "U->O": 2,
+   "O->U": 4
+  },
+  "changed": [
+   {
+    "case": "walk_same_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "T1",
+    "exact": "M",
+    "device_cls": "O",
+    "oi_exact": 84.1,
+    "oi_device": 94.98,
+    "excess_exact": 16.814968357500476,
+    "excess_device": 19.383596388892723
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "T3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 23.82,
+    "oi_device": 78.57,
+    "excess_exact": 10.325602647169665,
+    "excess_device": 12.858934364140488
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "B2",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 92.86,
+    "oi_device": 87.3,
+    "excess_exact": 13.887035636779485,
+    "excess_device": 10.765393577777875
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 32.79,
+    "excess_exact": 6.267501569104538,
+    "excess_device": 4.858990987892986
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 58.61,
+    "oi_device": 23.27,
+    "excess_exact": 6.91213833933028,
+    "excess_device": 3.6440136603064106
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "B2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 68.3,
+    "oi_device": 13.46,
+    "excess_exact": 39.08818397527283,
+    "excess_device": 30.378640597513794
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 62.43,
+    "oi_device": 0.0,
+    "excess_exact": 35.30143462650977,
+    "excess_device": 18.185361261462006
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "T2",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 49.76,
+    "excess_exact": 31.480578898052215,
+    "excess_device": 9.819599480432789
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "B2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 29.11,
+    "oi_device": 0.0,
+    "excess_exact": 30.38604109180504,
+    "excess_device": 23.995571233832646
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "T1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 40.16,
+    "oi_device": 0.0,
+    "excess_exact": 35.506812689746525,
+    "excess_device": 14.173990536113902
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "B3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 44.84,
+    "excess_exact": 36.24207286603234,
+    "excess_device": 11.370737470423533
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "T2",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 23.23,
+    "oi_device": 35.45,
+    "excess_exact": 36.625386127424726,
+    "excess_device": 9.775005950331131
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 68.26,
+    "oi_device": 11.28,
+    "excess_exact": 31.863168147744418,
+    "excess_device": 6.8331070866687735
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T1",
+    "exact": "U",
+    "device_cls": "O",
+    "oi_exact": 0.0,
+    "oi_device": 94.41,
+    "excess_exact": 23.792941550429823,
+    "excess_device": 17.002145232412673
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 90.96,
+    "oi_device": 0.0,
+    "excess_exact": 20.771146053705397,
+    "excess_device": 15.933028904103974
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T2",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 45.67,
+    "excess_exact": 18.20815592974696,
+    "excess_device": 13.709812549315377
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "B2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 28.0,
+    "oi_device": 0.0,
+    "excess_exact": 9.843963837573448,
+    "excess_device": 10.164599658611852
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "T1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 53.09,
+    "oi_device": 21.93,
+    "excess_exact": 13.147940803389488,
+    "excess_device": 6.551022491045377
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "B3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 14.3,
+    "oi_device": 39.52,
+    "excess_exact": 13.829793283349233,
+    "excess_device": 8.259595257606252
+   },
+   {
+    "case": "walk_same_E1",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 64.1,
+    "excess_exact": 12.0121825236499,
+    "excess_device": 5.229554968496472
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "B2",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 96.23,
+    "oi_device": 88.77,
+    "excess_exact": 29.642035205150265,
+    "excess_device": 22.20310070675396
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "T1",
+    "exact": "U",
+    "device_cls": "O",
+    "oi_exact": 0.0,
+    "oi_device": 93.53,
+    "excess_exact": 23.089903614085877,
+    "excess_device": 12.870604279619421
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "B3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 40.28,
+    "excess_exact": 15.487656235677944,
+    "excess_device": 6.151231040842713
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 79.37,
+    "oi_device": 22.37,
+    "excess_exact": 24.2780090724004,
+    "excess_device": 4.001092129108736
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "T1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 14.44,
+    "oi_device": 50.52,
+    "excess_exact": 9.33157367055139,
+    "excess_device": 1.3758759705168058
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "L1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 51.1,
+    "oi_device": 0.0,
+    "excess_exact": 25.48589574275114,
+    "excess_device": -1.4906146042247357
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 68.65,
+    "oi_device": 0.0,
+    "excess_exact": 9.95833226462312,
+    "excess_device": -0.7378797910473901
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 92.55,
+    "oi_device": 74.05,
+    "excess_exact": 22.81242086166192,
+    "excess_device": 11.616770269090722
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "B3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 87.76,
+    "oi_device": 22.93,
+    "excess_exact": 21.248925225341363,
+    "excess_device": 2.3888794078479427
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T1",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 93.73,
+    "oi_device": 89.36,
+    "excess_exact": 22.726732194910944,
+    "excess_device": 21.04011284734038
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 78.37,
+    "oi_device": 26.23,
+    "excess_exact": 15.210862993901436,
+    "excess_device": 10.694961368915909
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 57.29,
+    "oi_device": 20.79,
+    "excess_exact": 12.074132782363113,
+    "excess_device": 8.058525753120282
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 36.63,
+    "oi_device": 0.0,
+    "excess_exact": 3.2251084011971436,
+    "excess_device": 8.49460674870408
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 49.0,
+    "oi_device": 20.07,
+    "excess_exact": 4.643452405673277,
+    "excess_device": 3.356216238048449
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "T1",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 96.26,
+    "oi_device": 60.37,
+    "excess_exact": 16.850541363868633,
+    "excess_device": 2.598722078216259
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 17.54,
+    "oi_device": 33.6,
+    "excess_exact": 11.99431916000034,
+    "excess_device": 5.052288158019898
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "B3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 40.37,
+    "oi_device": 16.82,
+    "excess_exact": 22.73313769292654,
+    "excess_device": 3.754037566144821
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "T2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 40.27,
+    "oi_device": 24.63,
+    "excess_exact": 22.532687960487138,
+    "excess_device": 3.662340460803357
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 36.84,
+    "oi_device": 23.47,
+    "excess_exact": 24.18970691162982,
+    "excess_device": 2.984127751359629
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "B3",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 93.16,
+    "oi_device": 83.18,
+    "excess_exact": 14.912994428183604,
+    "excess_device": 10.883288384757602
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 22.83,
+    "oi_device": 42.28,
+    "excess_exact": 1.9676822186786493,
+    "excess_device": 2.700028874220905
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 37.88,
+    "oi_device": 22.34,
+    "excess_exact": 5.639671534304181,
+    "excess_device": 3.485683287306821
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "T2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 65.85,
+    "oi_device": 21.62,
+    "excess_exact": 8.595745014249799,
+    "excess_device": 2.2780645624363345
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "T3",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 97.34,
+    "oi_device": 85.61,
+    "excess_exact": 9.694759794094251,
+    "excess_device": 4.307659147862934
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "B3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 57.52,
+    "excess_exact": 2.113478009492382,
+    "excess_device": 1.9908793347040776
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "T3",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 96.48,
+    "oi_device": 38.3,
+    "excess_exact": 12.990409532801142,
+    "excess_device": 1.7203048141557955
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "B1",
+    "exact": "O",
+    "device_cls": "U",
+    "oi_exact": 94.83,
+    "oi_device": 0.0,
+    "excess_exact": 23.118590396101332,
+    "excess_device": 3.2884177832510906
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "B2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 30.9,
+    "oi_device": 0.0,
+    "excess_exact": 0.08530397410201501,
+    "excess_device": -1.4858483095068284
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 66.25,
+    "excess_exact": 12.35276933393026,
+    "excess_device": 1.7936419461520194
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "B3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 68.99,
+    "oi_device": 0.0,
+    "excess_exact": 4.322582982983964,
+    "excess_device": -1.6826947019095149
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "T2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 63.8,
+    "oi_device": 0.0,
+    "excess_exact": 1.992392577410655,
+    "excess_device": -0.9353245048312736
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "B1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 53.15,
+    "oi_device": 18.06,
+    "excess_exact": 10.209699623360065,
+    "excess_device": 1.701299136554069
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "B2",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 32.39,
+    "excess_exact": 5.462749583631607,
+    "excess_device": 3.659259453665284
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 30.87,
+    "oi_device": 0.0,
+    "excess_exact": -0.0016173160210515016,
+    "excess_device": 0.362479098078045
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "B3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 34.17,
+    "excess_exact": 0.1833720755112027,
+    "excess_device": 0.4995431911161122
+   },
+   {
+    "case": "walk_similar_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 35.26,
+    "excess_exact": 0.32252379902081474,
+    "excess_device": 0.09712738919343737
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "B3",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 96.76,
+    "oi_device": 85.74,
+    "excess_exact": 16.199528553265587,
+    "excess_device": 10.986530257693104
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 25.63,
+    "oi_device": 35.77,
+    "excess_exact": 8.881088399454796,
+    "excess_device": 3.7449675144701433
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "B2",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 95.42,
+    "oi_device": 69.13,
+    "excess_exact": 19.041581404736238,
+    "excess_device": 1.5519384401912055
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "B3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 52.79,
+    "oi_device": 0.0,
+    "excess_exact": 5.762949436528839,
+    "excess_device": -1.0281751823291556
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "L1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 76.31,
+    "oi_device": 13.46,
+    "excess_exact": 7.305787225705062,
+    "excess_device": 0.30106498970211715
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "B2",
+    "exact": "M",
+    "device_cls": "O",
+    "oi_exact": 73.4,
+    "oi_device": 93.4,
+    "excess_exact": 16.519292866195446,
+    "excess_device": 17.129221376284907
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "B3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 21.52,
+    "oi_device": 50.82,
+    "excess_exact": 9.758989823123157,
+    "excess_device": 4.5514999991893665
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 38.91,
+    "excess_exact": 10.779174935453229,
+    "excess_device": 0.8021772322037002
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "T2",
+    "exact": "O",
+    "device_cls": "U",
+    "oi_exact": 94.43,
+    "oi_device": 25.38,
+    "excess_exact": 11.441909759350011,
+    "excess_device": 1.163441537683226
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 79.07,
+    "oi_device": 0.0,
+    "excess_exact": 9.912811241110003,
+    "excess_device": -0.26981719309687174
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "T1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 73.24,
+    "oi_device": 0.0,
+    "excess_exact": 3.4484136543181743,
+    "excess_device": 2.3936956572310946
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "L1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 85.06,
+    "oi_device": 0.0,
+    "excess_exact": 5.8361707524560105,
+    "excess_device": 0.6996319648811382
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 77.63,
+    "oi_device": 0.0,
+    "excess_exact": 4.577371460214738,
+    "excess_device": -0.9098215764644944
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 62.3,
+    "excess_exact": 13.05699788216649,
+    "excess_device": 8.304362731340637
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 14.6,
+    "oi_device": 40.8,
+    "excess_exact": 9.047159471961292,
+    "excess_device": 6.901515975403033
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "B3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 82.39,
+    "oi_device": 17.77,
+    "excess_exact": 11.302880491234399,
+    "excess_device": 0.7241162387797777
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "T3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 71.55,
+    "oi_device": 0.0,
+    "excess_exact": 8.198771180629405,
+    "excess_device": -1.269176181029694
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "T2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 41.19,
+    "oi_device": 0.0,
+    "excess_exact": 0.17343834129963928,
+    "excess_device": -1.203471235587021
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "B2",
+    "exact": "O",
+    "device_cls": "U",
+    "oi_exact": 97.11,
+    "oi_device": 0.0,
+    "excess_exact": 12.201745547262155,
+    "excess_device": -4.039083736188868
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "T1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 81.49,
+    "excess_exact": -0.589749888788679,
+    "excess_device": 0.3859403628292496
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "B3",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 58.97,
+    "oi_device": 0.0,
+    "excess_exact": 1.2547417320451928,
+    "excess_device": -1.4773794608251793
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "T2",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 49.31,
+    "oi_device": 0.0,
+    "excess_exact": 4.048727292517775,
+    "excess_device": -0.7594272986548043
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "T3",
+    "exact": "O",
+    "device_cls": "U",
+    "oi_exact": 92.67,
+    "oi_device": 0.0,
+    "excess_exact": 3.9079885643603456,
+    "excess_device": -1.340929115270849
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Mars",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 60.14,
+    "oi_device": 0.0,
+    "excess_exact": 0.5572624509496831,
+    "excess_device": -0.7760358780206539
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "B2",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 41.12,
+    "excess_exact": -2.866696714167021,
+    "excess_device": 2.4841892426825387
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "B3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 77.74,
+    "excess_exact": -1.4689041004821997,
+    "excess_device": 1.9728164685283813
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Mars",
+    "device": "phone",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 49.58,
+    "excess_exact": -1.3710463907480677,
+    "excess_device": 0.29634573137093007
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 65.42,
+    "excess_exact": -0.5750260401319323,
+    "excess_device": 0.9175111179145469
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "B3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 55.89,
+    "excess_exact": -6.420888717482212,
+    "excess_device": 0.7519928915702134
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 67.93,
+    "excess_exact": -1.5922699188505482,
+    "excess_device": 2.5137165264867822
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T2",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 60.23,
+    "excess_exact": -0.7752949034289179,
+    "excess_device": 2.1756795230313046
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "mode": "T3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 54.08,
+    "excess_exact": -0.8464896299340953,
+    "excess_device": 2.036868514756263
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "B1",
+    "exact": "M",
+    "device_cls": "O",
+    "oi_exact": 90.52,
+    "oi_device": 92.34,
+    "excess_exact": 6.4950148609277845,
+    "excess_device": 7.36653024037905
+   },
+   {
+    "case": "walk3d_E2",
+    "planet": "Moon",
+    "device": "phone",
+    "mode": "L1",
+    "exact": "M",
+    "device_cls": "U",
+    "oi_exact": 58.02,
+    "oi_device": 0.0,
+    "excess_exact": 0.6047521669714327,
+    "excess_device": -0.07446571346571942
+   },
+   {
+    "case": "baseline_walk",
+    "planet": "Earth",
+    "device": "watch",
+    "mode": "B3",
+    "exact": "O",
+    "device_cls": "M",
+    "oi_exact": 98.22,
+    "oi_device": 82.52,
+    "excess_exact": 19.93294177187103,
+    "excess_device": 15.886595117349401
+   },
+   {
+    "case": "baseline_walk",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "B3",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 83.53,
+    "excess_exact": 16.750120424289914,
+    "excess_device": 2.5004677504406487
+   },
+   {
+    "case": "baseline_walk",
+    "planet": "Earth",
+    "device": "phone",
+    "mode": "L1",
+    "exact": "U",
+    "device_cls": "M",
+    "oi_exact": 0.0,
+    "oi_device": 65.62,
+    "excess_exact": 9.284732178324548,
+    "excess_device": 1.8138574847827003
+   }
+  ]
+ },
+ "criterion2_phase_I_c1_recheck": {
+  "cells": [
+   {
+    "device": "watch",
+    "exact": "O",
+    "device_clock": "O",
+    "oi_exact": 98.64,
+    "oi_device": 98.69
+   },
+   {
+    "device": "phone",
+    "exact": "O",
+    "device_clock": "O",
+    "oi_exact": 97.16,
+    "oi_device": 98.78
+   }
+  ],
+  "holds": true
+ },
+ "criterion3": {
+  "cells": 38,
+  "above_chance_plus_one": [
+   {
+    "case": "walk_same_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "tp": 3,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344
+    ]
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "tp": 2,
+    "fp": 1,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Moon",
+    "device": "watch",
+    "tp": 2,
+    "fp": 1,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   {
+    "case": "walk_similar_E1",
+    "planet": "Moon",
+    "device": "phone",
+    "tp": 2,
+    "fp": 1,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   {
+    "case": "walk_same_E2",
+    "planet": "Moon",
+    "device": "watch",
+    "tp": 6,
+    "fp": 10,
+    "chance": 3,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Earth",
+    "device": "watch",
+    "tp": 3,
+    "fp": 2,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344
+    ]
+   },
+   {
+    "case": "walk3d_E1",
+    "planet": "Mars",
+    "device": "phone",
+    "tp": 2,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   }
+  ],
+  "holds": false
+ },
+ "m2_summary": {
+  "none_no_rejection": {
+   "cells_above_chance_plus_one": 1,
+   "total_found": 145,
+   "total_chance": 161
+  },
+  "none_rejection": {
+   "cells_above_chance_plus_one": 1,
+   "total_found": 75,
+   "total_chance": 91
+  },
+  "exact_no_rejection": {
+   "cells_above_chance_plus_one": 14,
+   "total_found": 88,
+   "total_chance": 61
+  },
+  "exact_rejection": {
+   "cells_above_chance_plus_one": 8,
+   "total_found": 40,
+   "total_chance": 31
+  },
+  "device_no_rejection": {
+   "cells_above_chance_plus_one": 7,
+   "total_found": 54,
+   "total_chance": 41
+  },
+  "device_rejection": {
+   "cells_above_chance_plus_one": 1,
+   "total_found": 19,
+   "total_chance": 21
+  }
+ },
+ "m2_cells": [
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 6,
+    "fp": 11,
+    "chance": 6,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     12.302154632290344,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 4,
+    "fp": 3,
+    "chance": 3,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 2,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     7.20906903698409,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 3,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344
+    ]
+   },
+   "device_rejection": {
+    "tp": 2,
+    "fp": 0,
+    "chance": 1,
+    "found": [
+     7.20906903698409,
+     12.302154632290344
+    ]
+   }
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 6,
+    "fp": 15,
+    "chance": 6,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 6,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 4,
+    "fp": 6,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 3,
+    "fp": 4,
+    "chance": 0,
+    "found": [
+     7.20906903698409,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 1,
+    "found": [
+     7.20906903698409
+    ]
+   }
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 6,
+    "fp": 9,
+    "chance": 6,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 3,
+    "chance": 2,
+    "found": [
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 0,
+    "fp": 2,
+    "chance": 0,
+    "found": []
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 4,
+    "found": []
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 3,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 11,
+    "chance": 5,
+    "found": [
+     1.8022679782227302,
+     12.302154632290344,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 2,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 1,
+    "found": []
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 6,
+    "chance": 5,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772
+    ]
+   },
+   "none_rejection": {
+    "tp": 0,
+    "fp": 2,
+    "chance": 3,
+    "found": []
+   },
+   "exact_no_rejection": {
+    "tp": 2,
+    "fp": 2,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 2,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 2,
+    "chance": 3,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 3,
+    "fp": 11,
+    "chance": 5,
+    "found": [
+     1.8022679782227302,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 2,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 0,
+    "found": []
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 2,
+    "chance": 0,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 2,
+    "fp": 13,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 1,
+    "fp": 3,
+    "chance": 1,
+    "found": [
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 3,
+    "fp": 7,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 3,
+    "fp": 3,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 3,
+    "fp": 1,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344
+    ]
+   },
+   "device_rejection": {
+    "tp": 3,
+    "fp": 0,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344
+    ]
+   }
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 5,
+    "fp": 9,
+    "chance": 5,
+    "found": [
+     1.8022679782227302,
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 1,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 3,
+    "fp": 3,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     16.220377052873772
+    ]
+   },
+   "exact_rejection": {
+    "tp": 2,
+    "fp": 2,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   }
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 3,
+    "fp": 17,
+    "chance": 3,
+    "found": [
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 9,
+    "chance": 3,
+    "found": [
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 5,
+    "fp": 8,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     16.220377052873772,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 2,
+    "fp": 6,
+    "chance": 2,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 2,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 2,
+    "chance": 1,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 2,
+    "fp": 13,
+    "chance": 2,
+    "found": [
+     16.220377052873772,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 1,
+    "fp": 4,
+    "chance": 1,
+    "found": [
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 4,
+    "fp": 9,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "exact_rejection": {
+    "tp": 3,
+    "fp": 5,
+    "chance": 2,
+    "found": [
+     7.20906903698409,
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 1,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   }
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 13,
+    "chance": 4,
+    "found": [
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 2,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 3,
+    "fp": 1,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344
+    ]
+   },
+   "exact_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 1,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   }
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 2,
+    "fp": 5,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 1,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 2,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "exact_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 1,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   }
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 7,
+    "fp": 10,
+    "chance": 6,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 4,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     12.302154632290344,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 6,
+    "fp": 11,
+    "chance": 3,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 2,
+    "fp": 6,
+    "chance": 0,
+    "found": [
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 4,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 1,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 5,
+    "fp": 15,
+    "chance": 6,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     16.220377052873772,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 6,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 3,
+    "fp": 9,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 2,
+    "fp": 4,
+    "chance": 0,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 1,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 6,
+    "fp": 11,
+    "chance": 6,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 6,
+    "fp": 10,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 2,
+    "fp": 4,
+    "chance": 0,
+    "found": [
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 2,
+    "chance": 4,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 3,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 5,
+    "fp": 13,
+    "chance": 5,
+    "found": [
+     1.8022679782227302,
+     12.302154632290344,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 3,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 7,
+    "fp": 9,
+    "chance": 5,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 3,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 6,
+    "fp": 11,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 2,
+    "fp": 6,
+    "chance": 2,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 6,
+    "fp": 10,
+    "chance": 3,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "device_rejection": {
+    "tp": 2,
+    "fp": 4,
+    "chance": 0,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   }
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 6,
+    "fp": 14,
+    "chance": 5,
+    "found": [
+     1.8022679782227302,
+     12.302154632290344,
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 3,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 3,
+    "fp": 13,
+    "chance": 0,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 3,
+    "fp": 5,
+    "chance": 0,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 0,
+    "fp": 4,
+    "chance": 0,
+    "found": []
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 2,
+    "fp": 14,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 1,
+    "fp": 4,
+    "chance": 1,
+    "found": [
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 2,
+    "fp": 11,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 1,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 3,
+    "fp": 1,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     16.220377052873772,
+     22.27348835788797
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 2,
+    "found": [
+     22.27348835788797
+    ]
+   }
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 5,
+    "fp": 12,
+    "chance": 5,
+    "found": [
+     1.8022679782227302,
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 2,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 4,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 4,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 1,
+    "found": []
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 1,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 3,
+    "fp": 19,
+    "chance": 3,
+    "found": [
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 11,
+    "chance": 3,
+    "found": [
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     16.220377052873772
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 2,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 0,
+    "fp": 5,
+    "chance": 1,
+    "found": []
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 3,
+    "chance": 1,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 3,
+    "fp": 13,
+    "chance": 2,
+    "found": [
+     16.220377052873772,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 4,
+    "chance": 1,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 2,
+    "found": []
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 2,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 16,
+    "chance": 4,
+    "found": [
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 3,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 3,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 0,
+    "fp": 2,
+    "chance": 0,
+    "found": []
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 3,
+    "fp": 9,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 3,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 0,
+    "fp": 4,
+    "chance": 1,
+    "found": []
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 11,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 3,
+    "chance": 2,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 6,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_rejection": {
+    "tp": 3,
+    "fp": 1,
+    "chance": 0,
+    "found": [
+     12.302154632290344,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 3,
+    "fp": 2,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     12.302154632290344
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     12.302154632290344
+    ]
+   }
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 11,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     16.220377052873772,
+     22.27348835788797
+    ]
+   },
+   "none_rejection": {
+    "tp": 1,
+    "fp": 2,
+    "chance": 1,
+    "found": [
+     22.27348835788797
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 3,
+    "fp": 6,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     22.27348835788797
+    ]
+   },
+   "exact_rejection": {
+    "tp": 1,
+    "fp": 3,
+    "chance": 1,
+    "found": [
+     22.27348835788797
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 1,
+    "found": []
+   }
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 1,
+    "fp": 11,
+    "chance": 3,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "none_rejection": {
+    "tp": 0,
+    "fp": 3,
+    "chance": 2,
+    "found": []
+   },
+   "exact_no_rejection": {
+    "tp": 2,
+    "fp": 3,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "exact_rejection": {
+    "tp": 1,
+    "fp": 3,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 2,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 2,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   }
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 12,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   }
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 1,
+    "fp": 8,
+    "chance": 6,
+    "found": [
+     16.220377052873772
+    ]
+   },
+   "none_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 4,
+    "found": []
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 1,
+    "chance": 5,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 2,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     7.20906903698409
+    ]
+   }
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 1,
+    "fp": 5,
+    "chance": 3,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "none_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 2,
+    "found": []
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 2,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 12,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 3,
+    "chance": 2,
+    "found": [
+     22.27348835788797,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 4,
+    "fp": 6,
+    "chance": 2,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     16.220377052873772,
+     22.27348835788797
+    ]
+   },
+   "exact_rejection": {
+    "tp": 1,
+    "fp": 1,
+    "chance": 0,
+    "found": [
+     22.27348835788797
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 2,
+    "fp": 3,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 12,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     16.220377052873772,
+     22.27348835788797
+    ]
+   },
+   "none_rejection": {
+    "tp": 1,
+    "fp": 2,
+    "chance": 1,
+    "found": [
+     22.27348835788797
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 3,
+    "fp": 4,
+    "chance": 1,
+    "found": [
+     1.8022679782227302,
+     7.20906903698409,
+     22.27348835788797
+    ]
+   },
+   "exact_rejection": {
+    "tp": 1,
+    "fp": 2,
+    "chance": 1,
+    "found": [
+     22.27348835788797
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 1,
+    "found": []
+   }
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 2,
+    "fp": 15,
+    "chance": 3,
+    "found": [
+     1.8022679782227302,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 1,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 2,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 4,
+    "fp": 13,
+    "chance": 4,
+    "found": [
+     1.8022679782227302,
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 0,
+    "chance": 0,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 3,
+    "fp": 16,
+    "chance": 6,
+    "found": [
+     1.8022679782227302,
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "none_rejection": {
+    "tp": 2,
+    "fp": 4,
+    "chance": 4,
+    "found": [
+     22.27348835788797,
+     24.58534023385976
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 3,
+    "chance": 5,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 1,
+    "chance": 2,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 2,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 2,
+    "fp": 16,
+    "chance": 3,
+    "found": [
+     1.8022679782227302,
+     22.27348835788797
+    ]
+   },
+   "none_rejection": {
+    "tp": 1,
+    "fp": 4,
+    "chance": 2,
+    "found": [
+     22.27348835788797
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 1,
+    "chance": 2,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "exact_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 1,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 0,
+    "fp": 0,
+    "chance": 0,
+    "found": []
+   }
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "watch",
+   "none_no_rejection": {
+    "tp": 5,
+    "fp": 10,
+    "chance": 5,
+    "found": [
+     12.302154632290344,
+     16.220377052873772,
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "none_rejection": {
+    "tp": 3,
+    "fp": 3,
+    "chance": 3,
+    "found": [
+     22.27348835788797,
+     24.58534023385976,
+     28.836088725428805
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 1,
+    "fp": 6,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "exact_rejection": {
+    "tp": 1,
+    "fp": 6,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 9,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 9,
+    "chance": 1,
+    "found": [
+     1.8022679782227302
+    ]
+   }
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "phone",
+   "none_no_rejection": {
+    "tp": 3,
+    "fp": 14,
+    "chance": 4,
+    "found": [
+     7.20906903698409,
+     12.302154632290344,
+     16.220377052873772
+    ]
+   },
+   "none_rejection": {
+    "tp": 1,
+    "fp": 5,
+    "chance": 2,
+    "found": [
+     12.302154632290344
+    ]
+   },
+   "exact_no_rejection": {
+    "tp": 3,
+    "fp": 5,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     16.220377052873772,
+     24.58534023385976
+    ]
+   },
+   "exact_rejection": {
+    "tp": 3,
+    "fp": 5,
+    "chance": 0,
+    "found": [
+     1.8022679782227302,
+     16.220377052873772,
+     24.58534023385976
+    ]
+   },
+   "device_no_rejection": {
+    "tp": 1,
+    "fp": 4,
+    "chance": 0,
+    "found": [
+     1.8022679782227302
+    ]
+   },
+   "device_rejection": {
+    "tp": 1,
+    "fp": 3,
+    "chance": 0,
+    "found": [
+     1.8022679782227302
+    ]
+   }
+  }
+ ],
+ "excess_change_db": {
+  "median": -3.476919165207871,
+  "p10": -14.33791781706923,
+  "p90": 0.9793267615828487,
+  "by_mode_median": {
+   "B1": -1.5227343563986269,
+   "B2": -2.85857915285006,
+   "T1": -2.684120680874157,
+   "B3": -4.038026348973815,
+   "L1": -4.51758073951285,
+   "T2": -4.458142373997958,
+   "T3": -5.318009162931256
+  }
+ },
+ "regression_vs_phase_I": {
+  "max_abs_oi_difference": 0.0,
+  "class_mismatches": 0
+ },
+ "cells": [
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 97.93,
+   "oi_device": 97.57,
+   "excess_exact": 24.08118808550646,
+   "excess_device": 23.61298526332042
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 95.83,
+   "oi_device": 93.07,
+   "excess_exact": 22.48895867096309,
+   "excess_device": 16.246026907327924
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "O",
+   "oi_exact": 84.1,
+   "oi_device": 94.98,
+   "excess_exact": 16.814968357500476,
+   "excess_device": 19.383596388892723
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 52.97,
+   "oi_device": 90.12,
+   "excess_exact": 9.311839443830745,
+   "excess_device": 12.790735495334868
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 9.913036191530727,
+   "excess_device": 14.459601884342792
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 84.6,
+   "oi_device": 39.52,
+   "excess_exact": 8.950591632996495,
+   "excess_device": 9.196332810283337
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 23.82,
+   "oi_device": 78.57,
+   "excess_exact": 10.325602647169665,
+   "excess_device": 12.858934364140488
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 96.61,
+   "oi_device": 96.41,
+   "excess_exact": 18.180263948620702,
+   "excess_device": 17.377441744373904
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 92.86,
+   "oi_device": 87.3,
+   "excess_exact": 13.887035636779485,
+   "excess_device": 10.765393577777875
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 81.23,
+   "oi_device": 65.59,
+   "excess_exact": 8.526202479529553,
+   "excess_device": 3.53765581644881
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 56.9,
+   "oi_device": 47.76,
+   "excess_exact": 6.413838042820197,
+   "excess_device": 3.9024742954194807
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 32.79,
+   "excess_exact": 6.267501569104538,
+   "excess_device": 4.858990987892986
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 35.58,
+   "oi_device": 27.7,
+   "excess_exact": 4.262473152557063,
+   "excess_device": 4.289313894410927
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 58.61,
+   "oi_device": 23.27,
+   "excess_exact": 6.91213833933028,
+   "excess_device": 3.6440136603064106
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 41.84558926358454,
+   "excess_device": 22.450988432577155
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 68.3,
+   "oi_device": 13.46,
+   "excess_exact": 39.08818397527283,
+   "excess_device": 30.378640597513794
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 64.79,
+   "oi_device": 58.21,
+   "excess_exact": 39.3281716489104,
+   "excess_device": 14.403643819275366
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 50.84,
+   "oi_device": 69.41,
+   "excess_exact": 34.07413449806678,
+   "excess_device": 15.098188192899983
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 62.43,
+   "oi_device": 0.0,
+   "excess_exact": 35.30143462650977,
+   "excess_device": 18.185361261462006
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 49.76,
+   "excess_exact": 31.480578898052215,
+   "excess_device": 9.819599480432789
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 71.29,
+   "oi_device": 80.74,
+   "excess_exact": 31.619368204781875,
+   "excess_device": 12.254242404589984
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 62.99,
+   "oi_device": 65.38,
+   "excess_exact": 32.90468488804968,
+   "excess_device": 29.59256368826935
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 29.11,
+   "oi_device": 0.0,
+   "excess_exact": 30.38604109180504,
+   "excess_device": 23.995571233832646
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 40.16,
+   "oi_device": 0.0,
+   "excess_exact": 35.506812689746525,
+   "excess_device": 14.173990536113902
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 44.84,
+   "excess_exact": 36.24207286603234,
+   "excess_device": 11.370737470423533
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 69.29,
+   "oi_device": 47.43,
+   "excess_exact": 33.64988846799073,
+   "excess_device": 13.553969644457958
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 23.23,
+   "oi_device": 35.45,
+   "excess_exact": 36.625386127424726,
+   "excess_device": 9.775005950331131
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 68.26,
+   "oi_device": 11.28,
+   "excess_exact": 31.863168147744418,
+   "excess_device": 6.8331070866687735
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 94.48,
+   "oi_device": 94.6,
+   "excess_exact": 25.81609597877626,
+   "excess_device": 25.81461746643687
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 93.98,
+   "oi_device": 97.76,
+   "excess_exact": 25.03313723169258,
+   "excess_device": 25.251364050702982
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "O",
+   "oi_exact": 0.0,
+   "oi_device": 94.41,
+   "excess_exact": 23.792941550429823,
+   "excess_device": 17.002145232412673
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 61.16,
+   "oi_device": 62.82,
+   "excess_exact": 20.273825037975364,
+   "excess_device": 17.009958247513634
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 90.96,
+   "oi_device": 0.0,
+   "excess_exact": 20.771146053705397,
+   "excess_device": 15.933028904103974
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 45.67,
+   "excess_exact": 18.20815592974696,
+   "excess_device": 13.709812549315377
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 50.93,
+   "oi_device": 51.57,
+   "excess_exact": 14.813846634039262,
+   "excess_device": 13.25062579009577
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 92.62,
+   "oi_device": 99.41,
+   "excess_exact": 15.879289809547279,
+   "excess_device": 25.616253861952885
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 28.0,
+   "oi_device": 0.0,
+   "excess_exact": 9.843963837573448,
+   "excess_device": 10.164599658611852
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 53.09,
+   "oi_device": 21.93,
+   "excess_exact": 13.147940803389488,
+   "excess_device": 6.551022491045377
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 14.3,
+   "oi_device": 39.52,
+   "excess_exact": 13.829793283349233,
+   "excess_device": 8.259595257606252
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 64.1,
+   "excess_exact": 12.0121825236499,
+   "excess_device": 5.229554968496472
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 59.99,
+   "oi_device": 55.5,
+   "excess_exact": 13.032213456421893,
+   "excess_device": 4.874581699022686
+  },
+  {
+   "case": "walk_same_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 76.82,
+   "oi_device": 71.75,
+   "excess_exact": 11.557584530878861,
+   "excess_device": 5.779428893585653
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.94,
+   "oi_device": 98.87,
+   "excess_exact": 42.12452280990825,
+   "excess_device": 28.8329389867905
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 96.23,
+   "oi_device": 88.77,
+   "excess_exact": 29.642035205150265,
+   "excess_device": 22.20310070675396
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "O",
+   "oi_exact": 0.0,
+   "oi_device": 93.53,
+   "excess_exact": 23.089903614085877,
+   "excess_device": 12.870604279619421
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 40.28,
+   "excess_exact": 15.487656235677944,
+   "excess_device": 6.151231040842713
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 8.923951932189688,
+   "excess_device": -0.9209767424991889
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 69.75,
+   "oi_device": 53.09,
+   "excess_exact": 12.820893606822573,
+   "excess_device": 2.570526700521092
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 79.37,
+   "oi_device": 22.37,
+   "excess_exact": 24.2780090724004,
+   "excess_device": 4.001092129108736
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.45,
+   "oi_device": 97.29,
+   "excess_exact": 38.22716563477214,
+   "excess_device": 16.25797939684041
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 80.39,
+   "oi_device": 78.97,
+   "excess_exact": 12.013983893117196,
+   "excess_device": 3.8039788539439368
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 14.44,
+   "oi_device": 50.52,
+   "excess_exact": 9.33157367055139,
+   "excess_device": 1.3758759705168058
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 73.34,
+   "oi_device": 58.36,
+   "excess_exact": 10.77507878098839,
+   "excess_device": 1.0473290396141604
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 51.1,
+   "oi_device": 0.0,
+   "excess_exact": 25.48589574275114,
+   "excess_device": -1.4906146042247357
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 53.97,
+   "oi_device": 45.9,
+   "excess_exact": 14.61196914820685,
+   "excess_device": 0.5912246322959976
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 68.65,
+   "oi_device": 0.0,
+   "excess_exact": 9.95833226462312,
+   "excess_device": -0.7378797910473901
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 99.1,
+   "oi_device": 99.1,
+   "excess_exact": 47.70619120319017,
+   "excess_device": 45.97820201242704
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 96.62,
+   "oi_device": 94.8,
+   "excess_exact": 33.13933551181019,
+   "excess_device": 24.858790837069247
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 82.74,
+   "oi_device": 87.19,
+   "excess_exact": 23.39765456971074,
+   "excess_device": 22.48351955653294
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 21.982646822670354,
+   "excess_device": 14.323663830143389
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 92.55,
+   "oi_device": 74.05,
+   "excess_exact": 22.81242086166192,
+   "excess_device": 11.616770269090722
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 61.89,
+   "oi_device": 56.2,
+   "excess_exact": 16.999605371816582,
+   "excess_device": 10.637867346918366
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 85.81,
+   "oi_device": 44.68,
+   "excess_exact": 15.39359922949156,
+   "excess_device": 6.800963345626576
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.19,
+   "oi_device": 98.3,
+   "excess_exact": 45.34195384719077,
+   "excess_device": 31.23676145971926
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 91.68,
+   "oi_device": 91.72,
+   "excess_exact": 26.738746120744228,
+   "excess_device": 15.041434717249658
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 69.32,
+   "oi_device": 78.48,
+   "excess_exact": 21.400246943081804,
+   "excess_device": 6.46270278990843
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 87.76,
+   "oi_device": 22.93,
+   "excess_exact": 21.248925225341363,
+   "excess_device": 2.3888794078479427
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 35.58,
+   "oi_device": 28.8,
+   "excess_exact": 17.572598553308932,
+   "excess_device": 3.8262928101448326
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 37.02,
+   "oi_device": 37.29,
+   "excess_exact": 18.378177999362247,
+   "excess_device": 2.1271977157390736
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 66.74,
+   "oi_device": 29.74,
+   "excess_exact": 17.820401274095687,
+   "excess_device": 2.5933868225661834
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.17,
+   "oi_device": 98.11,
+   "excess_exact": 46.0367476371755,
+   "excess_device": 41.88859250478135
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 89.84,
+   "oi_device": 91.13,
+   "excess_exact": 31.0324892389489,
+   "excess_device": 25.13993641336888
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 93.73,
+   "oi_device": 89.36,
+   "excess_exact": 22.726732194910944,
+   "excess_device": 21.04011284734038
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 58.16,
+   "oi_device": 74.18,
+   "excess_exact": 19.663204822663896,
+   "excess_device": 18.25027221280484
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 25.33,
+   "excess_exact": 14.980826197155162,
+   "excess_device": 11.39378290830096
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 78.37,
+   "oi_device": 26.23,
+   "excess_exact": 15.210862993901436,
+   "excess_device": 10.694961368915909
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 57.29,
+   "oi_device": 20.79,
+   "excess_exact": 12.074132782363113,
+   "excess_device": 8.058525753120282
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 97.55,
+   "oi_device": 97.47,
+   "excess_exact": 39.30824836042508,
+   "excess_device": 35.615604429277056
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 85.85,
+   "oi_device": 86.51,
+   "excess_exact": 23.89974492826309,
+   "excess_device": 19.559105996056946
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 50.84,
+   "oi_device": 65.75,
+   "excess_exact": 18.579566778186546,
+   "excess_device": 16.525603519167294
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 47.12,
+   "oi_device": 39.83,
+   "excess_exact": 18.86695217293746,
+   "excess_device": 12.539052661402359
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 78.5,
+   "oi_device": 66.32,
+   "excess_exact": 17.831503459533305,
+   "excess_device": 10.81078214266267
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 56.24,
+   "oi_device": 39.81,
+   "excess_exact": 18.83471623859221,
+   "excess_device": 8.872023070670897
+  },
+  {
+   "case": "walk_similar_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 42.16,
+   "oi_device": 30.07,
+   "excess_exact": 14.433329581919747,
+   "excess_device": 5.2249997895371
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 99.68,
+   "oi_device": 99.6,
+   "excess_exact": 21.6594303207873,
+   "excess_device": 21.101693442032566
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 52.43,
+   "oi_device": 90.84,
+   "excess_exact": 11.957081699200526,
+   "excess_device": 6.9185121550552395
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 90.87,
+   "oi_device": 68.78,
+   "excess_exact": 5.770241799894573,
+   "excess_device": 4.73776032867522
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 61.89,
+   "oi_device": 34.62,
+   "excess_exact": 2.5195470710209915,
+   "excess_device": 2.920842643244205
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 36.63,
+   "oi_device": 0.0,
+   "excess_exact": 3.2251084011971436,
+   "excess_device": 8.49460674870408
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 84.71,
+   "oi_device": 60.21,
+   "excess_exact": 4.883088886024021,
+   "excess_device": 3.8881212601167947
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 75.46,
+   "oi_device": 72.49,
+   "excess_exact": 8.16081723913052,
+   "excess_device": 7.617044885824759
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.05,
+   "oi_device": 97.74,
+   "excess_exact": 15.432006309946328,
+   "excess_device": 14.583104208233292
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 84.34,
+   "oi_device": 67.8,
+   "excess_exact": 5.417182381545802,
+   "excess_device": 5.886563661860665
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 76.25,
+   "oi_device": 54.84,
+   "excess_exact": 2.9431296716496003,
+   "excess_device": 2.609008356572902
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 57.11,
+   "oi_device": 46.13,
+   "excess_exact": 3.1278408678400016,
+   "excess_device": 3.4226327174541424
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 2.816919761690379,
+   "excess_device": 3.21268292519657
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 58.4,
+   "oi_device": 61.11,
+   "excess_exact": 1.8644681757092096,
+   "excess_device": 4.310688454972507
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 49.0,
+   "oi_device": 20.07,
+   "excess_exact": 4.643452405673277,
+   "excess_device": 3.356216238048449
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 99.91,
+   "oi_device": 98.61,
+   "excess_exact": 29.588672105641507,
+   "excess_device": 13.330496273664798
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 56.99,
+   "oi_device": 58.45,
+   "excess_exact": 19.31951362056003,
+   "excess_device": 7.447656355367607
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 96.26,
+   "oi_device": 60.37,
+   "excess_exact": 16.850541363868633,
+   "excess_device": 2.598722078216259
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 83.62,
+   "oi_device": 74.67,
+   "excess_exact": 14.522741540774804,
+   "excess_device": 4.695512294271718
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 17.54,
+   "oi_device": 33.6,
+   "excess_exact": 11.99431916000034,
+   "excess_device": 5.052288158019898
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 90.46,
+   "oi_device": 63.68,
+   "excess_exact": 18.067148891407847,
+   "excess_device": 3.801455568122653
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 89.03,
+   "oi_device": 80.83,
+   "excess_exact": 17.185092840606696,
+   "excess_device": 2.774950529753432
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 96.28,
+   "oi_device": 95.8,
+   "excess_exact": 24.40650468911061,
+   "excess_device": 21.246950475514783
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 18.23419575063801,
+   "excess_device": 13.7056605101129
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 52.95,
+   "oi_device": 48.16,
+   "excess_exact": 24.126335649323245,
+   "excess_device": 8.856063128544482
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 40.37,
+   "oi_device": 16.82,
+   "excess_exact": 22.73313769292654,
+   "excess_device": 3.754037566144821
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 22.826865785271323,
+   "excess_device": 9.95274667832867
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 40.27,
+   "oi_device": 24.63,
+   "excess_exact": 22.532687960487138,
+   "excess_device": 3.662340460803357
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 36.84,
+   "oi_device": 23.47,
+   "excess_exact": 24.18970691162982,
+   "excess_device": 2.984127751359629
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 99.02,
+   "oi_device": 99.18,
+   "excess_exact": 15.816270341802802,
+   "excess_device": 17.25230178885272
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 99.8,
+   "oi_device": 99.77,
+   "excess_exact": 21.92454571614414,
+   "excess_device": 21.399512136079437
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 16.322287623505908,
+   "excess_device": 4.341037563550033
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 93.16,
+   "oi_device": 83.18,
+   "excess_exact": 14.912994428183604,
+   "excess_device": 10.883288384757602
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 22.83,
+   "oi_device": 42.28,
+   "excess_exact": 1.9676822186786493,
+   "excess_device": 2.700028874220905
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 37.88,
+   "oi_device": 22.34,
+   "excess_exact": 5.639671534304181,
+   "excess_device": 3.485683287306821
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 9.86,
+   "oi_device": 12.82,
+   "excess_exact": 8.03305254773088,
+   "excess_device": 5.621428100430799
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 74.29,
+   "oi_device": 33.12,
+   "excess_exact": 6.085655355054842,
+   "excess_device": 3.7323035806790896
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 82.22,
+   "oi_device": 78.22,
+   "excess_exact": 6.092107831690093,
+   "excess_device": 4.663359951902941
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 4.128535168936642,
+   "excess_device": 0.8142570662075799
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 82.77,
+   "oi_device": 64.65,
+   "excess_exact": 4.5697697029817625,
+   "excess_device": 3.223344958300821
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 49.81,
+   "oi_device": 34.18,
+   "excess_exact": 10.631284383604392,
+   "excess_device": 2.4056970488889466
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 65.85,
+   "oi_device": 21.62,
+   "excess_exact": 8.595745014249799,
+   "excess_device": 2.2780645624363345
+  },
+  {
+   "case": "walk_same_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 97.34,
+   "oi_device": 85.61,
+   "excess_exact": 9.694759794094251,
+   "excess_device": 4.307659147862934
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 99.51,
+   "oi_device": 94.14,
+   "excess_exact": 26.48238241747866,
+   "excess_device": 12.635301668584887
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 4.861062565719957,
+   "excess_device": 1.81983314899957
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 27.57,
+   "oi_device": 59.41,
+   "excess_exact": 5.271001038646219,
+   "excess_device": 3.5864035244697106
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 57.52,
+   "excess_exact": 2.113478009492382,
+   "excess_device": 1.9908793347040776
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 41.13,
+   "oi_device": 61.79,
+   "excess_exact": 2.432987573194378,
+   "excess_device": 1.4039490108261492
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 38.66,
+   "oi_device": 43.26,
+   "excess_exact": 2.094701220092406,
+   "excess_device": 1.7053495648693582
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 96.48,
+   "oi_device": 38.3,
+   "excess_exact": 12.990409532801142,
+   "excess_device": 1.7203048141557955
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "U",
+   "oi_exact": 94.83,
+   "oi_device": 0.0,
+   "excess_exact": 23.118590396101332,
+   "excess_device": 3.2884177832510906
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 30.9,
+   "oi_device": 0.0,
+   "excess_exact": 0.08530397410201501,
+   "excess_device": -1.4858483095068284
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 74.12,
+   "oi_device": 39.01,
+   "excess_exact": 0.8890159939647926,
+   "excess_device": 1.8537901901295937
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 56.21,
+   "oi_device": 37.85,
+   "excess_exact": 1.8983984549584347,
+   "excess_device": 2.687446453248202
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 66.25,
+   "excess_exact": 12.35276933393026,
+   "excess_device": 1.7936419461520194
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 22.61,
+   "oi_device": 10.8,
+   "excess_exact": 3.2533527691900166,
+   "excess_device": 2.136645554740321
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 51.39,
+   "oi_device": 71.92,
+   "excess_exact": 0.763074473117522,
+   "excess_device": 1.3894495796498894
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 54.29,
+   "oi_device": 38.5,
+   "excess_exact": 6.52372508240243,
+   "excess_device": 5.859689471817191
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 5.296594480763504,
+   "excess_device": 2.889399603152608
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 36.35,
+   "oi_device": 69.43,
+   "excess_exact": 2.0314228256435816,
+   "excess_device": 3.4164016392165015
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 68.99,
+   "oi_device": 0.0,
+   "excess_exact": 4.322582982983964,
+   "excess_device": -1.6826947019095149
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 48.89,
+   "oi_device": 29.9,
+   "excess_exact": 1.3674631938443325,
+   "excess_device": 2.8710313536904355
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 63.8,
+   "oi_device": 0.0,
+   "excess_exact": 1.992392577410655,
+   "excess_device": -0.9353245048312736
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 40.07,
+   "oi_device": 35.26,
+   "excess_exact": 2.2075009226314526,
+   "excess_device": 0.24007040907437774
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 53.15,
+   "oi_device": 18.06,
+   "excess_exact": 10.209699623360065,
+   "excess_device": 1.701299136554069
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 32.39,
+   "excess_exact": 5.462749583631607,
+   "excess_device": 3.659259453665284
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 65.11,
+   "oi_device": 57.99,
+   "excess_exact": 4.746802904614951,
+   "excess_device": 0.13227603306899383
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 80.51,
+   "oi_device": 68.58,
+   "excess_exact": 5.886631763218386,
+   "excess_device": 0.8743039902279388
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 44.46,
+   "oi_device": 35.44,
+   "excess_exact": 3.4391116319161568,
+   "excess_device": 2.611801936950033
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 72.15,
+   "oi_device": 35.26,
+   "excess_exact": 3.793849589411197,
+   "excess_device": 0.7157863639690336
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 77.37,
+   "oi_device": 61.45,
+   "excess_exact": 5.422922592395098,
+   "excess_device": 1.1105321494886524
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 50.26,
+   "oi_device": 41.46,
+   "excess_exact": 5.007204068994524,
+   "excess_device": 1.8804495422866778
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 3.418449891103056,
+   "excess_device": 1.2055480033417842
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 30.87,
+   "oi_device": 0.0,
+   "excess_exact": -0.0016173160210515016,
+   "excess_device": 0.362479098078045
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 34.17,
+   "excess_exact": 0.1833720755112027,
+   "excess_device": 0.4995431911161122
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 35.26,
+   "excess_exact": 0.32252379902081474,
+   "excess_device": 0.09712738919343737
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -0.22274068308531045,
+   "excess_device": -0.06985023133458818
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 22.7,
+   "excess_exact": -0.007570407936673784,
+   "excess_device": 0.29992298922407984
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 1.0448786959997112,
+   "excess_device": -0.5908928324265906
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -0.9748548604643571,
+   "excess_device": -3.320926029060061
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -0.5880801036710221,
+   "excess_device": -0.8091684518342773
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -1.634239593724772,
+   "excess_device": -0.32459418658898553
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -0.7229185914581522,
+   "excess_device": -0.09643566864509842
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 19.96,
+   "oi_device": 0.0,
+   "excess_exact": 0.6021286512917444,
+   "excess_device": -0.6252438921883873
+  },
+  {
+   "case": "walk_similar_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -0.6907450717191164,
+   "excess_device": -0.606918625084937
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 97.56,
+   "oi_device": 97.39,
+   "excess_exact": 20.157740538272684,
+   "excess_device": 19.244354033281503
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 97.65,
+   "oi_device": 96.42,
+   "excess_exact": 21.890164402566953,
+   "excess_device": 18.130396377955183
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 95.59,
+   "oi_device": 94.21,
+   "excess_exact": 14.53156899919756,
+   "excess_device": 14.101546481862997
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 96.76,
+   "oi_device": 85.74,
+   "excess_exact": 16.199528553265587,
+   "excess_device": 10.986530257693104
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 25.63,
+   "oi_device": 35.77,
+   "excess_exact": 8.881088399454796,
+   "excess_device": 3.7449675144701433
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 34.81,
+   "oi_device": 55.91,
+   "excess_exact": 6.300331515775747,
+   "excess_device": 2.5180691532567527
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 49.38,
+   "oi_device": 29.89,
+   "excess_exact": 13.077022183567276,
+   "excess_device": 2.3414979119730885
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 96.97,
+   "oi_device": 96.01,
+   "excess_exact": 19.421164726540795,
+   "excess_device": 14.37085860530371
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 95.42,
+   "oi_device": 69.13,
+   "excess_exact": 19.041581404736238,
+   "excess_device": 1.5519384401912055
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 57.49,
+   "oi_device": 42.44,
+   "excess_exact": 8.05605361439666,
+   "excess_device": 1.3188940726447478
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 52.79,
+   "oi_device": 0.0,
+   "excess_exact": 5.762949436528839,
+   "excess_device": -1.0281751823291556
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 76.31,
+   "oi_device": 13.46,
+   "excess_exact": 7.305787225705062,
+   "excess_device": 0.30106498970211715
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 18.8,
+   "oi_device": 0.0,
+   "excess_exact": 9.013715747642134,
+   "excess_device": -0.9844996780085725
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 24.64,
+   "oi_device": 0.0,
+   "excess_exact": 8.987520469969176,
+   "excess_device": -0.6711090651875306
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 97.32,
+   "oi_device": 97.13,
+   "excess_exact": 22.488106868902218,
+   "excess_device": 22.551363696283317
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "O",
+   "oi_exact": 73.4,
+   "oi_device": 93.4,
+   "excess_exact": 16.519292866195446,
+   "excess_device": 17.129221376284907
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 19.18,
+   "oi_device": 14.28,
+   "excess_exact": 11.451187099231408,
+   "excess_device": 5.046760004497378
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 21.52,
+   "oi_device": 50.82,
+   "excess_exact": 9.758989823123157,
+   "excess_device": 4.5514999991893665
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 38.91,
+   "excess_exact": 10.779174935453229,
+   "excess_device": 0.8021772322037002
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "O",
+   "device_cls": "U",
+   "oi_exact": 94.43,
+   "oi_device": 25.38,
+   "excess_exact": 11.441909759350011,
+   "excess_device": 1.163441537683226
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 79.07,
+   "oi_device": 0.0,
+   "excess_exact": 9.912811241110003,
+   "excess_device": -0.26981719309687174
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 96.12,
+   "oi_device": 96.51,
+   "excess_exact": 16.672245749664544,
+   "excess_device": 16.473227024189665
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 6.0491461374160815,
+   "excess_device": 9.37750737469439
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 73.24,
+   "oi_device": 0.0,
+   "excess_exact": 3.4484136543181743,
+   "excess_device": 2.3936956572310946
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 40.56,
+   "oi_device": 42.75,
+   "excess_exact": 5.7243604092524425,
+   "excess_device": 2.425318490897565
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 85.06,
+   "oi_device": 0.0,
+   "excess_exact": 5.8361707524560105,
+   "excess_device": 0.6996319648811382
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 48.08,
+   "oi_device": 36.46,
+   "excess_exact": 4.470615511856877,
+   "excess_device": 0.3458204399249625
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 77.63,
+   "oi_device": 0.0,
+   "excess_exact": 4.577371460214738,
+   "excess_device": -0.9098215764644944
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 96.7,
+   "oi_device": 96.75,
+   "excess_exact": 19.31648304813259,
+   "excess_device": 18.356762953943424
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 56.86,
+   "oi_device": 84.4,
+   "excess_exact": 15.442131040658397,
+   "excess_device": 16.425094312206166
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 62.3,
+   "excess_exact": 13.05699788216649,
+   "excess_device": 8.304362731340637
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 48.18,
+   "oi_device": 41.57,
+   "excess_exact": 10.706272700433079,
+   "excess_device": 7.433739215582801
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 14.6,
+   "oi_device": 40.8,
+   "excess_exact": 9.047159471961292,
+   "excess_device": 6.901515975403033
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 76.86,
+   "oi_device": 53.78,
+   "excess_exact": 12.892188805470358,
+   "excess_device": 6.23044322423546
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 54.35,
+   "oi_device": 35.86,
+   "excess_exact": 9.656666996240892,
+   "excess_device": 4.716571334808015
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 96.58,
+   "oi_device": 97.02,
+   "excess_exact": 14.859194125204588,
+   "excess_device": 15.879072809769593
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 8.011121341572498,
+   "excess_device": 6.607460028753027
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 76.71,
+   "oi_device": 35.71,
+   "excess_exact": 9.235915250263423,
+   "excess_device": 0.9745846414121301
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 82.39,
+   "oi_device": 17.77,
+   "excess_exact": 11.302880491234399,
+   "excess_device": 0.7241162387797777
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 60.53,
+   "oi_device": 48.67,
+   "excess_exact": 14.919386826396291,
+   "excess_device": 2.5189648532535527
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 25.36,
+   "oi_device": 0.0,
+   "excess_exact": 6.628218530676321,
+   "excess_device": -1.1366483528241937
+  },
+  {
+   "case": "walk3d_E1",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 71.55,
+   "oi_device": 0.0,
+   "excess_exact": 8.198771180629405,
+   "excess_device": -1.269176181029694
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.93,
+   "oi_device": 98.63,
+   "excess_exact": 15.756866063060588,
+   "excess_device": 15.029501952625534
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.17,
+   "oi_device": 94.93,
+   "excess_exact": 13.369315679517497,
+   "excess_device": 10.002520637955957
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 6.63,
+   "excess_exact": 0.666736909678794,
+   "excess_device": -0.1223654556547111
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 89.84,
+   "oi_device": 63.52,
+   "excess_exact": 7.95209166501974,
+   "excess_device": 2.578207047918577
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 38.69,
+   "oi_device": 44.71,
+   "excess_exact": 2.8504095859580008,
+   "excess_device": 0.4494628562908516
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 41.19,
+   "oi_device": 0.0,
+   "excess_exact": 0.17343834129963928,
+   "excess_device": -1.203471235587021
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 83.44,
+   "oi_device": 60.84,
+   "excess_exact": 7.221131307106817,
+   "excess_device": 0.8875045308716085
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.18,
+   "oi_device": 93.26,
+   "excess_exact": 15.316525657644178,
+   "excess_device": 10.1641183574557
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "O",
+   "device_cls": "U",
+   "oi_exact": 97.11,
+   "oi_device": 0.0,
+   "excess_exact": 12.201745547262155,
+   "excess_device": -4.039083736188868
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 81.49,
+   "excess_exact": -0.589749888788679,
+   "excess_device": 0.3859403628292496
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 58.97,
+   "oi_device": 0.0,
+   "excess_exact": 1.2547417320451928,
+   "excess_device": -1.4773794608251793
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 47.06,
+   "oi_device": 59.5,
+   "excess_exact": 1.3237524076671021,
+   "excess_device": 0.09843295818221776
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 49.31,
+   "oi_device": 0.0,
+   "excess_exact": 4.048727292517775,
+   "excess_device": -0.7594272986548043
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "O",
+   "device_cls": "U",
+   "oi_exact": 92.67,
+   "oi_device": 0.0,
+   "excess_exact": 3.9079885643603456,
+   "excess_device": -1.340929115270849
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 78.94,
+   "oi_device": 78.84,
+   "excess_exact": 7.078201839968735,
+   "excess_device": 7.501940137928433
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -3.1706410015670174,
+   "excess_device": 0.7171182731119774
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 0.3075513953544344,
+   "excess_device": 0.42674616569771306
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -1.1373477861396113,
+   "excess_device": -0.4663109961975448
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 60.14,
+   "oi_device": 0.0,
+   "excess_exact": 0.5572624509496831,
+   "excess_device": -0.7760358780206539
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 58.72,
+   "oi_device": 58.2,
+   "excess_exact": 2.0868477138567143,
+   "excess_device": 0.8028225200378454
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -0.04677908643095499,
+   "excess_device": -1.918346043596091
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 72.37,
+   "oi_device": 72.69,
+   "excess_exact": 3.9412683054222457,
+   "excess_device": 3.8888763870931204
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 41.12,
+   "excess_exact": -2.866696714167021,
+   "excess_device": 2.4841892426825387
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 9.03,
+   "excess_exact": -2.0453782474290985,
+   "excess_device": 1.0442311965915454
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 77.74,
+   "excess_exact": -1.4689041004821997,
+   "excess_device": 1.9728164685283813
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 49.58,
+   "excess_exact": -1.3710463907480677,
+   "excess_device": 0.29634573137093007
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -1.1642209588946284,
+   "excess_device": -0.5506633915693403
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Mars",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -0.9582435888144314,
+   "excess_device": -0.36547609504548373
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 96.49,
+   "oi_device": 95.67,
+   "excess_exact": 9.967736341387553,
+   "excess_device": 8.67698848747179
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -3.5670639197576515,
+   "excess_device": 3.806507911090131
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 65.42,
+   "excess_exact": -0.5750260401319323,
+   "excess_device": 0.9175111179145469
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 55.89,
+   "excess_exact": -6.420888717482212,
+   "excess_device": 0.7519928915702134
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 67.93,
+   "excess_exact": -1.5922699188505482,
+   "excess_device": 2.5137165264867822
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 60.23,
+   "excess_exact": -0.7752949034289179,
+   "excess_device": 2.1756795230313046
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 54.08,
+   "excess_exact": -0.8464896299340953,
+   "excess_device": 2.036868514756263
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "M",
+   "device_cls": "O",
+   "oi_exact": 90.52,
+   "oi_device": 92.34,
+   "excess_exact": 6.4950148609277845,
+   "excess_device": 7.36653024037905
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -1.048176861610552,
+   "excess_device": 0.17974278103395014
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -2.3046477864567403,
+   "excess_device": -1.7689787746821608
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -1.5889435081284542,
+   "excess_device": -1.9083395435215953
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "M",
+   "device_cls": "U",
+   "oi_exact": 58.02,
+   "oi_device": 0.0,
+   "excess_exact": 0.6047521669714327,
+   "excess_device": -0.07446571346571942
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -3.9166838388384457,
+   "excess_device": -3.1657465874145547
+  },
+  {
+   "case": "walk3d_E2",
+   "planet": "Moon",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": -4.292281811783167,
+   "excess_device": -2.0663272004662256
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.64,
+   "oi_device": 98.69,
+   "excess_exact": 42.4998474634015,
+   "excess_device": 36.50289248921855
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 39.04,
+   "oi_device": 40.46,
+   "excess_exact": 25.72290702177257,
+   "excess_device": 23.046978132792837
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 79.89,
+   "oi_device": 76.03,
+   "excess_exact": 25.12605924994705,
+   "excess_device": 17.847890326444652
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "B3",
+   "exact": "O",
+   "device_cls": "M",
+   "oi_exact": 98.22,
+   "oi_device": 82.52,
+   "excess_exact": 19.93294177187103,
+   "excess_device": 15.886595117349401
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "L1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 98.22,
+   "oi_device": 98.48,
+   "excess_exact": 23.49293111955746,
+   "excess_device": 19.295886790133185
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T2",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 54.43,
+   "oi_device": 54.01,
+   "excess_exact": 25.08491587047596,
+   "excess_device": 20.66697450291163
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "watch",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 78.33,
+   "oi_device": 78.24,
+   "excess_exact": 19.878110697281382,
+   "excess_device": 19.22981662711003
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B1",
+   "exact": "O",
+   "device_cls": "O",
+   "oi_exact": 97.16,
+   "oi_device": 98.78,
+   "excess_exact": 20.4519345522634,
+   "excess_device": 19.042237367892447
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 16.7758648774249,
+   "excess_device": 3.6630533705570576
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T1",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 36.8,
+   "oi_device": 84.41,
+   "excess_exact": 12.161653354381734,
+   "excess_device": 4.849081010868284
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "B3",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 83.53,
+   "excess_exact": 16.750120424289914,
+   "excess_device": 2.5004677504406487
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "L1",
+   "exact": "U",
+   "device_cls": "M",
+   "oi_exact": 0.0,
+   "oi_device": 65.62,
+   "excess_exact": 9.284732178324548,
+   "excess_device": 1.8138574847827003
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T2",
+   "exact": "U",
+   "device_cls": "U",
+   "oi_exact": 0.0,
+   "oi_device": 0.0,
+   "excess_exact": 11.792311396326289,
+   "excess_device": 0.37085533969500367
+  },
+  {
+   "case": "baseline_walk",
+   "planet": "Earth",
+   "device": "phone",
+   "mode": "T3",
+   "exact": "M",
+   "device_cls": "M",
+   "oi_exact": 74.67,
+   "oi_device": 58.22,
+   "excess_exact": 13.863639318315785,
+   "excess_device": 1.8000355065970512
+  }
+ ],
+ "verdict": {
+  "index": "walking classes depend on gait timing more precise than the device's own",
+  "walking": "walking conclusion qualified: with order-tracked removal on the device's own clock, recovery exceeds chance + 1 in the listed cells"
+ }
+}

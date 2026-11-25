@@ -1,0 +1,3 @@
+Structure,Modes below 30 Hz (Hz),"Standing, B1 recovered on every planet by both devices","Walking, blind recovery, cases above chance + 1","Walking, gait removal, cases above chance + 1 (no removal / device's own clock / exact clock)","First-mode damping with a person standing, Earth / Mars / Moon (%)",Occupied B1 from trials vs linear prediction
+habitat floor,"B1 10.45, B2 16.33",yes,0 of 24,0 / 5 / 3,5.7 / 4.4 / 3.5,+1.1 % / +0.6 % / +0.8 %
+reference bridge,"B1 1.80, B2 7.21, T1 12.30, B3 16.22, L1 22.27, T2 24.59, B4 28.84",yes,1 of 24,1 / 4 / 10,2.0 / 2.0 / 2.0,–

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+outputs/raw/*/*
+!outputs/raw/records/*_r0.npz
+!outputs/raw/records_S2/*_r0.npz
+.companion/
+experiments/**/scratch/
+experiments/**/bench_cache/
+src/planetsense/evaluation/legacy_pipeline.py
+src/planetsense/evaluation/legacy_oi.py

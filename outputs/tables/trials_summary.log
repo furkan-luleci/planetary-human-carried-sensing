@@ -1,0 +1,37 @@
+| Activity | Condition | Excitation | Trials | Falls | Simulated | On deck | Trunk lean | Largest energy error |
+|---|---|---|---|---|---|---|---|---|
+| standing | Earth | E1 | 20 | 0 | 80.2 s | 80.2 s | – | 3.5e-07 |
+| standing | Earth-mid | E1 | 20 | 0 | 80.2 s | 80.2 s | – | 4.0e-07 |
+| standing | Mars | E1 | 20 | 0 | 80.2 s | 80.2 s | – | 4.4e-07 |
+| standing | Moon | E1 | 20 | 0 | 80.2 s | 80.2 s | – | 4.8e-07 |
+| walking | earth3d_1.00 | E1 | 20 | 0 | 25.7 s | 14.8 s | 7.0° | 3.5e-05 |
+| walking | earth3d_1.00 | E2 | 20 | 0 | 25.7 s | 14.8 s | 7.0° | 3.8e-05 |
+| walking | earth3d_1.00 | rigid | 20 | 0 | 25.7 s | – | 7.0° | 3.9e-05 |
+| walking | earth_1.00 | E1 | 20 | 0 | 26.0 s | 15.2 s | 5.9° | 2.7e-05 |
+| walking | earth_1.00 | E2 | 20 | 0 | 26.0 s | 15.2 s | 5.9° | 3.0e-05 |
+| walking | earth_1.00 | rigid | 20 | 0 | 26.0 s | – | 5.9° | 2.8e-05 |
+| walking | earth_1.25 | E1 | 20 | 0 | 21.3 s | 11.3 s | 5.6° | 4.4e-05 |
+| walking | earth_1.25 | E2 | 20 | 0 | 21.3 s | 11.3 s | 5.6° | 4.8e-05 |
+| walking | earth_1.25 | rigid | 20 | 0 | 21.3 s | – | 5.6° | 4.9e-05 |
+| walking | earth_1.50 | E1 | 20 | 0 | 19.0 s | 9.6 s | 5.9° | 5.0e-05 |
+| walking | earth_1.50 | rigid | 20 | 0 | 19.0 s | – | 5.9° | 5.3e-05 |
+| walking | mars3d_1.00 | E1 | 20 | 0 | 25.0 s | 14.2 s | 4.3° | 1.5e-04 |
+| walking | mars3d_1.00 | E2 | 20 | 0 | 25.0 s | 14.2 s | 4.3° | 1.7e-04 |
+| walking | mars3d_1.00 | rigid | 20 | 0 | 25.0 s | – | 4.3° | 1.7e-04 |
+| walking | mars_0.77_similar | E1 | 20 | 0 | 32.2 s | 19.4 s | 5.5° | 7.5e-06 |
+| walking | mars_0.77_similar | E2 | 20 | 0 | 32.2 s | 19.4 s | 5.5° | 1.0e-05 |
+| walking | mars_0.77_similar | rigid | 20 | 0 | 32.2 s | – | 5.5° | 1.1e-05 |
+| walking | mars_1.00 | E1 | 20 | 0 | 25.0 s | 14.2 s | 5.2° | 1.4e-04 |
+| walking | mars_1.00 | E2 | 20 | 0 | 25.0 s | 14.3 s | 5.2° | 1.4e-04 |
+| walking | mars_1.00 | rigid | 20 | 0 | 25.0 s | – | 5.2° | 1.4e-04 |
+| walking | moon3d_1.00 | E1 | 20 | 0 | 27.0 s | 15.5 s | 4.5° | 1.3e-04 |
+| walking | moon3d_1.00 | E2 | 20 | 0 | 27.0 s | 15.4 s | 4.5° | 1.6e-04 |
+| walking | moon3d_1.00 | rigid | 20 | 0 | 27.0 s | – | 4.5° | 1.6e-04 |
+| walking | moon_0.51_similar | E1 | 20 | 0 | 50.4 s | 30.9 s | 5.5° | 3.6e-06 |
+| walking | moon_0.51_similar | E2 | 20 | 0 | 50.4 s | 30.8 s | 5.5° | 8.5e-06 |
+| walking | moon_0.51_similar | rigid | 20 | 0 | 50.4 s | – | 5.5° | 8.3e-06 |
+| walking | moon_1.00 | E1 | 20 | 0 | 24.2 s | 14.2 s | 6.6° | 9.9e-06 |
+| walking | moon_1.00 | E2 | 20 | 0 | 24.2 s | 14.3 s | 6.6° | 1.0e-05 |
+| walking | moon_1.00 | rigid | 20 | 0 | 24.2 s | – | 6.6° | 9.7e-06 |
+
+Total trials: 660; falls: 0.

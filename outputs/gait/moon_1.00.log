@@ -1,0 +1,25 @@
+warm start from outputs/gait/_leaning_v1/moon_1.00.json: start cost 11.39, best of 24 neighbours 6.38; walking 21/24
+gen   1 best     6.38 gen    12.07 med     44.1 sig 0.073 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 169 s
+gen   2 best     6.38 gen     7.82 med     32.3 sig 0.069 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 216 s
+gen   3 best     6.38 gen    15.68 med    339.8 sig 0.066 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 270 s
+gen   4 best     6.38 gen    14.78 med     33.1 sig 0.065 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 326 s
+gen   5 best     6.38 gen    21.50 med     24.5 sig 0.067 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 369 s
+gen   6 best     6.38 gen    10.00 med     56.1 sig 0.066 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 415 s
+gen   7 best     6.38 gen    18.67 med     31.9 sig 0.070 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 466 s
+gen   8 best     6.38 gen    13.75 med     76.1 sig 0.077 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 511 s
+gen   9 best     6.38 gen    22.42 med    600.0 sig 0.088 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 560 s
+gen  10 best     6.38 gen    19.74 med     70.1 sig 0.097 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 616 s
+gen  11 best     6.38 gen     7.56 med     36.4 sig 0.105 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 662 s
+gen  12 best     6.38 gen    14.32 med    600.0 sig 0.103 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 711 s
+gen  13 best     6.38 gen    25.17 med     56.6 sig 0.102 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 755 s
+gen  14 best     6.38 gen    18.21 med     38.0 sig 0.103 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 806 s
+gen  15 best     6.38 gen    23.13 med     48.6 sig 0.105 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 856 s
+gen  16 best     6.38 gen    22.10 med     46.9 sig 0.106 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 909 s
+gen  17 best     6.38 gen    19.89 med     48.6 sig 0.104 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 956 s
+gen  18 best     6.38 gen    16.17 med     39.4 sig 0.104 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 1004 s
+gen  19 best     6.38 gen    21.26 med     58.4 sig 0.103 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 1062 s
+gen  20 best     6.38 gen    22.00 med     30.9 sig 0.098 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 1108 s
+gen  21 best     6.38 gen    24.31 med     44.2 sig 0.091 | v 0.00 f 0.00 df 0.00 dlf1 0.00 pk 0.00/0.00 eff 0.000 | 1164 s
+stopped early after generation 21 (stop file)
+final selection: 11 of 16 candidates walk steadily for 30 s
+validation 30 s (chosen rank 2): {"fell": false, "duration": 30.0, "speed": 1.025, "n_steps": 39, "swing_scuffs_per_step": 1.0, "alternating": true, "step_time": 0.558, "step_time_cv": 0.004, "step_frequency": 1.792, "step_length": 0.572, "duty_factor": 0.578, "double_support_fraction": 0.156, "flight_fraction": 0.0, "grf_peak_over_W": 2.417, "grf_min_over_W": 0.038, "grf_mean_over_W": 1.0, "grf_foot_peak_over_W": 2.417, "com_vertical_excursion": 0.022, "peak_torque": 145.149, "effort": 0.399, "effort_abs": 0.011, "positive_work_per_kg_m": 0.508, "energy_drift_rel": 0.0, "gait": "walk", "trunk_lean": 0.116, "trunk_lean_range": 0.039, "dlf1": 0.811}

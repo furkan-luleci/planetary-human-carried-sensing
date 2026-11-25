@@ -1,0 +1,2039 @@
+{
+ "declared": "docs/phase_reports/PHASE_K_declared_rules.md",
+ "structures": {
+  "S1": {
+   "structure": "S1",
+   "modes": [
+    {
+     "label": "B1",
+     "f": 1.8022679782227302
+    },
+    {
+     "label": "B2",
+     "f": 7.20906903698409
+    },
+    {
+     "label": "T1",
+     "f": 12.302154632290344
+    },
+    {
+     "label": "B3",
+     "f": 16.220377052873772
+    },
+    {
+     "label": "L1",
+     "f": 22.27348835788797
+    },
+    {
+     "label": "T2",
+     "f": 24.58534023385976
+    },
+    {
+     "label": "B4",
+     "f": 28.836088725428805
+    }
+   ],
+   "c1_standing": {
+    "cells": {
+     "Earth watch": {
+      "B1": true,
+      "tp": 4,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 4
+     },
+     "Earth phone": {
+      "B1": true,
+      "tp": 4,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 4
+     },
+     "Mars watch": {
+      "B1": true,
+      "tp": 4,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 4
+     },
+     "Mars phone": {
+      "B1": true,
+      "tp": 4,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 4
+     },
+     "Moon watch": {
+      "B1": true,
+      "tp": 4,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 4
+     },
+     "Moon phone": {
+      "B1": true,
+      "tp": 3,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 3
+     }
+    },
+    "holds": true
+   },
+   "c2_walking": {
+    "cells": {
+     "walk_same_E1 Earth watch": {
+      "tp": 3,
+      "chance": 2,
+      "fp": 4
+     },
+     "walk_same_E1 Earth phone": {
+      "tp": 3,
+      "chance": 3,
+      "fp": 6
+     },
+     "walk_same_E1 Mars watch": {
+      "tp": 2,
+      "chance": 2,
+      "fp": 3
+     },
+     "walk_same_E1 Mars phone": {
+      "tp": 2,
+      "chance": 3,
+      "fp": 2
+     },
+     "walk_same_E1 Moon watch": {
+      "tp": 0,
+      "chance": 3,
+      "fp": 2
+     },
+     "walk_same_E1 Moon phone": {
+      "tp": 2,
+      "chance": 3,
+      "fp": 2
+     },
+     "walk_same_E2 Earth watch": {
+      "tp": 4,
+      "chance": 2,
+      "fp": 4
+     },
+     "walk_same_E2 Earth phone": {
+      "tp": 2,
+      "chance": 3,
+      "fp": 6
+     },
+     "walk_same_E2 Mars watch": {
+      "tp": 2,
+      "chance": 2,
+      "fp": 4
+     },
+     "walk_same_E2 Mars phone": {
+      "tp": 3,
+      "chance": 3,
+      "fp": 3
+     },
+     "walk_same_E2 Moon watch": {
+      "tp": 3,
+      "chance": 3,
+      "fp": 3
+     },
+     "walk_same_E2 Moon phone": {
+      "tp": 3,
+      "chance": 3,
+      "fp": 3
+     },
+     "walk3d_E1 Earth watch": {
+      "tp": 2,
+      "chance": 2,
+      "fp": 3
+     },
+     "walk3d_E1 Earth phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 2
+     },
+     "walk3d_E1 Mars watch": {
+      "tp": 0,
+      "chance": 2,
+      "fp": 3
+     },
+     "walk3d_E1 Mars phone": {
+      "tp": 2,
+      "chance": 2,
+      "fp": 4
+     },
+     "walk3d_E1 Moon watch": {
+      "tp": 0,
+      "chance": 4,
+      "fp": 1
+     },
+     "walk3d_E1 Moon phone": {
+      "tp": 0,
+      "chance": 2,
+      "fp": 0
+     },
+     "walk3d_E2 Earth watch": {
+      "tp": 2,
+      "chance": 2,
+      "fp": 3
+     },
+     "walk3d_E2 Earth phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 2
+     },
+     "walk3d_E2 Mars watch": {
+      "tp": 1,
+      "chance": 2,
+      "fp": 4
+     },
+     "walk3d_E2 Mars phone": {
+      "tp": 2,
+      "chance": 2,
+      "fp": 4
+     },
+     "walk3d_E2 Moon watch": {
+      "tp": 2,
+      "chance": 4,
+      "fp": 4
+     },
+     "walk3d_E2 Moon phone": {
+      "tp": 1,
+      "chance": 2,
+      "fp": 4
+     }
+    },
+    "n": 24,
+    "above": [
+     "walk_same_E2 Earth watch"
+    ],
+    "holds_strict": false,
+    "holds": true
+   },
+   "c3_device_clock": {
+    "cells": {
+     "walk_same_E1 Earth watch": {
+      "none": {
+       "tp": 6,
+       "chance": 6,
+       "fp": 11
+      },
+      "device": {
+       "tp": 3,
+       "chance": 1,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 4,
+       "chance": 3,
+       "fp": 3
+      }
+     },
+     "walk_same_E1 Earth phone": {
+      "none": {
+       "tp": 6,
+       "chance": 6,
+       "fp": 15
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 4,
+       "chance": 0,
+       "fp": 6
+      }
+     },
+     "walk_same_E1 Mars watch": {
+      "none": {
+       "tp": 6,
+       "chance": 6,
+       "fp": 9
+      },
+      "device": {
+       "tp": 0,
+       "chance": 4,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 2
+      }
+     },
+     "walk_same_E1 Mars phone": {
+      "none": {
+       "tp": 4,
+       "chance": 5,
+       "fp": 11
+      },
+      "device": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 1,
+       "fp": 1
+      }
+     },
+     "walk_same_E1 Moon watch": {
+      "none": {
+       "tp": 4,
+       "chance": 5,
+       "fp": 6
+      },
+      "device": {
+       "tp": 2,
+       "chance": 3,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 4,
+       "fp": 2
+      }
+     },
+     "walk_same_E1 Moon phone": {
+      "none": {
+       "tp": 3,
+       "chance": 5,
+       "fp": 11
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 1
+      }
+     },
+     "walk_same_E2 Earth watch": {
+      "none": {
+       "tp": 7,
+       "chance": 6,
+       "fp": 10
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      },
+      "exact": {
+       "tp": 6,
+       "chance": 3,
+       "fp": 11
+      }
+     },
+     "walk_same_E2 Earth phone": {
+      "none": {
+       "tp": 5,
+       "chance": 6,
+       "fp": 15
+      },
+      "device": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 3,
+       "chance": 0,
+       "fp": 9
+      }
+     },
+     "walk_same_E2 Mars watch": {
+      "none": {
+       "tp": 6,
+       "chance": 6,
+       "fp": 11
+      },
+      "device": {
+       "tp": 1,
+       "chance": 4,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 6,
+       "chance": 0,
+       "fp": 10
+      }
+     },
+     "walk_same_E2 Mars phone": {
+      "none": {
+       "tp": 5,
+       "chance": 5,
+       "fp": 13
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 0
+      }
+     },
+     "walk_same_E2 Moon watch": {
+      "none": {
+       "tp": 7,
+       "chance": 5,
+       "fp": 9
+      },
+      "device": {
+       "tp": 6,
+       "chance": 3,
+       "fp": 10
+      },
+      "exact": {
+       "tp": 6,
+       "chance": 4,
+       "fp": 11
+      }
+     },
+     "walk_same_E2 Moon phone": {
+      "none": {
+       "tp": 6,
+       "chance": 5,
+       "fp": 14
+      },
+      "device": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 4
+      },
+      "exact": {
+       "tp": 3,
+       "chance": 0,
+       "fp": 13
+      }
+     },
+     "walk3d_E1 Earth watch": {
+      "none": {
+       "tp": 4,
+       "chance": 4,
+       "fp": 11
+      },
+      "device": {
+       "tp": 3,
+       "chance": 1,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 6,
+       "chance": 2,
+       "fp": 4
+      }
+     },
+     "walk3d_E1 Earth phone": {
+      "none": {
+       "tp": 4,
+       "chance": 4,
+       "fp": 11
+      },
+      "device": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 3,
+       "chance": 1,
+       "fp": 6
+      }
+     },
+     "walk3d_E1 Mars watch": {
+      "none": {
+       "tp": 1,
+       "chance": 3,
+       "fp": 11
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 3
+      }
+     },
+     "walk3d_E1 Mars phone": {
+      "none": {
+       "tp": 4,
+       "chance": 4,
+       "fp": 12
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 0
+      }
+     },
+     "walk3d_E1 Moon watch": {
+      "none": {
+       "tp": 1,
+       "chance": 6,
+       "fp": 8
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 5,
+       "fp": 1
+      }
+     },
+     "walk3d_E1 Moon phone": {
+      "none": {
+       "tp": 1,
+       "chance": 3,
+       "fp": 5
+      },
+      "device": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 2,
+       "fp": 0
+      }
+     },
+     "walk3d_E2 Earth watch": {
+      "none": {
+       "tp": 4,
+       "chance": 4,
+       "fp": 12
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 4,
+       "chance": 2,
+       "fp": 6
+      }
+     },
+     "walk3d_E2 Earth phone": {
+      "none": {
+       "tp": 4,
+       "chance": 4,
+       "fp": 12
+      },
+      "device": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 3,
+       "chance": 1,
+       "fp": 4
+      }
+     },
+     "walk3d_E2 Mars watch": {
+      "none": {
+       "tp": 2,
+       "chance": 3,
+       "fp": 15
+      },
+      "device": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 2
+      }
+     },
+     "walk3d_E2 Mars phone": {
+      "none": {
+       "tp": 4,
+       "chance": 4,
+       "fp": 13
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      }
+     },
+     "walk3d_E2 Moon watch": {
+      "none": {
+       "tp": 3,
+       "chance": 6,
+       "fp": 16
+      },
+      "device": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 5,
+       "fp": 3
+      }
+     },
+     "walk3d_E2 Moon phone": {
+      "none": {
+       "tp": 2,
+       "chance": 3,
+       "fp": 16
+      },
+      "device": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 2,
+       "fp": 1
+      }
+     }
+    },
+    "n": 24,
+    "above_chance_plus_one": {
+     "none": 1,
+     "device": 4,
+     "exact": 10
+    },
+    "holds": true
+   },
+   "deck_rms_under": {
+    "stand_E1": {
+     "Earth": 0.4767326805530299,
+     "Mars": 0.47868200522631604,
+     "Moon": 0.48034008573090947
+    },
+    "walk_same_E1": {
+     "Earth": 0.5333133066932196,
+     "Mars": 0.5303403351036778,
+     "Moon": 0.5349787845991678
+    },
+    "walk_same_E2": {
+     "Earth": 0.10785139371643664,
+     "Mars": 0.06361216234634631,
+     "Moon": 0.07728157592911064
+    },
+    "walk3d_E1": {
+     "Earth": 0.5355254884681893,
+     "Mars": 0.3915266525321131,
+     "Moon": 0.45409801731839944
+    },
+    "walk3d_E2": {
+     "Earth": 0.09618174331663307,
+     "Mars": 0.03671805753451345,
+     "Moon": 0.04253225067073625
+    }
+   },
+   "falls": {
+    "walk_same_E1": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    },
+    "walk_same_E2": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    },
+    "walk3d_E1": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    },
+    "walk3d_E2": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    }
+   }
+  },
+  "S2": {
+   "structure": "S2",
+   "modes": [
+    {
+     "label": "B1",
+     "f": 10.4525783587597
+    },
+    {
+     "label": "B2",
+     "f": 16.328911966355548
+    }
+   ],
+   "c1_standing": {
+    "cells": {
+     "Earth watch": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 1
+     },
+     "Earth phone": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 1
+     },
+     "Mars watch": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 1
+     },
+     "Mars phone": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 1
+     },
+     "Moon watch": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 1
+     },
+     "Moon phone": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 1
+     }
+    },
+    "holds": true
+   },
+   "c2_walking": {
+    "cells": {
+     "walk_same_E1 Earth watch": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 6
+     },
+     "walk_same_E1 Earth phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 9
+     },
+     "walk_same_E1 Mars watch": {
+      "tp": 0,
+      "chance": 1,
+      "fp": 5
+     },
+     "walk_same_E1 Mars phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 5
+     },
+     "walk_same_E1 Moon watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 7
+     },
+     "walk_same_E1 Moon phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 9
+     },
+     "walk_same_E2 Earth watch": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 6
+     },
+     "walk_same_E2 Earth phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 9
+     },
+     "walk_same_E2 Mars watch": {
+      "tp": 0,
+      "chance": 1,
+      "fp": 5
+     },
+     "walk_same_E2 Mars phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 5
+     },
+     "walk_same_E2 Moon watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 7
+     },
+     "walk_same_E2 Moon phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 9
+     },
+     "walk3d_E1 Earth watch": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 7
+     },
+     "walk3d_E1 Earth phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 4
+     },
+     "walk3d_E1 Mars watch": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 5
+     },
+     "walk3d_E1 Mars phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 7
+     },
+     "walk3d_E1 Moon watch": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 7
+     },
+     "walk3d_E1 Moon phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 5
+     },
+     "walk3d_E2 Earth watch": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 7
+     },
+     "walk3d_E2 Earth phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 4
+     },
+     "walk3d_E2 Mars watch": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 5
+     },
+     "walk3d_E2 Mars phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 7
+     },
+     "walk3d_E2 Moon watch": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 7
+     },
+     "walk3d_E2 Moon phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 5
+     }
+    },
+    "n": 24,
+    "above": [],
+    "holds_strict": true,
+    "holds": true
+   },
+   "c3_device_clock": {
+    "cells": {
+     "walk_same_E1 Earth watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 15
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 8
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 8
+      }
+     },
+     "walk_same_E1 Earth phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 20
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      }
+     },
+     "walk_same_E1 Mars watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 15
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 9
+      }
+     },
+     "walk_same_E1 Mars phone": {
+      "none": {
+       "tp": 0,
+       "chance": 2,
+       "fp": 18
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 1
+      }
+     },
+     "walk_same_E1 Moon watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 13
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 5
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 3
+      }
+     },
+     "walk_same_E1 Moon phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 19
+      },
+      "device": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      }
+     },
+     "walk_same_E2 Earth watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 15
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 9
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 8
+      }
+     },
+     "walk_same_E2 Earth phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 20
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      }
+     },
+     "walk_same_E2 Mars watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 15
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 9
+      }
+     },
+     "walk_same_E2 Mars phone": {
+      "none": {
+       "tp": 0,
+       "chance": 2,
+       "fp": 18
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 2
+      }
+     },
+     "walk_same_E2 Moon watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 13
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 8
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      }
+     },
+     "walk_same_E2 Moon phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 19
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 4
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      }
+     },
+     "walk3d_E1 Earth watch": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 17
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 6
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 6
+      }
+     },
+     "walk3d_E1 Earth phone": {
+      "none": {
+       "tp": 0,
+       "chance": 1,
+       "fp": 16
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 5
+      }
+     },
+     "walk3d_E1 Mars watch": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 15
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      }
+     },
+     "walk3d_E1 Mars phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 17
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 1
+      }
+     },
+     "walk3d_E1 Moon watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 17
+      },
+      "device": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 13
+      }
+     },
+     "walk3d_E1 Moon phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 18
+      },
+      "device": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 4
+      }
+     },
+     "walk3d_E2 Earth watch": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 17
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 6
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 7
+      }
+     },
+     "walk3d_E2 Earth phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 16
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 5
+      }
+     },
+     "walk3d_E2 Mars watch": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 15
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      }
+     },
+     "walk3d_E2 Mars phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 17
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 1
+      }
+     },
+     "walk3d_E2 Moon watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 17
+      },
+      "device": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 12
+      }
+     },
+     "walk3d_E2 Moon phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 18
+      },
+      "device": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 5
+      }
+     }
+    },
+    "n": 24,
+    "above_chance_plus_one": {
+     "none": 0,
+     "device": 5,
+     "exact": 3
+    },
+    "holds": true
+   },
+   "c4_model": {
+    "cells": {
+     "Earth": {
+      "trials": 10.917264775968466,
+      "predicted": 10.8,
+      "diff_rel": 0.01085784962670977
+     },
+     "Mars": {
+      "trials": 10.842815538507617,
+      "predicted": 10.78,
+      "diff_rel": 0.005827044388461822
+     },
+     "Moon": {
+      "trials": 10.8271748992864,
+      "predicted": 10.745000000000001,
+      "diff_rel": 0.007647733763275877
+     }
+    },
+    "holds": true
+   },
+   "deck_rms_under": {
+    "stand_E1": {
+     "Earth": 0.2601954379652091,
+     "Mars": 0.28906521004753283,
+     "Moon": 0.316094007842574
+    },
+    "walk_same_E1": {
+     "Earth": 1.0607732956032971,
+     "Mars": 1.0381246895214749,
+     "Moon": 0.6245250344921124
+    },
+    "walk_same_E2": {
+     "Earth": 1.0257311851284245,
+     "Mars": 0.9729547388923556,
+     "Moon": 0.5676088182982919
+    },
+    "walk3d_E1": {
+     "Earth": 0.9858302585725077,
+     "Mars": 1.0638326019017208,
+     "Moon": 0.8760883961845429
+    },
+    "walk3d_E2": {
+     "Earth": 0.9345455023193512,
+     "Mars": 1.015892831734124,
+     "Moon": 0.799360024527264
+    }
+   },
+   "falls": {
+    "walk_same_E1": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    },
+    "walk_same_E2": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    },
+    "walk3d_E1": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    },
+    "walk3d_E2": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    }
+   }
+  },
+  "S2L": {
+   "structure": "S2L",
+   "modes": [
+    {
+     "label": "B1",
+     "f": 6.823831473546614
+    },
+    {
+     "label": "B2",
+     "f": 10.660120363758804
+    },
+    {
+     "label": "B3",
+     "f": 27.295148493663092
+    }
+   ],
+   "c1_standing": {
+    "cells": {
+     "Earth watch": {
+      "B1": false,
+      "tp": 1,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 0
+     },
+     "Earth phone": {
+      "B1": false,
+      "tp": 1,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 0
+     },
+     "Mars watch": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 0
+     },
+     "Mars phone": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 0
+     },
+     "Moon watch": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 0
+     },
+     "Moon phone": {
+      "B1": true,
+      "tp": 2,
+      "chance": 0,
+      "fp": 0,
+      "tp_empty_only": 0
+     }
+    },
+    "holds": false
+   },
+   "c2_walking": {
+    "cells": {
+     "walk_same_E1 Earth watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 6
+     },
+     "walk_same_E1 Earth phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 9
+     },
+     "walk_same_E1 Mars watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 6
+     },
+     "walk_same_E1 Mars phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 6
+     },
+     "walk_same_E1 Moon watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 7
+     },
+     "walk_same_E1 Moon phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 10
+     },
+     "walk_same_E2 Earth watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 6
+     },
+     "walk_same_E2 Earth phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 9
+     },
+     "walk_same_E2 Mars watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 6
+     },
+     "walk_same_E2 Mars phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 6
+     },
+     "walk_same_E2 Moon watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 7
+     },
+     "walk_same_E2 Moon phone": {
+      "tp": 0,
+      "chance": 0,
+      "fp": 10
+     },
+     "walk3d_E1 Earth watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 4
+     },
+     "walk3d_E1 Earth phone": {
+      "tp": 1,
+      "chance": 0,
+      "fp": 4
+     },
+     "walk3d_E1 Mars watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 6
+     },
+     "walk3d_E1 Mars phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 8
+     },
+     "walk3d_E1 Moon watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 4
+     },
+     "walk3d_E1 Moon phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 4
+     },
+     "walk3d_E2 Earth watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 4
+     },
+     "walk3d_E2 Earth phone": {
+      "tp": 1,
+      "chance": 0,
+      "fp": 4
+     },
+     "walk3d_E2 Mars watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 7
+     },
+     "walk3d_E2 Mars phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 8
+     },
+     "walk3d_E2 Moon watch": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 4
+     },
+     "walk3d_E2 Moon phone": {
+      "tp": 1,
+      "chance": 1,
+      "fp": 4
+     }
+    },
+    "n": 24,
+    "above": [],
+    "holds_strict": true,
+    "holds": true
+   },
+   "c3_device_clock": {
+    "cells": {
+     "walk_same_E1 Earth watch": {
+      "none": {
+       "tp": 3,
+       "chance": 3,
+       "fp": 14
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 11
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 3,
+       "fp": 7
+      }
+     },
+     "walk_same_E1 Earth phone": {
+      "none": {
+       "tp": 2,
+       "chance": 3,
+       "fp": 18
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 3
+      }
+     },
+     "walk_same_E1 Mars watch": {
+      "none": {
+       "tp": 2,
+       "chance": 3,
+       "fp": 14
+      },
+      "device": {
+       "tp": 3,
+       "chance": 0,
+       "fp": 9
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 11
+      }
+     },
+     "walk_same_E1 Mars phone": {
+      "none": {
+       "tp": 0,
+       "chance": 1,
+       "fp": 17
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 3
+      }
+     },
+     "walk_same_E1 Moon watch": {
+      "none": {
+       "tp": 3,
+       "chance": 2,
+       "fp": 13
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 5
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 4
+      }
+     },
+     "walk_same_E1 Moon phone": {
+      "none": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 21
+      },
+      "device": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      }
+     },
+     "walk_same_E2 Earth watch": {
+      "none": {
+       "tp": 3,
+       "chance": 3,
+       "fp": 14
+      },
+      "device": {
+       "tp": 3,
+       "chance": 1,
+       "fp": 11
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 3,
+       "fp": 7
+      }
+     },
+     "walk_same_E2 Earth phone": {
+      "none": {
+       "tp": 2,
+       "chance": 3,
+       "fp": 18
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 3
+      }
+     },
+     "walk_same_E2 Mars watch": {
+      "none": {
+       "tp": 2,
+       "chance": 3,
+       "fp": 14
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 9
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 12
+      }
+     },
+     "walk_same_E2 Mars phone": {
+      "none": {
+       "tp": 0,
+       "chance": 1,
+       "fp": 17
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 2
+      }
+     },
+     "walk_same_E2 Moon watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 13
+      },
+      "device": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 6
+      }
+     },
+     "walk_same_E2 Moon phone": {
+      "none": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 21
+      },
+      "device": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 0,
+       "fp": 0
+      }
+     },
+     "walk3d_E1 Earth watch": {
+      "none": {
+       "tp": 3,
+       "chance": 3,
+       "fp": 13
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 9
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 8
+      }
+     },
+     "walk3d_E1 Earth phone": {
+      "none": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 16
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      }
+     },
+     "walk3d_E1 Mars watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 14
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 7
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 9
+      }
+     },
+     "walk3d_E1 Mars phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 19
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 4
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 4
+      }
+     },
+     "walk3d_E1 Moon watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 15
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 1
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 7
+      }
+     },
+     "walk3d_E1 Moon phone": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 15
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 1,
+       "fp": 4
+      }
+     },
+     "walk3d_E2 Earth watch": {
+      "none": {
+       "tp": 3,
+       "chance": 3,
+       "fp": 13
+      },
+      "device": {
+       "tp": 3,
+       "chance": 0,
+       "fp": 8
+      },
+      "exact": {
+       "tp": 3,
+       "chance": 0,
+       "fp": 8
+      }
+     },
+     "walk3d_E2 Earth phone": {
+      "none": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 16
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 4
+      },
+      "exact": {
+       "tp": 2,
+       "chance": 1,
+       "fp": 4
+      }
+     },
+     "walk3d_E2 Mars watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 14
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 8
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 9
+      }
+     },
+     "walk3d_E2 Mars phone": {
+      "none": {
+       "tp": 1,
+       "chance": 1,
+       "fp": 19
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 4
+      },
+      "exact": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 4
+      }
+     },
+     "walk3d_E2 Moon watch": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 15
+      },
+      "device": {
+       "tp": 2,
+       "chance": 0,
+       "fp": 3
+      },
+      "exact": {
+       "tp": 3,
+       "chance": 2,
+       "fp": 10
+      }
+     },
+     "walk3d_E2 Moon phone": {
+      "none": {
+       "tp": 2,
+       "chance": 2,
+       "fp": 15
+      },
+      "device": {
+       "tp": 1,
+       "chance": 0,
+       "fp": 2
+      },
+      "exact": {
+       "tp": 0,
+       "chance": 1,
+       "fp": 5
+      }
+     }
+    },
+    "n": 24,
+    "above_chance_plus_one": {
+     "none": 0,
+     "device": 11,
+     "exact": 4
+    },
+    "holds": true
+   },
+   "c4_model": {
+    "cells": {
+     "Earth": {
+      "trials": 7.716401026127469,
+      "predicted": 7.07,
+      "diff_rel": 0.09142871656682727
+     },
+     "Mars": {
+      "trials": 7.358756110433724,
+      "predicted": 7.1450000000000005,
+      "diff_rel": 0.02991688039660234
+     },
+     "Moon": {
+      "trials": 7.253228267707291,
+      "predicted": 7.155,
+      "diff_rel": 0.013728618827014705
+     }
+    },
+    "holds": false
+   },
+   "deck_rms_under": {
+    "stand_E1": {
+     "Earth": 0.3236595290471246,
+     "Mars": 0.33636701713196004,
+     "Moon": 0.34938281218577716
+    },
+    "walk_same_E1": {
+     "Earth": 1.450456659568319,
+     "Mars": 1.1260320654184137,
+     "Moon": 0.6906951765790948
+    },
+    "walk_same_E2": {
+     "Earth": 1.4056654941877558,
+     "Mars": 1.0534052821413156,
+     "Moon": 0.5762176432662632
+    },
+    "walk3d_E1": {
+     "Earth": 1.1292872882375735,
+     "Mars": 1.0802243880127413,
+     "Moon": 0.7557928895201114
+    },
+    "walk3d_E2": {
+     "Earth": 1.074528537489131,
+     "Mars": 1.0089251617272774,
+     "Moon": 0.6631027016096452
+    }
+   },
+   "falls": {
+    "walk_same_E1": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    },
+    "walk_same_E2": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    },
+    "walk3d_E1": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    },
+    "walk3d_E2": {
+     "Earth": 0,
+     "Mars": 0,
+     "Moon": 0
+    }
+   }
+  }
+ }
+}
