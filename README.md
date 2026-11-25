@@ -30,7 +30,7 @@ An occupant of a lunar or Martian habitat wears a watch on each wrist and carrie
 Open https://furkan-luleci.github.io/planetary-human-carried-sensing/, or download [`viewer/Planetary_Sensing_Viewer.html`](viewer/Planetary_Sensing_Viewer.html) and open it in a browser. It is one file, works offline, and shows stored results.
 
 | Sheet | What it shows |
-|---|---|
+|----|----|
 | S-1 Watch a trial | A trial in 3-D or as a flat drawing, with the floor motion, the device signals in time and frequency, and the key numbers of the trial |
 | S-2 What gravity changes | Standing-body resonance, walking characteristics, transmission to the devices, and the occupant's effect on the floor |
 | S-3 Can the structure be detected? | Visibility, blind recovery against the rigid-ground chance level, gait removal and device attachment |
